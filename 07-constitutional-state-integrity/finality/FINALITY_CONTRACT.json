@@ -1,0 +1,21 @@
+﻿{
+  "schema_version": "1.0.0",
+  "object": "CSI_FINALITY",
+  "states": [
+    "OPEN",
+    "PROVISIONAL",
+    "FINAL",
+    "REOPENING_REQUESTED",
+    "REOPENED",
+    "SUPERSEDED"
+  ],
+  "rules": {
+    "finality_erases_provenance": false,
+    "finality_erases_relevance": false,
+    "relevance_reopens_state": false,
+    "correctness_reopens_state": false,
+    "reopening_requires_authority": true,
+    "reopening_requires_recognized_path": true,
+    "reopening_preserves_prior_finality_record": true
+  }
+}

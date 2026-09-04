@@ -1,0 +1,26 @@
+﻿{
+  "schema_version": "1.0.0",
+  "object": "CSI_TEMPORAL_AUTHORITY",
+  "required": [
+    "authority_id",
+    "actor",
+    "operation",
+    "valid_from",
+    "valid_until",
+    "authority_source"
+  ],
+  "states": [
+    "NOT_YET_ACTIVE",
+    "ACTIVE",
+    "EXPIRED",
+    "REVOKED",
+    "UNRESOLVED"
+  ],
+  "rules": {
+    "expired_authority_may_execute": false,
+    "future_authority_may_execute_early": false,
+    "software_continuity_extends_authority": false,
+    "institutional_continuity_extends_authority": false,
+    "revoked_authority_may_execute": false
+  }
+}

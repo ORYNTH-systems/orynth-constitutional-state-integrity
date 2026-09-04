@@ -1,0 +1,24 @@
+﻿{
+  "schema_version": "1.0.0",
+  "object": "CSI_REOPENING_REQUEST",
+  "required": [
+    "state_id",
+    "current_finality_state",
+    "reopening_basis",
+    "authority_state",
+    "jurisdiction_state",
+    "relevance_state",
+    "provenance"
+  ],
+  "outcomes": [
+    "REOPEN_ADMISSIBLE",
+    "REOPEN_BLOCKED",
+    "REOPEN_CONFLICTED"
+  ],
+  "rules": {
+    "relevance_alone_is_sufficient": false,
+    "new_evidence_alone_is_sufficient": false,
+    "correctness_claim_alone_is_sufficient": false,
+    "valid_reopening_authority_required": true
+  }
+}

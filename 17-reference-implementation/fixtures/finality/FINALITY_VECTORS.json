@@ -1,0 +1,53 @@
+﻿{
+  "schema_version": "1.0.0",
+  "vectors": [
+    {
+      "id": "FIN-001",
+      "input": {
+        "current_state": "FINAL",
+        "relevance_state": true,
+        "authority_state": "VALID",
+        "jurisdiction_state": "VALID",
+        "recognized_path": true,
+        "evidence_state": "SUFFICIENT"
+      },
+      "expected": "REOPEN_ADMISSIBLE"
+    },
+    {
+      "id": "FIN-002",
+      "input": {
+        "current_state": "FINAL",
+        "relevance_state": true,
+        "authority_state": "INVALID",
+        "jurisdiction_state": "VALID",
+        "recognized_path": true,
+        "evidence_state": "SUFFICIENT"
+      },
+      "expected": "REOPEN_BLOCKED"
+    },
+    {
+      "id": "FIN-003",
+      "input": {
+        "current_state": "FINAL",
+        "relevance_state": true,
+        "authority_state": "VALID",
+        "jurisdiction_state": "VALID",
+        "recognized_path": false,
+        "evidence_state": "SUFFICIENT"
+      },
+      "expected": "REOPEN_BLOCKED"
+    },
+    {
+      "id": "FIN-004",
+      "input": {
+        "current_state": "FINAL",
+        "relevance_state": true,
+        "authority_state": "VALID",
+        "jurisdiction_state": "VALID",
+        "recognized_path": true,
+        "evidence_state": "CONFLICTED"
+      },
+      "expected": "REOPEN_CONFLICTED"
+    }
+  ]
+}

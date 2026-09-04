@@ -1,0 +1,25 @@
+﻿{
+  "schema_version": "1.0.0",
+  "resolver": "CSI_AUTHORITY_COLLISION",
+  "collision_classes": [
+    "SAME_OPERATION_DIFFERENT_ACTORS",
+    "SAME_ACTOR_DIFFERENT_SCOPES",
+    "OVERLAPPING_JURISDICTION",
+    "CONFLICTING_DELEGATION",
+    "TEMPORAL_COLLISION",
+    "SOURCE_SCOPE_COLLISION"
+  ],
+  "outcomes": [
+    "NONE",
+    "RESOLVED",
+    "CONFLICTED",
+    "BLOCKED"
+  ],
+  "rules": {
+    "higher_capability_wins": false,
+    "later_timestamp_wins_automatically": false,
+    "database_owner_wins": false,
+    "agentic_confidence_wins": false,
+    "resolution_requires_authority_basis": true
+  }
+}

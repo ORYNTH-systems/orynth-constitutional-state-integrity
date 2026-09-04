@@ -1,0 +1,51 @@
+﻿{
+  "schema_version": "1.0.0",
+  "vectors": [
+    {
+      "id": "COLL-001",
+      "authorities": [
+        {
+          "state": "VALID",
+          "actor": "OFFICIAL-A",
+          "operation": "CERTIFY",
+          "jurisdiction": "STATE",
+          "authority_source": "SOURCE-A"
+        }
+      ],
+      "expected": "NONE"
+    },
+    {
+      "id": "COLL-002",
+      "authorities": [
+        {
+          "state": "VALID",
+          "actor": "OFFICIAL-A",
+          "operation": "CERTIFY",
+          "jurisdiction": "STATE",
+          "authority_source": "SOURCE-A"
+        },
+        {
+          "state": "VALID",
+          "actor": "OFFICIAL-B",
+          "operation": "CERTIFY",
+          "jurisdiction": "FEDERAL",
+          "authority_source": "SOURCE-B"
+        }
+      ],
+      "expected": "CONFLICTED"
+    },
+    {
+      "id": "COLL-003",
+      "authorities": [
+        {
+          "state": "INVALID",
+          "actor": "AGENT-A",
+          "operation": "CERTIFY",
+          "jurisdiction": "STATE",
+          "authority_source": "NONE"
+        }
+      ],
+      "expected": "BLOCKED"
+    }
+  ]
+}
