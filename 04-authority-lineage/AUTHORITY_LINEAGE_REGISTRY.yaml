@@ -1,0 +1,25 @@
+﻿schema_version: 0.3.0
+registry: AUTHORITY_LINEAGE
+
+root_authority:
+  constitutional_source: US_CONSTITUTION
+
+derived_classes:
+  - LEGISLATIVE
+  - JUDICIAL
+  - EXECUTIVE
+  - ADMINISTRATIVE
+  - STATE
+  - LOCAL
+  - PROCEDURAL
+  - DELEGATED
+  - AGENTIC_EXECUTION
+
+rules:
+  source_and_interpretation_remain_distinct: true
+  derived_authority_requires_source_lineage: true
+  authority_scope_required: true
+  jurisdiction_required: true
+  temporal_scope_required: true
+  predicate_relationship_required: true
+  age_does_not_convert_derived_authority_to_foundational_authority: true

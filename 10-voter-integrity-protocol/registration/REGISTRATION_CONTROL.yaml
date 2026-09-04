@@ -1,0 +1,15 @@
+﻿control: VIP_REGISTRATION
+
+operations:
+  - CREATE
+  - UPDATE
+  - CHALLENGE
+  - SUSPEND
+  - REMOVE
+  - RESTORE
+
+rules:
+  database_match_is_evidence_not_authority: true
+  removal_requires_consequence_authority: true
+  restoration_requires_authorized_transition: true
+  state_change_requires_provenance: true

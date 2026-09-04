@@ -1,0 +1,32 @@
+﻿schema_version: 0.3.0
+module: CONSTITUTIONAL_CITIZENSHIP
+
+primary_source:
+  - CONST.AMENDMENT.14.SECTION.1
+
+source_predicate_surface:
+
+  birth_or_naturalization:
+    status: SOURCE_MAPPING_REQUIRED
+
+  united_states_relation:
+    status: SOURCE_MAPPING_REQUIRED
+
+  jurisdiction_relation:
+    status: SOURCE_MAPPING_REQUIRED
+
+result_state:
+  citizenship:
+    status: SOURCE_MAPPING_REQUIRED
+
+rules:
+  source_text_controls_source_identity: true
+  judicial_construction_must_be_separately_typed: true
+  executive_construction_must_be_separately_typed: true
+  predicate_relationships_must_be_explicit: true
+  derived_exception_may_not_be_silently_embedded_into_source: true
+
+deterministic_relevance:
+  retrospective: enabled
+  prospective: enabled
+  automatic_alteration: false

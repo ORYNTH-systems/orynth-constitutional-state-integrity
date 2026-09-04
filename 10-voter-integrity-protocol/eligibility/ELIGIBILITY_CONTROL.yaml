@@ -1,0 +1,19 @@
+﻿control: VIP_ELIGIBILITY
+
+requires:
+  - identity
+  - jurisdiction
+  - qualification_predicates
+  - evidence
+  - applicable_law
+  - authority
+
+outcomes:
+  - ELIGIBLE
+  - INELIGIBLE
+  - CONFLICTED
+  - UNRESOLVED
+
+rule:
+  unresolved_may_not_be_coerced_to_ineligible: true
+  unresolved_may_not_be_coerced_to_eligible: true

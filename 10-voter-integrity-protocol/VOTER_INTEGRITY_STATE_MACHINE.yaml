@@ -1,0 +1,45 @@
+﻿schema_version: 0.3.0
+machine: VOTER_INTEGRITY_STATE_MACHINE
+
+states:
+  - PERSON_UNKNOWN
+  - IDENTITY_PENDING
+  - IDENTITY_RESOLVED
+  - JURISDICTION_PENDING
+  - JURISDICTION_RESOLVED
+  - ELIGIBILITY_PENDING
+  - ELIGIBLE
+  - INELIGIBLE
+  - ELIGIBILITY_CONFLICT
+  - REGISTERED
+  - REGISTRATION_CHALLENGED
+  - BALLOT_PRESENTED
+  - BALLOT_ADMISSIBLE
+  - BALLOT_CONFLICT
+  - BALLOT_CAST
+  - TABULATION_ADMISSIBLE
+  - TABULATED
+  - CANVASSED
+  - CERTIFIED
+  - CHALLENGED
+  - FINAL
+
+consequential_transitions_require:
+  - constitutional_source
+  - applicable_rule
+  - jurisdiction
+  - evidence
+  - UAA_authority
+  - transition_admissibility
+
+fail_closed_on:
+  - unresolved_identity_for_irreversible_action
+  - unresolved_jurisdiction
+  - conflicting_material_evidence
+  - absent_authority
+  - unauthorized_delegation
+  - source_lineage_failure
+
+integrity_symmetry:
+  unauthorized_admission_is_failure: true
+  unauthorized_exclusion_is_failure: true

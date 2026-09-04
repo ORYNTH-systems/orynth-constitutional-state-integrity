@@ -1,0 +1,39 @@
+﻿schema_version: 0.3.0
+object: CONSTITUTIONAL_TRANSFORMATION
+
+purpose: >
+  Records every movement from constitutional source into a derived
+  interpretation, rule, procedure, or execution state.
+
+required:
+  - transformation_id
+  - source_object
+  - destination_object
+  - transformation_type
+  - authority_class
+  - jurisdiction
+  - temporal_scope
+  - predicate_relationship
+  - provenance
+
+transformation_types:
+  - AMENDMENT
+  - LEGISLATIVE_IMPLEMENTATION
+  - JUDICIAL_INTERPRETATION
+  - EXECUTIVE_APPLICATION
+  - ADMINISTRATIVE_APPLICATION
+  - STATE_APPLICATION
+  - PROCEDURAL_IMPLEMENTATION
+  - SOFTWARE_IMPLEMENTATION
+  - AGENTIC_APPLICATION
+
+predicate_relationships:
+  - IDENTICAL
+  - NARROWED
+  - EXPANDED
+  - PARTIALLY_OVERLAPPING
+  - DIFFERENT
+  - UNRESOLVED
+
+invariant:
+  hierarchical_authority_does_not_prove_predicate_equivalence: true

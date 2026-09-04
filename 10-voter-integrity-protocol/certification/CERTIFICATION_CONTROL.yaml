@@ -1,0 +1,12 @@
+﻿control: VIP_CERTIFICATION
+
+requires:
+  - authorized_certifier
+  - completed_canvass
+  - admitted_tabulation_state
+  - unresolved_material_conflicts_handled_under_authorized_process
+  - evidence_provenance
+
+rule:
+  certification_is_consequential_state_transition: true
+  certification_authority_must_be_explicit: true

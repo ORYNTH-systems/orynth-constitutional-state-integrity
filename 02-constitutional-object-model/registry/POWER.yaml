@@ -1,0 +1,24 @@
+﻿schema_version: 0.3.0
+object_type: POWER
+
+description: >
+  Constitutionally sourced governmental power.
+
+required:
+  - object_id
+  - source_locator
+  - source_class
+  - object_type
+  - derivation_status
+
+derivation_status:
+  allowed:
+    - EXPLICIT_SOURCE
+    - SOURCE_DECOMPOSITION
+    - DERIVED_INTERPRETATION
+
+rules:
+  source_identity_required: true
+  provenance_required: true
+  silent_source_mutation_prohibited: true
+  interpretation_must_be_separately_typed: true

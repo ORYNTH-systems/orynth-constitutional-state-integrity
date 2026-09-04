@@ -1,0 +1,43 @@
+﻿schema_version: 0.3.0
+registry: CONSTITUTIONAL_OBJECT_REGISTRY
+
+object_types:
+  - AUTHORITY
+  - POWER
+  - RIGHT
+  - PROHIBITION
+  - QUALIFICATION
+  - JURISDICTION
+  - DUTY
+  - PROCESS
+  - PROTECTION
+  - REMEDY
+  - PREDICATE
+  - LIMITATION
+  - RELATION
+
+resolution_states:
+  - UNMAPPED
+  - SOURCE_IDENTIFIED
+  - OBJECT_IDENTIFIED
+  - PREDICATE_IDENTIFIED
+  - DEPENDENCY_IDENTIFIED
+  - VERIFIED
+
+separation_rules:
+
+  constitutional_source:
+    may_define_object: true
+    may_be_rewritten_by_object: false
+
+  derived_interpretation:
+    may_reference_source: true
+    may_replace_source: false
+
+  implementation:
+    may_consume_object: true
+    may_create_foundational_object: false
+
+  autonomous_agent:
+    may_reason_over_object: true
+    may_create_constitutional_authority: false

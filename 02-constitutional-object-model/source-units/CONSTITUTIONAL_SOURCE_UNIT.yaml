@@ -1,0 +1,42 @@
+﻿schema_version: 0.3.0
+contract: CONSTITUTIONAL_SOURCE_UNIT
+
+purpose: >
+  Defines the minimum structure required before constitutional source may
+  participate in deterministic ORYNTH reasoning.
+
+required_fields:
+  - id
+  - source_id
+  - source_locator
+  - source_class
+  - structural_type
+  - source_identity_locked
+  - interpretation_status
+
+structural_types:
+  - PREAMBLE
+  - ARTICLE
+  - SECTION
+  - AMENDMENT
+  - AMENDMENT_SECTION
+  - CLAUSE
+  - PHRASE
+
+source_classes:
+  - FOUNDATIONAL_CONSTITUTIONAL
+  - AMENDATORY_CONSTITUTIONAL
+
+interpretation_statuses:
+  - SOURCE_ONLY
+  - OBJECT_MAPPED
+  - PREDICATE_MAPPED
+  - DEPENDENCY_MAPPED
+
+hard_rules:
+  source_text_may_be_paraphrased_as_source: false
+  interpretation_may_be_embedded_as_source: false
+  case_law_may_be_embedded_as_source: false
+  executive_action_may_be_embedded_as_source: false
+  agentic_output_may_be_embedded_as_source: false
+  every_derived_claim_requires_source_locator: true

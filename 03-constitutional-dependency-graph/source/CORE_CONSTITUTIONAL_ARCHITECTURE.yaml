@@ -1,0 +1,84 @@
+﻿schema_version: 0.3.0
+map: CORE_CONSTITUTIONAL_ARCHITECTURE
+
+source: US_CONSTITUTION
+
+branches:
+
+  legislative:
+    source:
+      - CONST.ARTICLE.I
+
+    primary_object_classes:
+      - AUTHORITY
+      - POWER
+      - LIMITATION
+      - QUALIFICATION
+      - PROCESS
+      - JURISDICTION
+
+  executive:
+    source:
+      - CONST.ARTICLE.II
+
+    primary_object_classes:
+      - AUTHORITY
+      - POWER
+      - QUALIFICATION
+      - DUTY
+      - PROCESS
+      - LIMITATION
+
+  judicial:
+    source:
+      - CONST.ARTICLE.III
+
+    primary_object_classes:
+      - AUTHORITY
+      - JURISDICTION
+      - PROCESS
+      - LIMITATION
+
+  federal_relations:
+    source:
+      - CONST.ARTICLE.IV
+
+    primary_object_classes:
+      - RELATION
+      - DUTY
+      - PROTECTION
+      - JURISDICTION
+
+  amendment_process:
+    source:
+      - CONST.ARTICLE.V
+
+    primary_object_classes:
+      - PROCESS
+      - AUTHORITY
+      - LIMITATION
+
+  supremacy_and_oaths:
+    source:
+      - CONST.ARTICLE.VI
+
+    primary_object_classes:
+      - AUTHORITY
+      - DUTY
+      - PROHIBITION
+      - RELATION
+
+  ratification:
+    source:
+      - CONST.ARTICLE.VII
+
+    primary_object_classes:
+      - PROCESS
+      - AUTHORITY
+
+amendatory_layer:
+  count: 27
+
+rule:
+  amendments_are_constitutional_source: true
+  later_interpretations_are_derived_authority: true

@@ -1,0 +1,62 @@
+﻿schema_version: 0.3.0
+crosswalk: CONSTITUTION_CSI_UAA_VIP
+
+layers:
+
+  CONSTITUTION:
+    function:
+      - foundational_source
+      - amendatory_source
+
+    may:
+      - establish_right
+      - establish_power
+      - establish_authority
+      - establish_prohibition
+      - establish_qualification
+      - establish_jurisdiction
+      - establish_process
+
+  CSI:
+    function:
+      - preserve_source_identity
+      - type_constitutional_objects
+      - resolve_predicates
+      - reconstruct_authority_lineage
+      - resolve_dependency
+      - resolve_deterministic_relevance
+      - expose_conflict
+
+    may_not:
+      - rewrite_constitutional_source
+      - self_authorize_consequence
+
+  UAA:
+    function:
+      - resolve_principal
+      - resolve_delegation
+      - bind_authority
+      - determine_actor_scope
+      - authorize_or_block_consequence
+
+    may_not:
+      - create_foundational_constitutional_authority
+
+  VIP:
+    function:
+      - resolve_voter_domain_state
+      - govern_registration
+      - govern_ballot_admission
+      - govern_tabulation
+      - govern_certification
+      - govern_election_finality
+
+    may_not:
+      - redefine_constitutional_source
+      - infer_authority_from_database_control
+
+agentic_execution:
+  constitutional_source_changes: false
+  authority_required: true
+  delegation_required_when_applicable: true
+  provenance_required: true

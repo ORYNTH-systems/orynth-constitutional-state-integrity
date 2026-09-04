@@ -1,0 +1,30 @@
+﻿{
+    "schema_version":  "0.3.0",
+    "repository":  "orynth-constitutional-state-integrity",
+    "batch":  "03",
+    "layers":  [
+                   "CONSTITUTIONAL_SOURCE",
+                   "CONSTITUTIONAL_OBJECT",
+                   "PREDICATE",
+                   "DEPENDENCY",
+                   "JURISDICTION",
+                   "EVIDENCE",
+                   "DETERMINISTIC_RELEVANCE",
+                   "AGENTIC_APPLICATION",
+                   "UAA_AUTHORITY",
+                   "DOMAIN_EXECUTION",
+                   "PROVENANCE",
+                   "FINALITY"
+               ],
+    "domain_bridges":  [
+                           "UAA",
+                           "VIP",
+                           "CITIZENSHIP"
+                       ],
+    "constitutional_source_mutable":  false,
+    "derived_interpretation_is_source":  false,
+    "agentic_capability_creates_authority":  false,
+    "relevance_creates_authority":  false,
+    "invariants":  27,
+    "open_proof_obligations":  21
+}

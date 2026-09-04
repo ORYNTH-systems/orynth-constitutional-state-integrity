@@ -1,0 +1,62 @@
+﻿schema_version: 0.3.0
+graph: CONSTITUTIONAL_DEPENDENCY_GRAPH
+
+root:
+  id: US_CONSTITUTION
+
+source_layers:
+
+  foundational:
+    - CONST.PREAMBLE
+    - CONST.ARTICLE.I
+    - CONST.ARTICLE.II
+    - CONST.ARTICLE.III
+    - CONST.ARTICLE.IV
+    - CONST.ARTICLE.V
+    - CONST.ARTICLE.VI
+    - CONST.ARTICLE.VII
+
+  amendatory:
+    - CONST.AMENDMENT.01
+    - CONST.AMENDMENT.02
+    - CONST.AMENDMENT.03
+    - CONST.AMENDMENT.04
+    - CONST.AMENDMENT.05
+    - CONST.AMENDMENT.06
+    - CONST.AMENDMENT.07
+    - CONST.AMENDMENT.08
+    - CONST.AMENDMENT.09
+    - CONST.AMENDMENT.10
+    - CONST.AMENDMENT.11
+    - CONST.AMENDMENT.12
+    - CONST.AMENDMENT.13
+    - CONST.AMENDMENT.14
+    - CONST.AMENDMENT.15
+    - CONST.AMENDMENT.16
+    - CONST.AMENDMENT.17
+    - CONST.AMENDMENT.18
+    - CONST.AMENDMENT.19
+    - CONST.AMENDMENT.20
+    - CONST.AMENDMENT.21
+    - CONST.AMENDMENT.22
+    - CONST.AMENDMENT.23
+    - CONST.AMENDMENT.24
+    - CONST.AMENDMENT.25
+    - CONST.AMENDMENT.26
+    - CONST.AMENDMENT.27
+
+derived_layers:
+  - STATUTE
+  - JUDICIAL_HOLDING
+  - EXECUTIVE_ACTION
+  - ADMINISTRATIVE_RULE
+  - STATE_LAW
+  - LOCAL_RULE
+  - PROCEDURE
+  - SOFTWARE_IMPLEMENTATION
+  - AGENTIC_EXECUTION
+
+dependency_rule:
+  downstream_must_preserve_upstream_identity: true
+  downstream_may_not_claim_foundational_status: true
+  downstream_must_identify_transformation: true

@@ -1,0 +1,26 @@
+﻿schema_version: 0.3.0
+registry: DETERMINISTIC_RELEVANCE_RULES
+
+rules:
+
+  DRP_001:
+    statement: Relevance may propagate backward in dependency lineage.
+
+  DRP_002:
+    statement: Relevance may propagate forward into prospective execution.
+
+  DRP_003:
+    statement: Relevance does not authorize alteration.
+
+  DRP_004:
+    statement: Historical finality does not erase provenance.
+
+  DRP_005:
+    statement: Newly resolved predicates may expose inherited dependency defects.
+
+  DRP_006:
+    statement: A discovered defect must pass an independent consequence authority gate.
+
+  DRP_007:
+    statement: Unresolved predicate relationships remain unresolved and may not be coerced.
+

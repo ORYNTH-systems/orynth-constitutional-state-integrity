@@ -1,0 +1,27 @@
+﻿schema_version: 0.3.0
+object: CONSTITUTIONAL_STATE
+
+state_classes:
+  - FOUNDATIONAL
+  - DERIVED
+  - INHERITED
+  - CONFLICTED
+  - PROVISIONAL
+  - EXECUTABLE
+  - CONSTRAINED
+  - FINAL
+
+required_dimensions:
+  - source
+  - predicate
+  - jurisdiction
+  - authority
+  - evidence
+  - temporal_scope
+  - provenance
+
+rules:
+  continuity_does_not_prove_validity: true
+  validity_does_not_authorize_alteration: true
+  finality_does_not_erase_provenance: true
+  inherited_state_requires_lineage: true

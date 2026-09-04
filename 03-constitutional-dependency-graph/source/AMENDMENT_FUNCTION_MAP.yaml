@@ -1,0 +1,167 @@
+﻿schema_version: 0.3.0
+map: AMENDMENT_FUNCTION_MAP
+
+amendments:
+
+  "01":
+    primary:
+      - RIGHT
+      - PROHIBITION
+      - PROTECTION
+
+  "02":
+    primary:
+      - RIGHT
+      - PROTECTION
+
+  "03":
+    primary:
+      - PROHIBITION
+      - PROTECTION
+
+  "04":
+    primary:
+      - RIGHT
+      - PROHIBITION
+      - PROCESS
+      - PROTECTION
+
+  "05":
+    primary:
+      - RIGHT
+      - PROHIBITION
+      - PROCESS
+      - PROTECTION
+
+  "06":
+    primary:
+      - RIGHT
+      - PROCESS
+      - PROTECTION
+
+  "07":
+    primary:
+      - RIGHT
+      - PROCESS
+      - PROTECTION
+
+  "08":
+    primary:
+      - PROHIBITION
+      - PROTECTION
+
+  "09":
+    primary:
+      - RIGHT
+      - LIMITATION
+
+  "10":
+    primary:
+      - POWER
+      - LIMITATION
+      - RELATION
+
+  "11":
+    primary:
+      - JURISDICTION
+      - LIMITATION
+
+  "12":
+    primary:
+      - PROCESS
+      - QUALIFICATION
+      - AUTHORITY
+
+  "13":
+    primary:
+      - PROHIBITION
+      - POWER
+
+  "14":
+    primary:
+      - RIGHT
+      - PROTECTION
+      - PROHIBITION
+      - JURISDICTION
+      - QUALIFICATION
+      - POWER
+      - PREDICATE
+
+  "15":
+    primary:
+      - RIGHT
+      - PROHIBITION
+      - POWER
+
+  "16":
+    primary:
+      - POWER
+
+  "17":
+    primary:
+      - PROCESS
+      - QUALIFICATION
+      - RIGHT
+
+  "18":
+    primary:
+      - PROHIBITION
+      - POWER
+      - PROCESS
+
+  "19":
+    primary:
+      - RIGHT
+      - PROHIBITION
+      - POWER
+
+  "20":
+    primary:
+      - PROCESS
+      - AUTHORITY
+
+  "21":
+    primary:
+      - PROCESS
+      - POWER
+      - RELATION
+
+  "22":
+    primary:
+      - QUALIFICATION
+      - LIMITATION
+
+  "23":
+    primary:
+      - RIGHT
+      - PROCESS
+
+  "24":
+    primary:
+      - RIGHT
+      - PROHIBITION
+      - POWER
+
+  "25":
+    primary:
+      - PROCESS
+      - AUTHORITY
+      - QUALIFICATION
+
+  "26":
+    primary:
+      - RIGHT
+      - PROHIBITION
+      - POWER
+      - QUALIFICATION
+
+  "27":
+    primary:
+      - LIMITATION
+      - PROCESS
+
+rules:
+  classification_is_architectural: true
+  classification_does_not_replace_source_text: true
+  multi_type_classification_permitted: true
+  explicit_predicate_extraction_required_before_execution: true

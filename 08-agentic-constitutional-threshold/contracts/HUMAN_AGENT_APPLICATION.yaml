@@ -1,0 +1,36 @@
+﻿schema_version: 0.3.0
+contract: HUMAN_AGENT_CONSTITUTIONAL_APPLICATION
+
+executor_classes:
+  - HUMAN
+  - SOFTWARE
+  - AUTONOMOUS_AGENT
+  - MULTI_AGENT_SYSTEM
+  - HUMAN_AGENT_HYBRID
+
+invariants:
+
+  ACA_001:
+    statement: Agentic capability does not create constitutional authority.
+
+  ACA_002:
+    statement: Delegated execution cannot exceed delegating authority.
+
+  ACA_003:
+    statement: Automation cannot expand jurisdiction.
+
+  ACA_004:
+    statement: Machine determination cannot become self-authorizing.
+
+  ACA_005:
+    statement: Human-agent substitution cannot modify the constitutional predicate.
+
+  ACA_006:
+    statement: Every consequential agent action requires identifiable authority lineage.
+
+  ACA_007:
+    statement: Loss of human immediacy does not eliminate constitutional accountability.
+
+  ACA_008:
+    statement: Equivalent execution remains bound by equivalent constitutional constraints regardless of executor class.
+

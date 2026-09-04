@@ -1,0 +1,31 @@
+﻿schema_version: 0.3.0
+object: CONSTITUTIONAL_PREDICATE
+
+states:
+  - TRUE
+  - FALSE
+  - UNRESOLVED
+  - CONFLICTED
+  - INAPPLICABLE
+
+required:
+  - predicate_id
+  - source_locator
+  - predicate_text
+  - source_relationship
+  - evidence_requirements
+  - dependency_set
+  - consequence_class
+
+source_relationship:
+  allowed:
+    - EXPLICIT
+    - SOURCE_DECOMPOSITION
+    - DERIVED
+
+rules:
+  inferred_predicate_must_not_be_labeled_explicit: true
+  unresolved_predicate_cannot_be_coerced_to_false: true
+  unresolved_predicate_cannot_be_coerced_to_true: true
+  conflicting_evidence_requires_conflict_state: true
+  consequence_requires_separate_authority: true

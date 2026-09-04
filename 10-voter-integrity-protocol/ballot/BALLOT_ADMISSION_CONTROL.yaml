@@ -1,0 +1,15 @@
+﻿control: VIP_BALLOT
+
+states:
+  - PRESENTED
+  - IDENTITY_CHECK
+  - ELIGIBILITY_CHECK
+  - ADMISSIBLE
+  - CONFLICTED
+  - REJECTED
+  - CAST
+
+rules:
+  rejection_requires_resolved_predicate: true
+  admission_requires_resolved_eligibility: true
+  agent_recommendation_is_not_final_authority: true

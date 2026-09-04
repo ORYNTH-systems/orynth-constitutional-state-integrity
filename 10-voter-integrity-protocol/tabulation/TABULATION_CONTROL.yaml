@@ -1,0 +1,11 @@
+﻿control: VIP_TABULATION
+
+requirements:
+  - ballot_admissible
+  - ballot_identity_integrity
+  - authorized_tabulation_process
+  - evidence_chain
+  - no_duplicate_effect
+
+rule:
+  counting_capability_is_not_counting_authority: true

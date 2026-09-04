@@ -1,0 +1,8 @@
+﻿control: VIP_FINALITY
+
+principles:
+  - finality_preserves_provenance
+  - relevance_may_survive_finality
+  - relevance_does_not_self_authorize_reversal
+  - challenge_requires_authorized_path
+  - correction_requires_authorized_remedy

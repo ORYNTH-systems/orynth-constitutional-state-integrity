@@ -1,0 +1,46 @@
+﻿schema_version: 0.3.0
+map: CONSTITUTION_TO_VOTER_INTEGRITY_PROTOCOL
+
+constitutional_source_surfaces:
+
+  election_structure:
+    - CONST.ARTICLE.I
+    - CONST.ARTICLE.II
+    - CONST.AMENDMENT.12
+    - CONST.AMENDMENT.17
+    - CONST.AMENDMENT.20
+    - CONST.AMENDMENT.22
+    - CONST.AMENDMENT.23
+    - CONST.AMENDMENT.25
+
+  citizenship_and_equal_protection:
+    - CONST.AMENDMENT.14
+
+  voting_protections:
+    - CONST.AMENDMENT.15
+    - CONST.AMENDMENT.19
+    - CONST.AMENDMENT.24
+    - CONST.AMENDMENT.26
+
+VIP_domains:
+  - IDENTITY
+  - ELIGIBILITY
+  - REGISTRATION
+  - ROLL_MAINTENANCE
+  - BALLOT_ADMISSION
+  - CAST_STATE
+  - TABULATION
+  - CANVASS
+  - CERTIFICATION
+  - CHALLENGE
+  - FINALITY
+
+constitutional_rules:
+  VIP_may_consume_constitutional_state: true
+  VIP_may_modify_constitutional_source: false
+  voter_exclusion_requires_authority: true
+  voter_admission_requires_eligibility: true
+  database_assertion_is_not_authority: true
+  unresolved_evidence_is_not_proof_of_ineligibility: true
+  election_integrity_includes_prevention_of_wrongful_admission: true
+  election_integrity_includes_prevention_of_wrongful_exclusion: true

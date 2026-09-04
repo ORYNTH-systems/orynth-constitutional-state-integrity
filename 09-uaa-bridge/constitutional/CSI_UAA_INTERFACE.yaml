@@ -1,0 +1,33 @@
+﻿schema_version: 0.3.0
+interface: CSI_TO_UAA
+
+CSI_provides:
+  - constitutional_source
+  - constitutional_object
+  - predicate_state
+  - jurisdiction_state
+  - evidence_state
+  - dependency_lineage
+  - deterministic_relevance_state
+
+UAA_resolves:
+  - principal
+  - delegation
+  - authority
+  - actor_scope
+  - consequential_permission
+
+hard_boundary:
+  CSI_resolution_is_not_execution_authority: true
+  relevance_is_not_authority: true
+  correctness_is_not_self_authorizing: true
+  agentic_capability_is_not_authority: true
+
+execution_gate:
+  requires:
+    - valid_source
+    - valid_predicate
+    - valid_jurisdiction
+    - valid_authority
+    - sufficient_evidence
+    - admissible_transition
