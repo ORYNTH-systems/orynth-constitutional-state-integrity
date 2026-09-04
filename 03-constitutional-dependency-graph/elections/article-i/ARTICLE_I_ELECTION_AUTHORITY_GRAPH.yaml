@@ -1,0 +1,32 @@
+﻿schema_version: 0.4.0
+graph: ARTICLE_I_ELECTION_AUTHORITY
+
+nodes:
+
+  HOUSE_ELECTOR_RELATION:
+    source: CONST.ARTICLE.I.SECTION.2
+
+  STATE_ELECTION_RULE_AUTHORITY:
+    source: CONST.ARTICLE.I.SECTION.4
+
+  CONGRESSIONAL_ELECTION_RULE_AUTHORITY:
+    source: CONST.ARTICLE.I.SECTION.4
+
+edges:
+
+  - from: HOUSE_ELECTOR_RELATION
+    to: STATE_QUALIFICATION_RULE
+    relation: QUALIFICATION_REFERENCE
+
+  - from: STATE_ELECTION_RULE_AUTHORITY
+    to: FEDERAL_ELECTION_ADMINISTRATION
+    relation: PRIMARY_RULE_SURFACE
+
+  - from: CONGRESSIONAL_ELECTION_RULE_AUTHORITY
+    to: FEDERAL_ELECTION_ADMINISTRATION
+    relation: ALTER_OR_MAKE_RULE_SURFACE
+
+separations:
+  qualification_is_not_identical_to_administration: true
+  administration_is_not_identical_to_authority: true
+  authority_is_not_identical_to_capability: true

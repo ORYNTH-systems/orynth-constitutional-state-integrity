@@ -1,0 +1,61 @@
+﻿schema_version: 0.4.0
+registry: CONSTITUTIONAL_ELECTION_PREDICATES
+
+predicates:
+
+  P_ELECT_001:
+    name: IDENTITY
+    source_status: DOMAIN_REQUIRED
+    note: >
+      Identity resolution supports qualification determination but is not by
+      itself a constitutional voter qualification.
+
+  P_ELECT_002:
+    name: APPLICABLE_JURISDICTION
+    source_status: CONSTITUTIONALLY_RELEVANT
+
+  P_ELECT_003:
+    name: APPLICABLE_ELECTOR_QUALIFICATION
+    primary_source:
+      - CONST.ARTICLE.I.SECTION.2
+      - CONST.AMENDMENT.17
+
+  P_ELECT_004:
+    name: AGE_PROTECTION_BOUNDARY
+    primary_source:
+      - CONST.AMENDMENT.26
+
+  P_ELECT_005:
+    name: PROHIBITED_RACE_CLASSIFICATION
+    primary_source:
+      - CONST.AMENDMENT.15
+
+  P_ELECT_006:
+    name: PROHIBITED_SEX_CLASSIFICATION
+    primary_source:
+      - CONST.AMENDMENT.19
+
+  P_ELECT_007:
+    name: PROHIBITED_POLL_TAX_CONDITION
+    primary_source:
+      - CONST.AMENDMENT.24
+
+  P_ELECT_008:
+    name: AUTHORIZED_ELECTION_RULE_ACTOR
+    primary_source:
+      - CONST.ARTICLE.I.SECTION.4
+
+  P_ELECT_009:
+    name: AUTHORIZED_ENFORCEMENT_ACTOR
+    primary_source:
+      - CONST.AMENDMENT.14.SECTION.5
+      - CONST.AMENDMENT.15
+      - CONST.AMENDMENT.19
+      - CONST.AMENDMENT.24
+      - CONST.AMENDMENT.26
+
+rules:
+  statutory_predicates_must_be_separately_typed: true
+  state_qualification_predicates_must_be_separately_typed: true
+  identity_evidence_is_not_self_authorizing: true
+  protected_class_is_not_ineligibility_evidence: true

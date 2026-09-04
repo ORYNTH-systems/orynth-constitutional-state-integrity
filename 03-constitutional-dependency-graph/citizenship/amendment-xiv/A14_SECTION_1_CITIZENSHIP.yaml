@@ -1,0 +1,40 @@
+﻿schema_version: 0.4.0
+object_id: CONST.A14.S1.CITIZENSHIP
+
+source:
+  constitutional_unit: CONST.AMENDMENT.14.SECTION.1
+  source_class: AMENDATORY_CONSTITUTIONAL
+  source_locator:
+    amendment: 14
+    section: 1
+
+object_types:
+  - QUALIFICATION
+  - JURISDICTION
+  - PREDICATE
+  - RELATION
+
+source_predicates:
+
+  P_A14_CIT_001:
+    name: BIRTH_OR_NATURALIZATION_RELATION
+    source_relationship: SOURCE_DECOMPOSITION
+
+  P_A14_CIT_002:
+    name: UNITED_STATES_RELATION
+    source_relationship: SOURCE_DECOMPOSITION
+
+  P_A14_CIT_003:
+    name: SUBJECT_TO_JURISDICTION_RELATION
+    source_relationship: SOURCE_DECOMPOSITION
+
+result_object:
+  id: STATE.CITIZENSHIP
+  result_when_source_predicates_satisfied: CONSTITUTIONAL_STATE_RESOLUTION_REQUIRED
+
+hard_rules:
+  judicial_exception_is_not_constitutional_source: true
+  executive_exception_is_not_constitutional_source: true
+  administrative_exception_is_not_constitutional_source: true
+  derived_exception_requires_lineage: true
+  derived_exception_requires_predicate_relationship: true

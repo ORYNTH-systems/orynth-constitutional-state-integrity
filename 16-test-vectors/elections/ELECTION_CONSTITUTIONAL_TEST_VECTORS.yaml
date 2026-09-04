@@ -1,0 +1,46 @@
+﻿schema_version: 0.4.0
+test_suite: CONSTITUTIONAL_ELECTION_TEST_VECTORS
+
+vectors:
+
+  EV_001:
+    condition: DATABASE_FLAGS_VOTER_INELIGIBLE
+    competing_evidence: PRESENT
+    expected:
+      removal: BLOCK
+      state: EVIDENCE_CONFLICT
+
+  EV_002:
+    condition: ELIGIBLE_VOTER_VERIFIED
+    authority_to_remove: ABSENT
+    expected:
+      removal: BLOCK
+
+  EV_003:
+    condition: VOTER_INELIGIBILITY_PROVEN
+    authority_to_remove: VALID
+    process_constraints: SATISFIED
+    expected:
+      removal: ADMISSIBLE
+
+  EV_004:
+    condition: AGENT_DETECTS_DUPLICATE_RECORD
+    expected:
+      automatic_disqualification: BLOCK
+      review: ROUTE
+
+  EV_005:
+    condition: PROTECTED_CLASS_USED_AS_INELIGIBILITY_PREDICATE
+    expected:
+      execution: BLOCK
+
+  EV_006:
+    condition: VALID_ELIGIBILITY
+    conflicting_database_record: FALSE
+    expected:
+      admission: ADMISSIBLE
+
+  EV_007:
+    condition: CERTIFICATION_ACTOR_LACKS_AUTHORITY
+    expected:
+      certification: BLOCK

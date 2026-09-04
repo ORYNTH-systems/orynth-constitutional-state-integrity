@@ -1,0 +1,45 @@
+﻿schema_version: 0.4.0
+graph: CONSTITUTIONAL_VOTING_PROTECTION_GRAPH
+
+root:
+  activity: VOTING
+
+protection_nodes:
+
+  A15:
+    source: CONST.AMENDMENT.15
+    prohibited_ground:
+      - RACE
+      - COLOR
+      - PREVIOUS_CONDITION_OF_SERVITUDE
+
+  A19:
+    source: CONST.AMENDMENT.19
+    prohibited_ground:
+      - SEX
+
+  A24:
+    source: CONST.AMENDMENT.24
+    prohibited_ground:
+      - POLL_TAX
+      - OTHER_TAX
+
+  A26:
+    source: CONST.AMENDMENT.26
+    prohibited_ground:
+      - AGE_18_OR_OLDER
+
+shared_execution_surfaces:
+  - ELIGIBILITY
+  - REGISTRATION
+  - ROLL_MAINTENANCE
+  - BALLOT_ADMISSION
+  - VOTE_EFFECT
+  - TABULATION
+
+constitutional_integrity:
+  valid_eligibility_controls_allowed: true
+  protected_ground_cannot_substitute_for_ineligibility_predicate: true
+  integrity_and_access_are_not_opposite_states: true
+  wrongful_admission_is_integrity_failure: true
+  wrongful_exclusion_is_integrity_failure: true

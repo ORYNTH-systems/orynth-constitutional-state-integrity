@@ -1,0 +1,44 @@
+﻿schema_version: 0.4.0
+graph: CONSTITUTIONAL_ELECTION_EXECUTION
+
+flow:
+
+  - node: CONSTITUTIONAL_SOURCE
+    next: APPLICABLE_QUALIFICATION
+
+  - node: APPLICABLE_QUALIFICATION
+    next: PROTECTED_CONSTRAINT_CHECK
+
+  - node: PROTECTED_CONSTRAINT_CHECK
+    next: JURISDICTION
+
+  - node: JURISDICTION
+    next: IDENTITY_EVIDENCE
+
+  - node: IDENTITY_EVIDENCE
+    next: ELIGIBILITY
+
+  - node: ELIGIBILITY
+    next: UAA_AUTHORITY
+
+  - node: UAA_AUTHORITY
+    next: VIP_ADMISSION
+
+  - node: VIP_ADMISSION
+    next: BALLOT_STATE
+
+  - node: BALLOT_STATE
+    next: TABULATION
+
+  - node: TABULATION
+    next: CERTIFICATION
+
+  - node: CERTIFICATION
+    next: FINALITY
+
+invariants:
+  qualification_must_precede_admission: true
+  protection_check_must_bind_consequence: true
+  authority_must_precede_execution: true
+  evidence_does_not_equal_authority: true
+  certification_does_not_delete_provenance: true

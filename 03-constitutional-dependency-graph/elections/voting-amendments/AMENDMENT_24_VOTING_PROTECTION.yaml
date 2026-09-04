@@ -1,0 +1,33 @@
+﻿schema_version: 0.4.0
+object_id: CONST.A24.VOTING_PROTECTION
+
+source:
+  constitutional_unit: CONST.AMENDMENT.24
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - RIGHT
+  - PROHIBITION
+  - POWER
+  - PROTECTION
+
+protected_elections:
+  - PRESIDENT
+  - VICE_PRESIDENT
+  - PRESIDENTIAL_ELECTORS
+  - SENATOR
+  - REPRESENTATIVE
+
+prohibited_condition:
+  - POLL_TAX
+  - OTHER_TAX
+
+enforcement_actor:
+  CONGRESS
+
+VIP_binding:
+  eligibility: true
+  ballot_admission: true
+
+rule:
+  prohibited_financial_condition_cannot_be_reintroduced_as_eligibility_predicate: true

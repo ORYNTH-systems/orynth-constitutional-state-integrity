@@ -1,0 +1,31 @@
+﻿schema_version: 0.4.0
+graph: CONSTITUTIONAL_CITIZENSHIP_EXECUTION
+
+flow:
+
+  - node: A14_SECTION_1_SOURCE
+    next: SOURCE_PREDICATE_DECOMPOSITION
+
+  - node: SOURCE_PREDICATE_DECOMPOSITION
+    next: FACTUAL_EVIDENCE
+
+  - node: FACTUAL_EVIDENCE
+    next: DERIVED_AUTHORITY_ANALYSIS
+
+  - node: DERIVED_AUTHORITY_ANALYSIS
+    next: PREDICATE_EQUIVALENCE_TEST
+
+  - node: PREDICATE_EQUIVALENCE_TEST
+    next: CONSTITUTIONAL_STATE_RESOLUTION
+
+  - node: CONSTITUTIONAL_STATE_RESOLUTION
+    next: DETERMINISTIC_RELEVANCE
+
+  - node: DETERMINISTIC_RELEVANCE
+    next: UAA_CONSEQUENCE_AUTHORITY
+
+rules:
+  source_remains_immutable: true
+  derived_authority_must_preserve_lineage: true
+  prior_holding_must_identify_predicate_relationship: true
+  relevance_does_not_equal_alteration: true

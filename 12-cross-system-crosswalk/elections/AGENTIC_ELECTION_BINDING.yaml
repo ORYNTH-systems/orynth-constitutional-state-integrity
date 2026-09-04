@@ -1,0 +1,24 @@
+﻿schema_version: 0.4.0
+binding: AGENTIC_ELECTION_EXECUTION
+
+agent_may:
+  - DETECT_RECORD_CONFLICT
+  - RETRIEVE_AUTHORIZED_EVIDENCE
+  - NORMALIZE_EVIDENCE
+  - IDENTIFY_PREDICATE_CONFLICT
+  - ROUTE_REVIEW
+  - GENERATE_PROVENANCE
+
+agent_may_not_without_independent_authority:
+  - CREATE_VOTER_QUALIFICATION
+  - EXPAND_JURISDICTION
+  - REMOVE_ELIGIBLE_VOTER
+  - REJECT_BALLOT
+  - ALTER_TABULATION
+  - CERTIFY_ELECTION
+  - REVERSE_FINAL_STATE
+
+rules:
+  agentic_detection_is_not_adjudication: true
+  agentic_classification_is_not_self_authorizing: true
+  human_agent_hybrid_remains_bound_by_same_constitutional_constraints: true

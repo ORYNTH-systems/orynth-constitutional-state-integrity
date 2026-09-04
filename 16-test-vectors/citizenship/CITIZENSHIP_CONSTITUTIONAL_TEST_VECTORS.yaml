@@ -1,0 +1,32 @@
+﻿schema_version: 0.4.0
+test_suite: CITIZENSHIP_CONSTITUTIONAL_TEST_VECTORS
+
+vectors:
+
+  CIT_001:
+    condition: NEW_DERIVED_CATEGORY
+    prior_predicate_relationship: UNRESOLVED
+    expected:
+      automatic_precedent_inheritance: BLOCK
+      predicate_analysis: REQUIRED
+
+  CIT_002:
+    condition: PRIOR_PREDICATE_PROVEN_IDENTICAL
+    expected:
+      precedent_relationship: IDENTICAL
+
+  CIT_003:
+    condition: HISTORICAL_STATE_BECOMES_RELEVANT
+    expected:
+      relevance: TRUE
+      automatic_alteration: FALSE
+
+  CIT_004:
+    condition: AGENTIC_SYSTEM_RESOLVES_FACTUAL_RECORD
+    expected:
+      constitutional_authority_created: FALSE
+
+  CIT_005:
+    condition: DERIVED_INTERPRETATION_ATTEMPTS_SOURCE_MUTATION
+    expected:
+      operation: BLOCK

@@ -1,0 +1,25 @@
+﻿schema_version: 0.4.0
+object_id: CONST.A14.S2.REPRESENTATION_VOTING_RELATION
+
+source:
+  constitutional_unit: CONST.AMENDMENT.14.SECTION.2
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - RELATION
+  - QUALIFICATION
+  - CONSEQUENCE_REFERENCE
+
+architectural_status:
+  historical_text_preserved: true
+  contemporary_application_requires_derived_authority_analysis: true
+
+CSI_rule:
+  source_text_remains_canonical: true
+  superseding_or_modifying_amendments_remain_separate_source_nodes: true
+  obsolete_or_changed_operational_effect_does_not_delete_source_history: true
+
+dependency_relevance:
+  elections: true
+  representation: true
+  voting_rights_history: true

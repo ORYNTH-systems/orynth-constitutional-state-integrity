@@ -1,0 +1,37 @@
+﻿schema_version: 0.4.0
+object_id: CONST.A26.VOTING_PROTECTION
+
+source:
+  constitutional_unit: CONST.AMENDMENT.26
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - RIGHT
+  - PROHIBITION
+  - POWER
+  - QUALIFICATION
+  - PROTECTION
+
+protected_class:
+  citizens:
+    minimum_age: 18
+
+protected_activity:
+  right_to_vote: true
+
+prohibited_denial_or_abridgment_ground:
+  - AGE_FOR_CITIZENS_18_OR_OLDER
+
+constrained_actors:
+  - UNITED_STATES
+  - STATES
+
+enforcement_actor:
+  CONGRESS
+
+VIP_binding:
+  identity: true
+  age_qualification: true
+  eligibility: true
+  registration: true
+  ballot_admission: true

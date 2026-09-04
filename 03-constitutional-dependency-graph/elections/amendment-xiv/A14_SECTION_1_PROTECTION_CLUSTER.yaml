@@ -1,0 +1,58 @@
+﻿schema_version: 0.4.0
+object_id: CONST.A14.S1.PROTECTION_CLUSTER
+
+source:
+  constitutional_unit: CONST.AMENDMENT.14.SECTION.1
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+objects:
+
+  privileges_or_immunities:
+    object_types:
+      - PROHIBITION
+      - PROTECTION
+
+    actor_constraint:
+      state: true
+
+  due_process:
+    object_types:
+      - PROHIBITION
+      - PROCESS
+      - PROTECTION
+
+    protected_states:
+      - LIFE
+      - LIBERTY
+      - PROPERTY
+
+  equal_protection:
+    object_types:
+      - PROHIBITION
+      - PROTECTION
+      - RELATION
+
+    actor_constraint:
+      state: true
+
+VIP_effect:
+
+  registration:
+    protection_relevant: true
+
+  removal:
+    protection_relevant: true
+
+  ballot_admission:
+    protection_relevant: true
+
+  tabulation:
+    protection_relevant: true
+
+  certification:
+    protection_relevant: true
+
+rule:
+  constitutional_protection_may_constrain_integrity_mechanism: true
+  integrity_mechanism_may_not_silently_nullify_protection: true
+  protection_does_not_eliminate_valid_eligibility_requirements: true

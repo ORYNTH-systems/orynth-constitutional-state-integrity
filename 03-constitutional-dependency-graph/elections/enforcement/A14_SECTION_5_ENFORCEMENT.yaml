@@ -1,0 +1,25 @@
+﻿schema_version: 0.4.0
+object_id: CONST.A14.S5.ENFORCEMENT
+
+source:
+  constitutional_unit: CONST.AMENDMENT.14.SECTION.5
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - POWER
+  - AUTHORITY
+  - LIMITATION
+
+actor:
+  CONGRESS
+
+authority:
+  enforcement_by_appropriate_legislation: true
+
+scope_dependency:
+  amendment: XIV
+
+rules:
+  enforcement_power_is_not_constitutional_rewrite_power: true
+  legislation_remains_derived_authority: true
+  congressional_execution_requires_source_lineage: true

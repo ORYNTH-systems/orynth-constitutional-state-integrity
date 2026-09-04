@@ -1,0 +1,57 @@
+﻿schema_version: 0.4.0
+object_id: CONST.ART1.S4.ELECTIONS_CLAUSE
+
+source:
+  constitutional_unit: CONST.ARTICLE.I.SECTION.4
+  source_class: FOUNDATIONAL_CONSTITUTIONAL
+  source_locator:
+    article: I
+    section: 4
+
+object_types:
+  - AUTHORITY
+  - POWER
+  - PROCESS
+  - JURISDICTION
+  - RELATION
+
+authority_surfaces:
+
+  state_legislative_surface:
+    subject:
+      - TIMES
+      - PLACES
+      - MANNER
+
+    election_class:
+      - SENATORS
+      - REPRESENTATIVES
+
+  congressional_surface:
+    authority:
+      alter_state_regulations: true
+      make_regulations: true
+
+    scope:
+      federal_congressional_elections: true
+
+architectural_separations:
+
+  election_administration:
+    distinct_from_voter_qualification: true
+
+  authority:
+    must_resolve_actor: true
+    must_resolve_subject: true
+    must_resolve_election_class: true
+
+predicates:
+  - id: P.ART1.S4.ACTOR
+  - id: P.ART1.S4.ELECTION_CLASS
+  - id: P.ART1.S4.SUBJECT
+  - id: P.ART1.S4.STATE_RULE_EXISTS
+  - id: P.ART1.S4.CONGRESSIONAL_RULE_EXISTS
+
+rules:
+  administrative_control_does_not_create_voter_qualification: true
+  software_control_does_not_create_election_authority: true

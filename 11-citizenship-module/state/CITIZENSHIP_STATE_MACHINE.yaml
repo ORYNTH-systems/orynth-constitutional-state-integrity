@@ -1,0 +1,23 @@
+﻿schema_version: 0.4.0
+machine: CONSTITUTIONAL_CITIZENSHIP_STATE
+
+states:
+  - CLAIM_PRESENTED
+  - SOURCE_IDENTIFIED
+  - BIRTH_OR_NATURALIZATION_PENDING
+  - UNITED_STATES_RELATION_PENDING
+  - JURISDICTION_RELATION_PENDING
+  - EVIDENCE_CONFLICT
+  - PREDICATE_CONFLICT
+  - CONSTITUTIONAL_STATE_RESOLVED
+  - DERIVED_AUTHORITY_CONFLICT
+  - EXECUTION_CONSTRAINED
+  - FINAL
+
+rules:
+  source_resolution_precedes_derived_authority_application: true
+  derived_authority_does_not_mutate_source: true
+  predicate_conflict_must_remain_visible: true
+  relevance_may_propagate_retrospectively: true
+  relevance_may_propagate_prospectively: true
+  retrospective_relevance_does_not_self_authorize_status_change: true

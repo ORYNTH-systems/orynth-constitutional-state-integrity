@@ -1,0 +1,31 @@
+﻿schema_version: 0.4.0
+object_id: CONST.A19.VOTING_PROTECTION
+
+source:
+  constitutional_unit: CONST.AMENDMENT.19
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - RIGHT
+  - PROHIBITION
+  - POWER
+  - PROTECTION
+
+protected_activity:
+  right_to_vote: true
+
+prohibited_denial_or_abridgment_ground:
+  - SEX
+
+constrained_actors:
+  - UNITED_STATES
+  - STATES
+
+enforcement_actor:
+  CONGRESS
+
+VIP_binding:
+  eligibility: true
+  registration: true
+  ballot_admission: true
+  tabulation: true

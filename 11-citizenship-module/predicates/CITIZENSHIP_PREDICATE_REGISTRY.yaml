@@ -1,0 +1,34 @@
+﻿schema_version: 0.4.0
+registry: CONSTITUTIONAL_CITIZENSHIP_PREDICATES
+
+source:
+  - CONST.AMENDMENT.14.SECTION.1
+
+predicates:
+
+  P_CIT_001:
+    name: BORN_OR_NATURALIZED
+    source_relationship: SOURCE_DECOMPOSITION
+
+  P_CIT_002:
+    name: IN_THE_UNITED_STATES
+    source_relationship: SOURCE_DECOMPOSITION
+
+  P_CIT_003:
+    name: SUBJECT_TO_THE_JURISDICTION_THEREOF
+    source_relationship: SOURCE_DECOMPOSITION
+
+constitutional_result:
+  name: CITIZENSHIP_STATE
+
+derived_analysis_required_for:
+  - interpretation_of_jurisdiction_predicate
+  - historical_exception_claim
+  - executive_application
+  - judicial_application
+  - administrative_application
+
+hard_boundary:
+  derived_interpretation_is_source: false
+  institutional_age_creates_source: false
+  precedent_creates_source_text: false

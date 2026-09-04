@@ -1,0 +1,37 @@
+﻿schema_version: 0.4.0
+object_id: CONST.A15.VOTING_PROTECTION
+
+source:
+  constitutional_unit: CONST.AMENDMENT.15
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - RIGHT
+  - PROHIBITION
+  - POWER
+  - PROTECTION
+
+protected_activity:
+  right_to_vote: true
+
+prohibited_denial_or_abridgment_ground:
+  - RACE
+  - COLOR
+  - PREVIOUS_CONDITION_OF_SERVITUDE
+
+constrained_actors:
+  - UNITED_STATES
+  - STATES
+
+enforcement_actor:
+  CONGRESS
+
+VIP_binding:
+  eligibility: true
+  registration: true
+  roll_maintenance: true
+  ballot_admission: true
+  tabulation: true
+
+integrity_rule:
+  anti_fraud_control_does_not_authorize_prohibited_discrimination: true

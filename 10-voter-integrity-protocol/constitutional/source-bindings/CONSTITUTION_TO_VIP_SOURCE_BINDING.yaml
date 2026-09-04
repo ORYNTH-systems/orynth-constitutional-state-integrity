@@ -1,0 +1,37 @@
+﻿schema_version: 0.4.0
+binding: CONSTITUTION_TO_VIP_SOURCE
+
+VIP_IDENTITY:
+  constitutional_source:
+    indirect: true
+  note: >
+    Identity is a domain execution predicate used to prove that the individual
+    being evaluated is the individual to whom an applicable qualification or
+    protection belongs.
+
+VIP_ELIGIBILITY:
+  constitutional_sources:
+    - CONST.ARTICLE.I.SECTION.2
+    - CONST.AMENDMENT.14
+    - CONST.AMENDMENT.15
+    - CONST.AMENDMENT.17
+    - CONST.AMENDMENT.19
+    - CONST.AMENDMENT.24
+    - CONST.AMENDMENT.26
+
+VIP_ELECTION_ADMINISTRATION:
+  constitutional_sources:
+    - CONST.ARTICLE.I.SECTION.4
+
+VIP_CONSTITUTIONAL_PROTECTION:
+  constitutional_sources:
+    - CONST.AMENDMENT.14.SECTION.1
+    - CONST.AMENDMENT.15
+    - CONST.AMENDMENT.19
+    - CONST.AMENDMENT.24
+    - CONST.AMENDMENT.26
+
+rules:
+  VIP_consumes_source_binding: true
+  VIP_does_not_rewrite_source: true
+  domain_rule_requires_source_or_derived_authority_lineage: true

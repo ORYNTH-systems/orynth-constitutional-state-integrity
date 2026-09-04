@@ -1,0 +1,38 @@
+﻿schema_version: 0.4.0
+object_id: CONST.ART1.S2.ELECTOR_QUALIFICATION_RELATION
+
+source:
+  constitutional_unit: CONST.ARTICLE.I.SECTION.2
+  source_class: FOUNDATIONAL_CONSTITUTIONAL
+  source_locator:
+    article: I
+    section: 2
+
+object_types:
+  - QUALIFICATION
+  - RELATION
+  - PREDICATE
+
+source_decomposition:
+  proposition: >
+    Electors choosing members of the House possess the qualifications
+    required for electors of the most numerous branch of the applicable
+    state legislature.
+
+derived_execution_rule: false
+
+architectural_effect:
+  federal_house_voter_qualification_source_is_not_wholly_independent_of_state_qualification: true
+  qualification_and_election_administration_are_distinct_objects: true
+
+predicates:
+  - id: P.ART1.S2.ELECTOR.APPLICABLE_STATE
+    state: SOURCE_DECOMPOSITION
+
+  - id: P.ART1.S2.ELECTOR.QUALIFICATION_RELATION
+    state: SOURCE_DECOMPOSITION
+
+rules:
+  does_not_itself_create_general_federal_voter_database: true
+  does_not_itself_define_complete_modern_voter_eligibility: true
+  downstream_amendments_must_be_applied: true

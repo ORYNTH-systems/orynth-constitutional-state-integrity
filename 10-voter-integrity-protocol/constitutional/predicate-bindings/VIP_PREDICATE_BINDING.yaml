@@ -1,0 +1,37 @@
+﻿schema_version: 0.4.0
+binding: VIP_PREDICATE_BINDING
+
+admission_requires:
+  - IDENTITY_RESOLUTION
+  - JURISDICTION_RESOLUTION
+  - ELIGIBILITY_RESOLUTION
+  - APPLICABLE_RULE
+  - EVIDENCE
+  - AUTHORITY
+
+exclusion_requires:
+  - IDENTIFIED_PERSON
+  - APPLICABLE_JURISDICTION
+  - IDENTIFIED_ELIGIBILITY_DEFECT
+  - SUFFICIENT_EVIDENCE
+  - AUTHORIZED_ACTOR
+  - AUTHORIZED_TRANSITION
+
+protected_constraints:
+  - A14_DUE_PROCESS
+  - A14_EQUAL_PROTECTION
+  - A15_RACE
+  - A19_SEX
+  - A24_POLL_TAX
+  - A26_AGE_18_PLUS
+
+symmetry:
+  false_positive_admission_is_failure: true
+  false_positive_exclusion_is_failure: true
+
+fail_closed:
+  evidence_conflict: true
+  authority_conflict: true
+  jurisdiction_conflict: true
+  identity_conflict: true
+  material_predicate_conflict: true

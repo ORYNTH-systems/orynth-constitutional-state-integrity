@@ -1,30 +1,28 @@
 ﻿{
-    "schema_version":  "0.3.0",
+    "schema_version":  "0.4.0",
     "repository":  "orynth-constitutional-state-integrity",
-    "batch":  "03",
-    "layers":  [
-                   "CONSTITUTIONAL_SOURCE",
-                   "CONSTITUTIONAL_OBJECT",
-                   "PREDICATE",
-                   "DEPENDENCY",
-                   "JURISDICTION",
-                   "EVIDENCE",
-                   "DETERMINISTIC_RELEVANCE",
-                   "AGENTIC_APPLICATION",
-                   "UAA_AUTHORITY",
-                   "DOMAIN_EXECUTION",
-                   "PROVENANCE",
-                   "FINALITY"
-               ],
-    "domain_bridges":  [
-                           "UAA",
-                           "VIP",
-                           "CITIZENSHIP"
-                       ],
+    "batch":  "04",
+    "source_layers":  [
+                          "US_CONSTITUTION",
+                          "ARTICLE_I",
+                          "AMENDMENT_XIV",
+                          "AMENDMENT_XV",
+                          "AMENDMENT_XIX",
+                          "AMENDMENT_XXIV",
+                          "AMENDMENT_XXVI"
+                      ],
+    "execution_layers":  [
+                             "CSI",
+                             "DETERMINISTIC_RELEVANCE",
+                             "AGENTIC_THRESHOLD",
+                             "UAA",
+                             "VIP",
+                             "PROVENANCE",
+                             "FINALITY"
+                         ],
     "constitutional_source_mutable":  false,
     "derived_interpretation_is_source":  false,
     "agentic_capability_creates_authority":  false,
-    "relevance_creates_authority":  false,
-    "invariants":  27,
-    "open_proof_obligations":  21
+    "evidence_creates_authority":  false,
+    "relevance_creates_authority":  false
 }
