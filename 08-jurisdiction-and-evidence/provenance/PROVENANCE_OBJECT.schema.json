@@ -1,0 +1,25 @@
+﻿{
+  "schema_version": "0.7.0",
+  "object": "CSI_PROVENANCE",
+  "required": [
+    "provenance_id",
+    "origin",
+    "transformations",
+    "current_state",
+    "integrity"
+  ],
+  "transformation_fields": [
+    "actor",
+    "operation",
+    "input_state",
+    "output_state",
+    "authority_basis",
+    "timestamp"
+  ],
+  "rules": {
+    "finality_erases_provenance": false,
+    "derived_state_without_origin_is_valid": false,
+    "transformation_without_actor_is_complete": false,
+    "transformation_without_authority_basis_is_complete": false
+  }
+}

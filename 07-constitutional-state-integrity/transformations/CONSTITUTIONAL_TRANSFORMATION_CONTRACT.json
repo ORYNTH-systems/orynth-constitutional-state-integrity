@@ -1,0 +1,31 @@
+﻿{
+  "schema_version": "0.7.0",
+  "object": "CONSTITUTIONAL_TRANSFORMATION",
+  "required": [
+    "transformation_id",
+    "source_object",
+    "destination_object",
+    "transformation_type",
+    "authority_class",
+    "jurisdiction",
+    "predicate_relationship",
+    "temporal_scope",
+    "provenance"
+  ],
+  "types": [
+    "AMENDMENT",
+    "LEGISLATIVE_IMPLEMENTATION",
+    "JUDICIAL_INTERPRETATION",
+    "EXECUTIVE_APPLICATION",
+    "ADMINISTRATIVE_APPLICATION",
+    "STATE_APPLICATION",
+    "PROCEDURAL_IMPLEMENTATION",
+    "SOFTWARE_IMPLEMENTATION",
+    "AGENTIC_APPLICATION"
+  ],
+  "rules": {
+    "destination_may_overwrite_source_identity": false,
+    "transformation_must_preserve_lineage": true,
+    "derived_authority_becomes_constitutional_source": false
+  }
+}

@@ -1,0 +1,78 @@
+﻿{
+    "schema_version":  "0.7.0",
+    "predicate_equivalence":  [
+                                  {
+                                      "id":  "PEQ-001",
+                                      "left":  {
+                                                   "subject":  "CLASS-A",
+                                                   "condition_set":  [
+                                                                         "A",
+                                                                         "B"
+                                                                     ],
+                                                   "jurisdiction":  "US",
+                                                   "temporal_scope":  "CURRENT",
+                                                   "consequence":  "STATE-X"
+                                               },
+                                      "right":  {
+                                                    "subject":  "CLASS-A",
+                                                    "condition_set":  [
+                                                                          "A",
+                                                                          "B"
+                                                                      ],
+                                                    "jurisdiction":  "US",
+                                                    "temporal_scope":  "CURRENT",
+                                                    "consequence":  "STATE-X"
+                                                },
+                                      "expected":  "IDENTICAL"
+                                  },
+                                  {
+                                      "id":  "PEQ-002",
+                                      "left":  {
+                                                   "subject":  "CLASS-A",
+                                                   "condition_set":  [
+                                                                         "A"
+                                                                     ],
+                                                   "jurisdiction":  "US",
+                                                   "temporal_scope":  "CURRENT",
+                                                   "consequence":  "STATE-X"
+                                               },
+                                      "right":  {
+                                                    "subject":  "CLASS-A",
+                                                    "condition_set":  [
+                                                                          "A",
+                                                                          "B"
+                                                                      ],
+                                                    "jurisdiction":  "US",
+                                                    "temporal_scope":  "CURRENT",
+                                                    "consequence":  "STATE-X"
+                                                },
+                                      "expected":  "EXPANDED"
+                                  }
+                              ],
+    "inherited_state":  [
+                            {
+                                "id":  "INH-001",
+                                "dimensions":  {
+                                                   "source_integrity":  "VALID",
+                                                   "predicate_integrity":  "VALID",
+                                                   "authority_integrity":  "VALID",
+                                                   "jurisdiction_integrity":  "VALID",
+                                                   "evidence_integrity":  "VALID",
+                                                   "transformation_integrity":  "VALID"
+                                               },
+                                "expected":  "VALIDATED"
+                            },
+                            {
+                                "id":  "INH-002",
+                                "dimensions":  {
+                                                   "source_integrity":  "VALID",
+                                                   "predicate_integrity":  "INVALID",
+                                                   "authority_integrity":  "VALID",
+                                                   "jurisdiction_integrity":  "VALID",
+                                                   "evidence_integrity":  "VALID",
+                                                   "transformation_integrity":  "VALID"
+                                               },
+                                "expected":  "INVALID"
+                            }
+                        ]
+}

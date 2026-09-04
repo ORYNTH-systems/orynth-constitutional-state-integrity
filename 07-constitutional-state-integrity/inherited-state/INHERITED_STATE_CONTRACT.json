@@ -1,0 +1,32 @@
+﻿{
+  "schema_version": "0.7.0",
+  "object": "CSI_INHERITED_STATE",
+  "required": [
+    "state_id",
+    "origin_state",
+    "dependency_chain",
+    "current_state",
+    "validation_state",
+    "finality_state"
+  ],
+  "validation_states": [
+    "VALIDATED",
+    "INVALID",
+    "CONFLICTED",
+    "UNRESOLVED"
+  ],
+  "analysis": [
+    "source_integrity",
+    "predicate_integrity",
+    "authority_integrity",
+    "jurisdiction_integrity",
+    "evidence_integrity",
+    "transformation_integrity"
+  ],
+  "rules": {
+    "age_proves_validity": false,
+    "continuity_proves_validity": false,
+    "finality_erases_dependency": false,
+    "discovered_relevance_authorizes_reversal": false
+  }
+}

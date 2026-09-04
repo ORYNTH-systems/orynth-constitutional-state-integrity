@@ -1,0 +1,26 @@
+﻿{
+  "schema_version": "0.7.0",
+  "resolver": "CSI_PREDICATE_EQUIVALENCE",
+  "relationships": [
+    "IDENTICAL",
+    "NARROWED",
+    "EXPANDED",
+    "PARTIALLY_OVERLAPPING",
+    "DIFFERENT",
+    "UNRESOLVED"
+  ],
+  "required_dimensions": [
+    "subject",
+    "condition_set",
+    "jurisdiction",
+    "temporal_scope",
+    "consequence"
+  ],
+  "rules": {
+    "hierarchy_proves_equivalence": false,
+    "shared_label_proves_equivalence": false,
+    "historical_age_proves_equivalence": false,
+    "partial_overlap_equals_identity": false,
+    "unresolved_may_be_coerced_to_identical": false
+  }
+}

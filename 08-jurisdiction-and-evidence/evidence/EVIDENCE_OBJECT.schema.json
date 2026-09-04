@@ -1,0 +1,34 @@
+﻿{
+  "schema_version": "0.7.0",
+  "object": "CSI_EVIDENCE",
+  "required": [
+    "evidence_id",
+    "subject_id",
+    "source_type",
+    "source_id",
+    "claim",
+    "observation_time",
+    "provenance",
+    "integrity_state"
+  ],
+  "integrity_states": [
+    "VERIFIED",
+    "UNVERIFIED",
+    "CONFLICTED",
+    "INVALID"
+  ],
+  "source_types": [
+    "PRIMARY_RECORD",
+    "OFFICIAL_RECORD",
+    "DERIVED_RECORD",
+    "TESTIMONY",
+    "SYSTEM_RECORD",
+    "AGENTIC_OBSERVATION"
+  ],
+  "rules": {
+    "evidence_is_authority": false,
+    "database_assertion_is_finality": false,
+    "agentic_observation_is_self_authenticating": false,
+    "conflicted_evidence_may_be_silently_resolved": false
+  }
+}

@@ -1,0 +1,880 @@
+﻿{
+    "schema_version":  "0.7.0",
+    "registry":  "FULL_CONSTITUTIONAL_SOURCE_ANCHORS",
+    "source_mutable":  false,
+    "anchor_count":  74,
+    "anchors":  [
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.1",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.1",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  1
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.2",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.2",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  2
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.3",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.3",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  3
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.4",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.4",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  4
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.5",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.5",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  5
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.6",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.6",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  6
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.7",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.7",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  7
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.8",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.8",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  8
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.9",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.9",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  9
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.I.SECTION.10",
+                        "constitutional_unit":  "CONST.ARTICLE.I.SECTION.10",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "I",
+                                        "section":  10
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.II.SECTION.1",
+                        "constitutional_unit":  "CONST.ARTICLE.II.SECTION.1",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "II",
+                                        "section":  1
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.II.SECTION.2",
+                        "constitutional_unit":  "CONST.ARTICLE.II.SECTION.2",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "II",
+                                        "section":  2
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.II.SECTION.3",
+                        "constitutional_unit":  "CONST.ARTICLE.II.SECTION.3",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "II",
+                                        "section":  3
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.II.SECTION.4",
+                        "constitutional_unit":  "CONST.ARTICLE.II.SECTION.4",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "II",
+                                        "section":  4
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.III.SECTION.1",
+                        "constitutional_unit":  "CONST.ARTICLE.III.SECTION.1",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "III",
+                                        "section":  1
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.III.SECTION.2",
+                        "constitutional_unit":  "CONST.ARTICLE.III.SECTION.2",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "III",
+                                        "section":  2
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.III.SECTION.3",
+                        "constitutional_unit":  "CONST.ARTICLE.III.SECTION.3",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "III",
+                                        "section":  3
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.IV.SECTION.1",
+                        "constitutional_unit":  "CONST.ARTICLE.IV.SECTION.1",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "IV",
+                                        "section":  1
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.IV.SECTION.2",
+                        "constitutional_unit":  "CONST.ARTICLE.IV.SECTION.2",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "IV",
+                                        "section":  2
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.IV.SECTION.3",
+                        "constitutional_unit":  "CONST.ARTICLE.IV.SECTION.3",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "IV",
+                                        "section":  3
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.IV.SECTION.4",
+                        "constitutional_unit":  "CONST.ARTICLE.IV.SECTION.4",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "IV",
+                                        "section":  4
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.V",
+                        "constitutional_unit":  "CONST.ARTICLE.V",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "V"
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.VI",
+                        "constitutional_unit":  "CONST.ARTICLE.VI",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "VI"
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.ARTICLE.VII",
+                        "constitutional_unit":  "CONST.ARTICLE.VII",
+                        "source_id":  "NARA_CONSTITUTION_TRANSCRIPT",
+                        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+                        "locator":  {
+                                        "article":  "VII"
+                                    },
+                        "source_class":  "FOUNDATIONAL_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.01",
+                        "constitutional_unit":  "CONST.AMENDMENT.01",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.02",
+                        "constitutional_unit":  "CONST.AMENDMENT.02",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.03",
+                        "constitutional_unit":  "CONST.AMENDMENT.03",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  3
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.04",
+                        "constitutional_unit":  "CONST.AMENDMENT.04",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  4
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.05",
+                        "constitutional_unit":  "CONST.AMENDMENT.05",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  5
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.06",
+                        "constitutional_unit":  "CONST.AMENDMENT.06",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  6
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.07",
+                        "constitutional_unit":  "CONST.AMENDMENT.07",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  7
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.08",
+                        "constitutional_unit":  "CONST.AMENDMENT.08",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  8
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.09",
+                        "constitutional_unit":  "CONST.AMENDMENT.09",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  9
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.10",
+                        "constitutional_unit":  "CONST.AMENDMENT.10",
+                        "source_id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+                        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+                        "locator":  {
+                                        "amendment":  10
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.11",
+                        "constitutional_unit":  "CONST.AMENDMENT.11",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  11
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.12.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.12.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  12,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.12.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.12.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  12,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.13.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.13.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  13,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.13.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.13.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  13,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.13.SECTION.3",
+                        "constitutional_unit":  "CONST.AMENDMENT.13.SECTION.3",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  13,
+                                        "section":  3
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.13.SECTION.4",
+                        "constitutional_unit":  "CONST.AMENDMENT.13.SECTION.4",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  13,
+                                        "section":  4
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.13.SECTION.5",
+                        "constitutional_unit":  "CONST.AMENDMENT.13.SECTION.5",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  13,
+                                        "section":  5
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.14.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.14.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  14,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.14.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.14.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  14,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.15",
+                        "constitutional_unit":  "CONST.AMENDMENT.15",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  15
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.16.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.16.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  16,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.16.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.16.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  16,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.17.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.17.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  17,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.17.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.17.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  17,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.17.SECTION.3",
+                        "constitutional_unit":  "CONST.AMENDMENT.17.SECTION.3",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  17,
+                                        "section":  3
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.18.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.18.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  18,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.18.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.18.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  18,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.19.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.19.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  19,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.19.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.19.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  19,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.19.SECTION.3",
+                        "constitutional_unit":  "CONST.AMENDMENT.19.SECTION.3",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  19,
+                                        "section":  3
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.19.SECTION.4",
+                        "constitutional_unit":  "CONST.AMENDMENT.19.SECTION.4",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  19,
+                                        "section":  4
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.19.SECTION.5",
+                        "constitutional_unit":  "CONST.AMENDMENT.19.SECTION.5",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  19,
+                                        "section":  5
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.19.SECTION.6",
+                        "constitutional_unit":  "CONST.AMENDMENT.19.SECTION.6",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  19,
+                                        "section":  6
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.20.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.20.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  20,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.20.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.20.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  20,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.20.SECTION.3",
+                        "constitutional_unit":  "CONST.AMENDMENT.20.SECTION.3",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  20,
+                                        "section":  3
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.21.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.21.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  21,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.21.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.21.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  21,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.22.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.22.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  22,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.22.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.22.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  22,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.23.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.23.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  23,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.23.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.23.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  23,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.24.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.24.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  24,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.24.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.24.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  24,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.24.SECTION.3",
+                        "constitutional_unit":  "CONST.AMENDMENT.24.SECTION.3",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  24,
+                                        "section":  3
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.24.SECTION.4",
+                        "constitutional_unit":  "CONST.AMENDMENT.24.SECTION.4",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  24,
+                                        "section":  4
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.25.SECTION.1",
+                        "constitutional_unit":  "CONST.AMENDMENT.25.SECTION.1",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  25,
+                                        "section":  1
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.25.SECTION.2",
+                        "constitutional_unit":  "CONST.AMENDMENT.25.SECTION.2",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  25,
+                                        "section":  2
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    },
+                    {
+                        "anchor_id":  "ANCHOR.CONST.AMENDMENT.26",
+                        "constitutional_unit":  "CONST.AMENDMENT.26",
+                        "source_id":  "NARA_AMENDMENTS_11_27",
+                        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+                        "locator":  {
+                                        "amendment":  26
+                                    },
+                        "source_class":  "AMENDATORY_CONSTITUTIONAL",
+                        "status":  "VALID"
+                    }
+                ]
+}
