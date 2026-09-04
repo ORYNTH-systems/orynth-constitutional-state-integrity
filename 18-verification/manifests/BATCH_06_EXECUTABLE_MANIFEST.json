@@ -1,0 +1,32 @@
+﻿{
+    "schema_version":  "0.6.0",
+    "batch":  "06",
+    "required_artifacts":  [
+                               "CONSTITUTIONAL_SOURCE_ANCHORS.json",
+                               "EXECUTABLE_DEPENDENCY_GRAPH.json",
+                               "JURISDICTION_RULES.json",
+                               "UAA_AUTHORITY_RULES.json",
+                               "CONSEQUENCE_GATE_CONTRACT.json",
+                               "DRP_EXECUTION_CONTRACT.json"
+                           ],
+    "reference_modules":  [
+                              "registry",
+                              "source_resolver",
+                              "jurisdiction_resolver",
+                              "authority_resolver",
+                              "predicate_resolver",
+                              "drp",
+                              "consequence_gate",
+                              "execution_resolver",
+                              "verifier",
+                              "cli"
+                          ],
+    "invariants":  {
+                       "source_mutation_allowed":  false,
+                       "authority_inferred_from_capability":  false,
+                       "jurisdiction_inferred_from_control":  false,
+                       "unresolved_predicate_coercion":  false,
+                       "relevance_authorizes_alteration":  false,
+                       "agent_self_authorization":  false
+                   }
+}

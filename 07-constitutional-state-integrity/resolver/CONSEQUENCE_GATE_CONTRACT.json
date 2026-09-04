@@ -1,0 +1,28 @@
+﻿{
+    "schema_version":  "0.6.0",
+    "gate":  "CSI_UAA_CONSEQUENCE_GATE",
+    "required_dimensions":  [
+                                "source_anchor_status",
+                                "predicate_state",
+                                "jurisdiction_state",
+                                "authority_state",
+                                "evidence_state"
+                            ],
+    "admissible_values":  {
+                              "source_anchor_status":  "VALID",
+                              "predicate_state":  "TRUE",
+                              "jurisdiction_state":  "VALID",
+                              "authority_state":  "VALID",
+                              "evidence_state":  "SUFFICIENT"
+                          },
+    "conflict_values":  [
+                            "CONFLICTED"
+                        ],
+    "rules":  {
+                  "unresolved_blocks_execution":  true,
+                  "conflicted_blocks_execution":  true,
+                  "relevance_does_not_authorize_execution":  true,
+                  "correct_result_does_not_self_authorize":  true,
+                  "agentic_detection_does_not_self_authorize":  true
+              }
+}

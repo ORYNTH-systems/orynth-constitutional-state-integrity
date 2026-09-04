@@ -1,0 +1,79 @@
+﻿{
+    "schema_version":  "0.6.0",
+    "resolver":  "UAA_ELECTION_AUTHORITY",
+    "actor_classes":  {
+                          "STATE_LEGISLATURE":  {
+                                                    "operations":  [
+                                                                       "DEFINE_CONGRESSIONAL_ELECTION_RULE",
+                                                                       "DEFINE_ELECTOR_APPOINTMENT_MANNER"
+                                                                   ]
+                                                },
+                          "STATE_ELECTION_OFFICIAL":  {
+                                                          "operations":  [
+                                                                             "REGISTER",
+                                                                             "UPDATE_REGISTRATION",
+                                                                             "REMOVE_REGISTRATION",
+                                                                             "RESTORE_REGISTRATION",
+                                                                             "ADMIT_BALLOT",
+                                                                             "REJECT_BALLOT",
+                                                                             "TABULATE",
+                                                                             "CANVASS",
+                                                                             "CERTIFY"
+                                                                         ]
+                                                      },
+                          "LOCAL_ELECTION_OFFICIAL":  {
+                                                          "operations":  [
+                                                                             "REGISTER",
+                                                                             "UPDATE_REGISTRATION",
+                                                                             "REMOVE_REGISTRATION",
+                                                                             "RESTORE_REGISTRATION",
+                                                                             "ADMIT_BALLOT",
+                                                                             "REJECT_BALLOT",
+                                                                             "TABULATE"
+                                                                         ]
+                                                      },
+                          "CONGRESS":  {
+                                           "operations":  [
+                                                              "DEFINE_CONGRESSIONAL_ELECTION_RULE",
+                                                              "CONSTITUTIONAL_ENFORCEMENT"
+                                                          ]
+                                       },
+                          "PRESIDENTIAL_ELECTOR":  {
+                                                       "operations":  [
+                                                                          "CAST_ELECTORAL_VOTE"
+                                                                      ]
+                                                   },
+                          "PRESIDENT_OF_SENATE":  {
+                                                      "operations":  [
+                                                                         "OPEN_ELECTOR_CERTIFICATE"
+                                                                     ]
+                                                  },
+                          "CERTIFICATION_OFFICIAL":  {
+                                                         "operations":  [
+                                                                            "CERTIFY"
+                                                                        ]
+                                                     },
+                          "SOFTWARE_SYSTEM":  {
+                                                  "operations":  [
+
+                                                                 ]
+                                              },
+                          "AUTONOMOUS_AGENT":  {
+                                                   "operations":  [
+
+                                                                  ]
+                                               }
+                      },
+    "delegation":  {
+                       "supported":  true,
+                       "cannot_expand_principal_authority":  true,
+                       "cannot_expand_jurisdiction":  true,
+                       "provenance_required":  true
+                   },
+    "hard_rules":  {
+                       "capability_is_not_authority":  true,
+                       "custody_is_not_authority":  true,
+                       "database_control_is_not_authority":  true,
+                       "confidence_score_is_not_authority":  true
+                   }
+}

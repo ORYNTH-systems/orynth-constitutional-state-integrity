@@ -1,0 +1,70 @@
+﻿{
+    "schema_version":  "0.6.0",
+    "vectors":  [
+                    {
+                        "id":  "EXEC-001",
+                        "description":  "Authorized local registration removal",
+                        "input":  {
+                                      "source_anchor":  "ANCHOR.CONST.ART1.S2",
+                                      "operation":  "REMOVE_REGISTRATION",
+                                      "jurisdiction_level":  "LOCAL",
+                                      "actor_class":  "LOCAL_ELECTION_OFFICIAL",
+                                      "predicate_state":  "TRUE",
+                                      "evidence_state":  "SUFFICIENT"
+                                  },
+                        "expected":  "ADMISSIBLE"
+                    },
+                    {
+                        "id":  "EXEC-002",
+                        "description":  "Autonomous agent cannot self-authorize voter removal",
+                        "input":  {
+                                      "source_anchor":  "ANCHOR.CONST.ART1.S2",
+                                      "operation":  "REMOVE_REGISTRATION",
+                                      "jurisdiction_level":  "LOCAL",
+                                      "actor_class":  "AUTONOMOUS_AGENT",
+                                      "predicate_state":  "TRUE",
+                                      "evidence_state":  "SUFFICIENT"
+                                  },
+                        "expected":  "BLOCKED"
+                    },
+                    {
+                        "id":  "EXEC-003",
+                        "description":  "Unresolved predicate blocks adverse transition",
+                        "input":  {
+                                      "source_anchor":  "ANCHOR.CONST.ART1.S2",
+                                      "operation":  "REMOVE_REGISTRATION",
+                                      "jurisdiction_level":  "LOCAL",
+                                      "actor_class":  "LOCAL_ELECTION_OFFICIAL",
+                                      "predicate_state":  "UNRESOLVED",
+                                      "evidence_state":  "SUFFICIENT"
+                                  },
+                        "expected":  "BLOCKED"
+                    },
+                    {
+                        "id":  "EXEC-004",
+                        "description":  "Evidence conflict blocks adverse transition",
+                        "input":  {
+                                      "source_anchor":  "ANCHOR.CONST.ART1.S2",
+                                      "operation":  "REMOVE_REGISTRATION",
+                                      "jurisdiction_level":  "LOCAL",
+                                      "actor_class":  "LOCAL_ELECTION_OFFICIAL",
+                                      "predicate_state":  "TRUE",
+                                      "evidence_state":  "CONFLICTED"
+                                  },
+                        "expected":  "CONFLICTED"
+                    },
+                    {
+                        "id":  "EXEC-005",
+                        "description":  "Wrong jurisdiction blocks election transition",
+                        "input":  {
+                                      "source_anchor":  "ANCHOR.CONST.ART1.S2",
+                                      "operation":  "REMOVE_REGISTRATION",
+                                      "jurisdiction_level":  "ELECTORAL",
+                                      "actor_class":  "LOCAL_ELECTION_OFFICIAL",
+                                      "predicate_state":  "TRUE",
+                                      "evidence_state":  "SUFFICIENT"
+                                  },
+                        "expected":  "BLOCKED"
+                    }
+                ]
+}

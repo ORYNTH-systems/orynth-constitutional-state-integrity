@@ -1,0 +1,96 @@
+﻿{
+    "schema_version":  "0.6.0",
+    "resolver":  "CSI_JURISDICTION",
+    "operations":  {
+                       "DEFINE_CONGRESSIONAL_ELECTION_RULE":  {
+                                                                  "allowed_levels":  [
+                                                                                         "STATE",
+                                                                                         "FEDERAL"
+                                                                                     ],
+                                                                  "source_anchors":  [
+                                                                                         "ANCHOR.CONST.ART1.S4"
+                                                                                     ]
+                                                              },
+                       "REGISTER":  {
+                                        "allowed_levels":  [
+                                                               "STATE",
+                                                               "LOCAL"
+                                                           ],
+                                        "source_anchors":  [
+                                                               "ANCHOR.CONST.ART1.S2",
+                                                               "ANCHOR.CONST.ART1.S4"
+                                                           ]
+                                    },
+                       "REMOVE_REGISTRATION":  {
+                                                   "allowed_levels":  [
+                                                                          "STATE",
+                                                                          "LOCAL"
+                                                                      ],
+                                                   "source_anchors":  [
+                                                                          "ANCHOR.CONST.ART1.S2",
+                                                                          "ANCHOR.CONST.ART1.S4"
+                                                                      ]
+                                               },
+                       "ADMIT_BALLOT":  {
+                                            "allowed_levels":  [
+                                                                   "STATE",
+                                                                   "LOCAL"
+                                                               ],
+                                            "source_anchors":  [
+                                                                   "ANCHOR.CONST.ART1.S2",
+                                                                   "ANCHOR.CONST.ART1.S4"
+                                                               ]
+                                        },
+                       "REJECT_BALLOT":  {
+                                             "allowed_levels":  [
+                                                                    "STATE",
+                                                                    "LOCAL"
+                                                                ],
+                                             "source_anchors":  [
+                                                                    "ANCHOR.CONST.ART1.S2",
+                                                                    "ANCHOR.CONST.ART1.S4"
+                                                                ]
+                                         },
+                       "TABULATE":  {
+                                        "allowed_levels":  [
+                                                               "STATE",
+                                                               "LOCAL"
+                                                           ],
+                                        "source_anchors":  [
+                                                               "ANCHOR.CONST.ART1.S4"
+                                                           ]
+                                    },
+                       "CERTIFY":  {
+                                       "allowed_levels":  [
+                                                              "STATE",
+                                                              "LOCAL",
+                                                              "FEDERAL"
+                                                          ],
+                                       "source_anchors":  [
+                                                              "ANCHOR.CONST.ART1.S4"
+                                                          ]
+                                   },
+                       "APPOINT_PRESIDENTIAL_ELECTOR":  {
+                                                            "allowed_levels":  [
+                                                                                   "STATE"
+                                                                               ],
+                                                            "source_anchors":  [
+                                                                                   "ANCHOR.CONST.ART2.S1"
+                                                                               ]
+                                                        },
+                       "CAST_ELECTORAL_VOTE":  {
+                                                   "allowed_levels":  [
+                                                                          "ELECTORAL"
+                                                                      ],
+                                                   "source_anchors":  [
+                                                                          "ANCHOR.CONST.A12"
+                                                                      ]
+                                               }
+                   },
+    "hard_rules":  {
+                       "operation_specific":  true,
+                       "database_location_creates_jurisdiction":  false,
+                       "physical_control_creates_jurisdiction":  false,
+                       "agentic_capability_expands_jurisdiction":  false
+                   }
+}
