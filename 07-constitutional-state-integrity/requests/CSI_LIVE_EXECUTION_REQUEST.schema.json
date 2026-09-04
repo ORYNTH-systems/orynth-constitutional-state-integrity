@@ -1,0 +1,30 @@
+﻿{
+  "schema_version": "1.1.0",
+  "object": "CSI_LIVE_EXECUTION_REQUEST",
+  "required": [
+    "request_id",
+    "domain",
+    "operation",
+    "source_anchor",
+    "subject",
+    "jurisdiction_level",
+    "actor_class",
+    "evidence",
+    "execution_time"
+  ],
+  "optional": [
+    "delegated",
+    "principal_operations",
+    "temporal_authority",
+    "competing_authorities",
+    "historical_state",
+    "predicate_comparison",
+    "finality_request"
+  ],
+  "rules": {
+    "request_self_authorization": false,
+    "request_source_override": false,
+    "request_temporal_override": false,
+    "request_finality_override": false
+  }
+}

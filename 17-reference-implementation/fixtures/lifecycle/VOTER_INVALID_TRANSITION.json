@@ -1,0 +1,7 @@
+﻿{
+  "schema_version": "1.1.0",
+  "scenario": "VOTER_SKIP_ELIGIBILITY_ATTACK",
+  "initial_state": "IDENTITY_RESOLVED",
+  "target_state": "REGISTERED",
+  "expected": "BLOCKED"
+}

@@ -1,0 +1,23 @@
+﻿{
+  "schema_version": "1.1.0",
+  "scenario": "VOTER_COMPLETE_SUCCESS_PATH",
+  "initial_state": "PERSON",
+  "transitions": [
+    "IDENTITY_PENDING",
+    "IDENTITY_RESOLVED",
+    "JURISDICTION_PENDING",
+    "JURISDICTION_RESOLVED",
+    "ELIGIBILITY_PENDING",
+    "ELIGIBLE",
+    "REGISTERED",
+    "BALLOT_PRESENTED",
+    "BALLOT_ADMISSIBLE",
+    "BALLOT_CAST",
+    "TABULATION_ADMISSIBLE",
+    "TABULATED",
+    "CANVASSED",
+    "CERTIFIED",
+    "FINAL"
+  ],
+  "expected_final_state": "FINAL"
+}
