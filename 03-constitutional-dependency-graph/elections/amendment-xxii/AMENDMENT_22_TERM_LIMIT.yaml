@@ -1,0 +1,23 @@
+﻿schema_version: 0.5.0
+object_id: CONST.A22.PRESIDENTIAL_TERM_LIMIT
+
+source:
+  constitutional_unit: CONST.AMENDMENT.22
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - QUALIFICATION
+  - LIMITATION
+  - TEMPORAL_BOUNDARY
+
+rule_surface:
+  elected_to_presidency_maximum:
+    count: 2
+
+additional_service_relation:
+  more_than_two_years_of_another_presidential_term_affects_future_election_limit: true
+
+architectural_rules:
+  prior_service_is_qualification_relevant: true
+  presidential_term_limit_is_not_voter_eligibility_rule: true
+  candidate_qualification_and_elector_qualification_remain_distinct: true

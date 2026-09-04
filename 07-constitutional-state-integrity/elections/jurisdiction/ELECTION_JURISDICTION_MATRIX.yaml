@@ -1,0 +1,44 @@
+﻿schema_version: 0.5.0
+matrix: ELECTION_JURISDICTION
+
+dimensions:
+
+  voter_qualification:
+    constitutional_source:
+      - CONST.ARTICLE.I.SECTION.2
+      - CONST.AMENDMENT.17
+      - CONSTITUTIONAL_AMENDMENT_CONSTRAINTS
+
+    state_rule_dependency: true
+    federal_protection_constraints: true
+
+  congressional_election_administration:
+    state_surface:
+      source: CONST.ARTICLE.I.SECTION.4
+
+    congressional_surface:
+      source: CONST.ARTICLE.I.SECTION.4
+
+  presidential_elector_appointment:
+    state_surface:
+      source: CONST.ARTICLE.II.SECTION.1
+
+  elector_timing:
+    congressional_surface:
+      source: CONST.ARTICLE.II.SECTION.1
+
+  voting_rights_enforcement:
+    congressional_surface:
+      sources:
+        - CONST.AMENDMENT.14.SECTION.5
+        - CONST.AMENDMENT.15
+        - CONST.AMENDMENT.19
+        - CONST.AMENDMENT.24
+        - CONST.AMENDMENT.26
+
+rules:
+  jurisdiction_must_be_operation_specific: true
+  federal_authority_cannot_be_inferred_from_database_ownership: true
+  state_authority_cannot_be_inferred_from_physical_control: false
+  authority_scope_must_resolve_before_consequence: true
+

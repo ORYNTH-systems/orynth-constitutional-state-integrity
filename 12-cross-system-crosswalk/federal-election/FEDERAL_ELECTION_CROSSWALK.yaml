@@ -1,0 +1,67 @@
+﻿schema_version: 0.5.0
+crosswalk: FEDERAL_ELECTION_CONSTITUTION_CSI_UAA_VIP
+
+operations:
+
+  determine_voter_qualification:
+    constitutional_source:
+      - ARTICLE_I_SECTION_2
+      - AMENDMENT_XVII
+      - VOTING_AMENDMENT_CONSTRAINTS
+    CSI:
+      - predicate_resolution
+      - jurisdiction_resolution
+    UAA:
+      - qualification_rule_authority
+    VIP:
+      - eligibility_state
+
+  administer_congressional_election:
+    constitutional_source:
+      - ARTICLE_I_SECTION_4
+    CSI:
+      - authority_lineage
+      - jurisdiction
+    UAA:
+      - operation_authority
+    VIP:
+      - registration
+      - ballot
+      - tabulation
+      - certification
+
+  appoint_presidential_electors:
+    constitutional_source:
+      - ARTICLE_II_SECTION_1
+      - AMENDMENT_XXIII
+    CSI:
+      - actor_resolution
+      - jurisdiction
+    UAA:
+      - appointment_authority
+    VIP:
+      - downstream_election_state_reference
+
+  electoral_vote_process:
+    constitutional_source:
+      - AMENDMENT_XII
+    CSI:
+      - process_state
+    UAA:
+      - role_authority
+    VIP:
+      - electoral_state_reference
+
+  candidate_qualification:
+    constitutional_source:
+      - ARTICLE_II_SECTION_1
+      - AMENDMENT_XXII
+    CSI:
+      - qualification_predicates
+    UAA:
+      - determination_authority
+    VIP:
+      - not_voter_eligibility
+
+hard_boundary:
+  domain_specific_role_cannot_be_generalized_without_authority: true

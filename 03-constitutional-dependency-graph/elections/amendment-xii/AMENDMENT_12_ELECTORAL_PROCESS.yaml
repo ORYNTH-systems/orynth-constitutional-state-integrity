@@ -1,0 +1,47 @@
+﻿schema_version: 0.5.0
+object_id: CONST.A12.ELECTORAL_PROCESS
+
+source:
+  constitutional_unit: CONST.AMENDMENT.12
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - PROCESS
+  - AUTHORITY
+  - QUALIFICATION
+  - RELATION
+  - LIMITATION
+
+electoral_process:
+  electors_vote_for:
+    - PRESIDENT
+    - VICE_PRESIDENT
+
+certificate_process:
+  list_required: true
+  certification_required: true
+  transmission_required: true
+
+counting_surface:
+  president_of_senate:
+    certificate_opening_role: true
+
+  senate_and_house:
+    presence_required: true
+
+contingent_presidential_election:
+  actor: HOUSE_OF_REPRESENTATIVES
+  vote_unit: STATE
+  candidate_pool_limit: 3
+
+contingent_vice_presidential_election:
+  actor: SENATE
+  candidate_pool_limit: 2
+
+qualification_dependency:
+  vice_president_must_be_constitutionally_eligible_for_presidency: true
+
+rules:
+  certificate_possession_is_not_counting_authority: true
+  counting_role_is_not_candidate_qualification_authority: true
+  contingent_election_authority_is_explicitly_typed: true

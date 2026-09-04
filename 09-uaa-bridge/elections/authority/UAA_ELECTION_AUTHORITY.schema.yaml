@@ -1,0 +1,44 @@
+﻿schema_version: 0.5.0
+object: UAA_ELECTION_AUTHORITY
+
+required:
+  - actor_id
+  - actor_class
+  - authority_source
+  - jurisdiction
+  - operation
+  - subject
+  - temporal_scope
+  - delegation_state
+  - evidence_of_authority
+
+operations:
+  - DEFINE_RULE
+  - REGISTER
+  - UPDATE_REGISTRATION
+  - REMOVE_REGISTRATION
+  - RESTORE_REGISTRATION
+  - ADMIT_BALLOT
+  - REJECT_BALLOT
+  - TABULATE
+  - CANVASS
+  - CERTIFY
+  - OPEN_ELECTOR_CERTIFICATE
+  - COUNT_ELECTORAL_VOTE
+  - CAST_ELECTORAL_VOTE
+  - RESOLVE_CONTINGENT_ELECTION
+  - ALTER_FINAL_STATE
+
+authority_states:
+  - VALID
+  - INVALID
+  - EXPIRED
+  - OUT_OF_SCOPE
+  - UNRESOLVED
+  - CONFLICTED
+
+rules:
+  authority_must_bind_specific_operation: true
+  general_office_does_not_imply_all_election_authority: true
+  delegation_must_remain_within_source_scope: true
+  software_may_not_self_bind_authority: true

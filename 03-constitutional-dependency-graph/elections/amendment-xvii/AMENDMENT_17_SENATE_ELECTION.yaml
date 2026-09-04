@@ -1,0 +1,36 @@
+﻿schema_version: 0.5.0
+object_id: CONST.A17.SENATE_ELECTION
+
+source:
+  constitutional_unit: CONST.AMENDMENT.17
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - PROCESS
+  - QUALIFICATION
+  - RIGHT
+  - AUTHORITY
+  - RELATION
+
+senate_composition:
+  senators_per_state: 2
+  term_years: 6
+
+election_method:
+  elected_by_people: true
+
+elector_qualification_relation:
+  relation:
+    state_most_numerous_legislative_branch: true
+
+vacancy_surface:
+  state_executive:
+    writ_of_election_authority: true
+
+  state_legislature:
+    may_authorize_temporary_appointment: true
+
+architectural_rules:
+  senate_voter_qualification_relation_tracks_state_elector_qualification: true
+  vacancy_authority_is_distinct_from_regular_election_authority: true
+  temporary_appointment_is_not_election: true

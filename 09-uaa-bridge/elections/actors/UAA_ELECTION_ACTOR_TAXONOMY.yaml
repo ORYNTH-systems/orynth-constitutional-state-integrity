@@ -1,0 +1,68 @@
+﻿schema_version: 0.5.0
+taxonomy: UAA_ELECTION_ACTORS
+
+actor_classes:
+
+  VOTER:
+    constitutional_role: PARTICIPANT
+    default_execution_authority_over_system_state: false
+
+  STATE_LEGISLATURE:
+    constitutional_roles:
+      - ELECTION_RULE_AUTHORITY
+      - ELECTOR_APPOINTMENT_MANNER_AUTHORITY
+
+  STATE_EXECUTIVE:
+    constitutional_roles:
+      - SENATE_VACANCY_WRIT_AUTHORITY
+      - LIMITED_APPOINTMENT_ROLE_WHERE_AUTHORIZED
+
+  LOCAL_ELECTION_OFFICIAL:
+    authority_class: DERIVED_ADMINISTRATIVE
+    requires:
+      - state_or_local_authority_lineage
+
+  STATE_ELECTION_OFFICIAL:
+    authority_class: DERIVED_ADMINISTRATIVE
+    requires:
+      - state_authority_lineage
+
+  CONGRESS:
+    constitutional_roles:
+      - FEDERAL_ELECTION_RULE_AUTHORITY
+      - CONSTITUTIONAL_ENFORCEMENT_AUTHORITY
+      - SPECIFIED_ELECTOR_TIMING_AUTHORITY
+
+  HOUSE_OF_REPRESENTATIVES:
+    constitutional_roles:
+      - CONTINGENT_PRESIDENTIAL_ELECTION
+
+  SENATE:
+    constitutional_roles:
+      - CONTINGENT_VICE_PRESIDENTIAL_ELECTION
+
+  PRESIDENT_OF_SENATE:
+    constitutional_roles:
+      - CERTIFICATE_OPENING_ROLE
+
+  PRESIDENTIAL_ELECTOR:
+    constitutional_roles:
+      - ELECTORAL_VOTE_ACTOR
+
+  CERTIFICATION_OFFICIAL:
+    authority_class: DERIVED_OR_CONSTITUTIONALLY_SPECIFIED
+    requires:
+      - explicit_source_lineage
+
+  SOFTWARE_SYSTEM:
+    constitutional_role: NONE_BY_CAPABILITY
+
+  AUTONOMOUS_AGENT:
+    constitutional_role: NONE_BY_CAPABILITY
+
+rules:
+  role_must_be_operation_specific: true
+  one_actor_may_hold_multiple_roles_only_with_independent_authority_basis: true
+  custody_does_not_create_authority: true
+  capability_does_not_create_authority: true
+  agency_does_not_create_principal_status: true

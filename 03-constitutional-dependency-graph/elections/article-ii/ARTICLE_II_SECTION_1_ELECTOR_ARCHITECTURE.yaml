@@ -1,0 +1,46 @@
+﻿schema_version: 0.5.0
+object_id: CONST.ART2.S1.PRESIDENTIAL_ELECTOR_ARCHITECTURE
+
+source:
+  constitutional_unit: CONST.ARTICLE.II.SECTION.1
+  source_class: FOUNDATIONAL_CONSTITUTIONAL
+
+object_types:
+  - AUTHORITY
+  - PROCESS
+  - QUALIFICATION
+  - POWER
+  - LIMITATION
+  - RELATION
+
+state_appointment:
+  actor: STATE
+  object: PRESIDENTIAL_ELECTORS
+
+appointment_manner:
+  source: STATE_LEGISLATURE_DIRECTED
+
+elector_count:
+  relation:
+    senators: INCLUDED
+    representatives: INCLUDED
+
+elector_disqualifications:
+  - SENATOR
+  - REPRESENTATIVE
+  - PERSON_HOLDING_OFFICE_OF_TRUST_OR_PROFIT_UNDER_UNITED_STATES
+
+congressional_time_authority:
+  choose_electors_time: true
+  elector_vote_day: true
+
+presidential_qualification_surface:
+  natural_born_citizen_or_adoption_exception: true
+  minimum_age: 35
+  residence_years: 14
+
+architectural_rules:
+  elector_appointment_authority_is_not_voter_qualification_authority: true
+  elector_status_is_not_popular_voter_status: true
+  presidential_candidate_qualification_is_distinct_from_voter_qualification: true
+  software_execution_does_not_create_elector_authority: true

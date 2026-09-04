@@ -1,0 +1,25 @@
+﻿schema_version: 0.5.0
+contract: VIP_STATE_TRANSITION
+
+required_for_every_consequential_transition:
+  - source_rule
+  - current_state
+  - target_state
+  - subject_identity
+  - jurisdiction
+  - predicate_resolution
+  - evidence
+  - UAA_authority
+  - provenance
+
+transition_result:
+  - ADMISSIBLE
+  - BLOCKED
+  - CONFLICTED
+  - UNRESOLVED
+
+hard_rules:
+  no_state_transition_by_database_assertion_alone: true
+  no_adverse_transition_on_unresolved_material_predicate: true
+  no_transition_without_operation_specific_authority: true
+  no_agentic_self_authorization: true

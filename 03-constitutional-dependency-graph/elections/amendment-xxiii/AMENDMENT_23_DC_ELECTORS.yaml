@@ -1,0 +1,28 @@
+﻿schema_version: 0.5.0
+object_id: CONST.A23.DC_ELECTOR_ARCHITECTURE
+
+source:
+  constitutional_unit: CONST.AMENDMENT.23
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - AUTHORITY
+  - PROCESS
+  - RELATION
+  - LIMITATION
+
+district:
+  district_constituting_seat_of_government: true
+
+elector_authority:
+  may_appoint_presidential_and_vice_presidential_electors: true
+
+elector_count_limit:
+  cannot_exceed_least_populous_state: true
+
+relation:
+  treated_as_state_for_electoral_process_defined_by_amendment: true
+
+rules:
+  dc_elector_authority_is_specific_constitutional_source: true
+  this_relation_does_not_convert_district_into_state_for_all_constitutional_purposes: true

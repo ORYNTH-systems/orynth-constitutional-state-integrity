@@ -1,0 +1,35 @@
+﻿schema_version: 0.5.0
+object_id: CONST.A25.PRESIDENTIAL_SUCCESSION
+
+source:
+  constitutional_unit: CONST.AMENDMENT.25
+  source_class: AMENDATORY_CONSTITUTIONAL
+
+object_types:
+  - PROCESS
+  - AUTHORITY
+  - QUALIFICATION
+  - RELATION
+
+surfaces:
+
+  presidential_vacancy:
+    vice_president_becomes_president: true
+
+  vice_presidential_vacancy:
+    president_nominates: true
+    house_confirmation_required: true
+    senate_confirmation_required: true
+
+  presidential_inability_self_declaration:
+    permitted: true
+
+  presidential_inability_external_declaration:
+    vice_president_role: true
+    principal_officers_role: true
+    congressional_resolution_process: true
+
+rules:
+  succession_authority_is_event_bound: true
+  inability_process_is_not_general_removal_authority: true
+  agentic_system_cannot_self-trigger_constitutional_succession: true

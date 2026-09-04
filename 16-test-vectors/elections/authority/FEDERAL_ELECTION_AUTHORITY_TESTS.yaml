@@ -1,0 +1,52 @@
+﻿schema_version: 0.5.0
+test_suite: FEDERAL_ELECTION_AUTHORITY
+
+vectors:
+
+  FEA_001:
+    actor: AUTONOMOUS_AGENT
+    operation: REMOVE_REGISTRATION
+    source_authority: NONE
+    expected: BLOCK
+
+  FEA_002:
+    actor: LOCAL_ELECTION_OFFICIAL
+    operation: REMOVE_REGISTRATION
+    valid_delegation: TRUE
+    valid_predicate: TRUE
+    sufficient_evidence: TRUE
+    expected: ADMISSIBLE
+
+  FEA_003:
+    actor: PRESIDENTIAL_ELECTOR
+    operation: CERTIFY_POPULAR_VOTER_REGISTRATION
+    expected: BLOCK
+
+  FEA_004:
+    actor: PRESIDENT_OF_SENATE
+    operation: OPEN_ELECTOR_CERTIFICATE
+    expected: ROLE_RECOGNIZED
+
+  FEA_005:
+    actor: PRESIDENT_OF_SENATE
+    operation: CREATE_VOTER_QUALIFICATION
+    expected: BLOCK
+
+  FEA_006:
+    actor: SOFTWARE_SYSTEM
+    operation: TABULATE
+    valid_delegation: FALSE
+    expected: BLOCK
+
+  FEA_007:
+    actor: CERTIFICATION_OFFICIAL
+    operation: CERTIFY
+    explicit_authority: TRUE
+    valid_input_state: TRUE
+    expected: ADMISSIBLE
+
+  FEA_008:
+    actor: CERTIFICATION_OFFICIAL
+    operation: CERTIFY
+    explicit_authority: FALSE
+    expected: BLOCK

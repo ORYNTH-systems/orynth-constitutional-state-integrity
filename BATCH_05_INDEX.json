@@ -1,0 +1,27 @@
+﻿{
+    "schema_version":  "0.5.0",
+    "batch":  "05",
+    "constitutional_surfaces":  [
+                                    "ARTICLE_I",
+                                    "ARTICLE_II",
+                                    "AMENDMENT_XII",
+                                    "AMENDMENT_XIV",
+                                    "AMENDMENT_XV",
+                                    "AMENDMENT_XVII",
+                                    "AMENDMENT_XIX",
+                                    "AMENDMENT_XX",
+                                    "AMENDMENT_XXII",
+                                    "AMENDMENT_XXIII",
+                                    "AMENDMENT_XXIV",
+                                    "AMENDMENT_XXV",
+                                    "AMENDMENT_XXVI"
+                                ],
+    "actor_taxonomy":  true,
+    "federal_state_jurisdiction_matrix":  true,
+    "vip_transition_contract":  true,
+    "vip_transition_proofs":  true,
+    "constitutional_source_mutable":  false,
+    "capability_creates_authority":  false,
+    "delegation_expands_authority":  false,
+    "relevance_creates_authority":  false
+}
