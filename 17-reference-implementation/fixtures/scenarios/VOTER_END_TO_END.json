@@ -1,0 +1,117 @@
+﻿{
+    "schema_version":  "0.9.0",
+    "scenarios":  [
+                      {
+                          "id":  "VOTER-E2E-001",
+                          "description":  "Valid registration admission",
+                          "request":  {
+                                          "request_id":  "REQ.VOTER.001",
+                                          "domain":  "VOTER_INTEGRITY",
+                                          "operation":  "REGISTER",
+                                          "source_anchor":  "ANCHOR.CONST.ART1.S2",
+                                          "subject":  "SUBJECT-001",
+                                          "jurisdiction_level":  "LOCAL",
+                                          "actor_class":  "LOCAL_ELECTION_OFFICIAL",
+                                          "predicate_evidence_states":  [
+                                                                            "TRUE"
+                                                                        ],
+                                          "evidence":  [
+                                                           {
+                                                               "evidence_id":  "EV1",
+                                                               "subject_id":  "SUBJECT-001",
+                                                               "source_type":  "OFFICIAL_RECORD",
+                                                               "source_id":  "STATE_RECORD",
+                                                               "claim":  "eligibility",
+                                                               "value":  true,
+                                                               "observation_time":  "2026-09-04T00:00:00Z",
+                                                               "provenance":  {
+                                                                                  "id":  "P1"
+                                                                              },
+                                                               "integrity_state":  "VERIFIED"
+                                                           }
+                                                       ],
+                                          "relevance_node":  "P.ELIGIBILITY"
+                                      },
+                          "expected":  "ADMISSIBLE"
+                      },
+                      {
+                          "id":  "VOTER-E2E-002",
+                          "description":  "Agent cannot self-authorize removal",
+                          "request":  {
+                                          "request_id":  "REQ.VOTER.002",
+                                          "domain":  "VOTER_INTEGRITY",
+                                          "operation":  "REMOVE_REGISTRATION",
+                                          "source_anchor":  "ANCHOR.CONST.ART1.S2",
+                                          "subject":  "SUBJECT-002",
+                                          "jurisdiction_level":  "LOCAL",
+                                          "actor_class":  "AUTONOMOUS_AGENT",
+                                          "predicate_evidence_states":  [
+                                                                            "TRUE"
+                                                                        ],
+                                          "evidence":  [
+                                                           {
+                                                               "evidence_id":  "EV2",
+                                                               "subject_id":  "SUBJECT-002",
+                                                               "source_type":  "SYSTEM_RECORD",
+                                                               "source_id":  "ROLL_DATABASE",
+                                                               "claim":  "eligibility",
+                                                               "value":  false,
+                                                               "observation_time":  "2026-09-04T00:00:00Z",
+                                                               "provenance":  {
+                                                                                  "id":  "P2"
+                                                                              },
+                                                               "integrity_state":  "VERIFIED"
+                                                           }
+                                                       ],
+                                          "relevance_node":  "P.ELIGIBILITY"
+                                      },
+                          "expected":  "BLOCKED"
+                      },
+                      {
+                          "id":  "VOTER-E2E-003",
+                          "description":  "Conflicting eligibility evidence blocks removal",
+                          "request":  {
+                                          "request_id":  "REQ.VOTER.003",
+                                          "domain":  "VOTER_INTEGRITY",
+                                          "operation":  "REMOVE_REGISTRATION",
+                                          "source_anchor":  "ANCHOR.CONST.ART1.S2",
+                                          "subject":  "SUBJECT-003",
+                                          "jurisdiction_level":  "LOCAL",
+                                          "actor_class":  "LOCAL_ELECTION_OFFICIAL",
+                                          "predicate_evidence_states":  [
+                                                                            "TRUE"
+                                                                        ],
+                                          "evidence":  [
+                                                           {
+                                                               "evidence_id":  "EV3A",
+                                                               "subject_id":  "SUBJECT-003",
+                                                               "source_type":  "OFFICIAL_RECORD",
+                                                               "source_id":  "SOURCE-A",
+                                                               "claim":  "eligibility",
+                                                               "value":  true,
+                                                               "observation_time":  "2026-09-04T00:00:00Z",
+                                                               "provenance":  {
+                                                                                  "id":  "P3A"
+                                                                              },
+                                                               "integrity_state":  "VERIFIED"
+                                                           },
+                                                           {
+                                                               "evidence_id":  "EV3B",
+                                                               "subject_id":  "SUBJECT-003",
+                                                               "source_type":  "OFFICIAL_RECORD",
+                                                               "source_id":  "SOURCE-B",
+                                                               "claim":  "eligibility",
+                                                               "value":  false,
+                                                               "observation_time":  "2026-09-04T00:00:00Z",
+                                                               "provenance":  {
+                                                                                  "id":  "P3B"
+                                                                              },
+                                                               "integrity_state":  "VERIFIED"
+                                                           }
+                                                       ],
+                                          "relevance_node":  "P.ELIGIBILITY"
+                                      },
+                          "expected":  "BLOCKED"
+                      }
+                  ]
+}

@@ -1,0 +1,30 @@
+﻿{
+  "schema_version": "0.9.0",
+  "object": "CSI_EXECUTION_RESPONSE",
+  "required": [
+    "request_id",
+    "source_resolution",
+    "predicate_resolution",
+    "evidence_resolution",
+    "jurisdiction_resolution",
+    "authority_resolution",
+    "contradiction_resolution",
+    "dependency_debt",
+    "consequence_resolution",
+    "deterministic_relevance",
+    "provenance",
+    "proof_record",
+    "execution_admissible"
+  ],
+  "outcomes": [
+    "ADMISSIBLE",
+    "BLOCKED",
+    "CONFLICTED",
+    "UNRESOLVED"
+  ],
+  "rules": {
+    "response_creates_authority": false,
+    "blocked_response_remains_auditable": true,
+    "response_must_preserve_source_identity": true
+  }
+}

@@ -1,0 +1,110 @@
+﻿{
+    "schema_version":  "0.9.0",
+    "scenarios":  [
+                      {
+                          "id":  "CIT-E2E-001",
+                          "description":  "Identical predicate comparison",
+                          "request":  {
+                                          "request_id":  "REQ.CIT.001",
+                                          "domain":  "CITIZENSHIP",
+                                          "operation":  "REGISTER",
+                                          "source_anchor":  "ANCHOR.CONST.A14.S1",
+                                          "subject":  "SUBJECT-C1",
+                                          "jurisdiction_level":  "LOCAL",
+                                          "actor_class":  "LOCAL_ELECTION_OFFICIAL",
+                                          "predicate_evidence_states":  [
+                                                                            "TRUE"
+                                                                        ],
+                                          "evidence":  [
+                                                           {
+                                                               "evidence_id":  "CE1",
+                                                               "subject_id":  "SUBJECT-C1",
+                                                               "source_type":  "OFFICIAL_RECORD",
+                                                               "source_id":  "CITIZENSHIP_RECORD",
+                                                               "claim":  "citizenship",
+                                                               "value":  true,
+                                                               "observation_time":  "2026-09-04T00:00:00Z",
+                                                               "provenance":  {
+                                                                                  "id":  "CP1"
+                                                                              },
+                                                               "integrity_state":  "VERIFIED"
+                                                           }
+                                                       ],
+                                          "predicate_comparison":  {
+                                                                       "left":  {
+                                                                                    "subject":  "PERSON_CLASS",
+                                                                                    "condition_set":  [
+                                                                                                          "BORN_OR_NATURALIZED",
+                                                                                                          "US_RELATION",
+                                                                                                          "JURISDICTION_RELATION"
+                                                                                                      ],
+                                                                                    "jurisdiction":  "US",
+                                                                                    "temporal_scope":  "CURRENT",
+                                                                                    "consequence":  "CITIZENSHIP"
+                                                                                },
+                                                                       "right":  {
+                                                                                     "subject":  "PERSON_CLASS",
+                                                                                     "condition_set":  [
+                                                                                                           "BORN_OR_NATURALIZED",
+                                                                                                           "US_RELATION",
+                                                                                                           "JURISDICTION_RELATION"
+                                                                                                       ],
+                                                                                     "jurisdiction":  "US",
+                                                                                     "temporal_scope":  "CURRENT",
+                                                                                     "consequence":  "CITIZENSHIP"
+                                                                                 }
+                                                                   },
+                                          "relevance_node":  "CONST.A14.S1"
+                                      },
+                          "expected_equivalence":  "IDENTICAL"
+                      },
+                      {
+                          "id":  "CIT-E2E-002",
+                          "description":  "Unresolved predicate relationship creates dependency debt",
+                          "request":  {
+                                          "request_id":  "REQ.CIT.002",
+                                          "domain":  "CITIZENSHIP",
+                                          "operation":  "REGISTER",
+                                          "source_anchor":  "ANCHOR.CONST.A14.S1",
+                                          "subject":  "SUBJECT-C2",
+                                          "jurisdiction_level":  "LOCAL",
+                                          "actor_class":  "LOCAL_ELECTION_OFFICIAL",
+                                          "predicate_evidence_states":  [
+                                                                            "TRUE"
+                                                                        ],
+                                          "evidence":  [
+                                                           {
+                                                               "evidence_id":  "CE2",
+                                                               "subject_id":  "SUBJECT-C2",
+                                                               "source_type":  "DERIVED_RECORD",
+                                                               "source_id":  "DERIVED_INTERPRETATION",
+                                                               "claim":  "citizenship",
+                                                               "value":  true,
+                                                               "observation_time":  "2026-09-04T00:00:00Z",
+                                                               "provenance":  {
+                                                                                  "id":  "CP2"
+                                                                              },
+                                                               "integrity_state":  "VERIFIED"
+                                                           }
+                                                       ],
+                                          "predicate_comparison":  {
+                                                                       "left":  {
+                                                                                    "subject":  "PERSON_CLASS",
+                                                                                    "condition_set":  [
+                                                                                                          "A"
+                                                                                                      ],
+                                                                                    "jurisdiction":  "US",
+                                                                                    "temporal_scope":  "CURRENT",
+                                                                                    "consequence":  "CITIZENSHIP"
+                                                                                },
+                                                                       "right":  {
+                                                                                     "subject":  "PERSON_CLASS"
+                                                                                 }
+                                                                   },
+                                          "relevance_node":  "CONST.A14.S1"
+                                      },
+                          "expected_equivalence":  "UNRESOLVED",
+                          "expected_blocking_debt":  true
+                      }
+                  ]
+}

@@ -1,0 +1,50 @@
+﻿{
+  "schema_version": "0.9.0",
+  "scenarios": [
+    {
+      "id": "TR-001",
+      "transformation_id": "TR.JUDICIAL.001",
+      "source_object": "CONST.AMENDMENT.14.SECTION.1",
+      "destination_object": "DERIVED.JUDICIAL.001",
+      "transformation_type": "JUDICIAL_INTERPRETATION",
+      "authority_class": "JUDICIAL",
+      "jurisdiction": "FEDERAL",
+      "predicate_relationship": "UNRESOLVED",
+      "temporal_scope": "CURRENT",
+      "provenance": {
+        "id": "TRPROV1"
+      },
+      "expected": "VALID"
+    },
+    {
+      "id": "TR-002",
+      "transformation_id": "TR.EXECUTIVE.001",
+      "source_object": "CONST.AMENDMENT.14.SECTION.1",
+      "destination_object": "DERIVED.EXECUTIVE.001",
+      "transformation_type": "EXECUTIVE_APPLICATION",
+      "authority_class": "EXECUTIVE",
+      "jurisdiction": "FEDERAL",
+      "predicate_relationship": "NARROWED",
+      "temporal_scope": "CURRENT",
+      "provenance": {
+        "id": "TRPROV2"
+      },
+      "expected": "VALID"
+    },
+    {
+      "id": "TR-003",
+      "transformation_id": "TR.INVALID.001",
+      "source_object": "CONST.AMENDMENT.14.SECTION.1",
+      "destination_object": "CONST.AMENDMENT.14.SECTION.1",
+      "transformation_type": "JUDICIAL_INTERPRETATION",
+      "authority_class": "JUDICIAL",
+      "jurisdiction": "FEDERAL",
+      "predicate_relationship": "IDENTICAL",
+      "temporal_scope": "CURRENT",
+      "provenance": {
+        "id": "TRPROV3"
+      },
+      "expected": "INVALID"
+    }
+  ]
+}
