@@ -56,6 +56,11 @@ class Batch09EndToEndTests(unittest.TestCase):
                     scenario["expected"],
                 )
 
+                if actual in {"BLOCKED", "CONFLICTED"}:
+                    self.assertFalse(
+                        result["execution_admissible"]
+                    )
+
                 self.assertIn(
                     "proof_id",
                     result["proof_record"],
@@ -120,3 +125,4 @@ class Batch09EndToEndTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

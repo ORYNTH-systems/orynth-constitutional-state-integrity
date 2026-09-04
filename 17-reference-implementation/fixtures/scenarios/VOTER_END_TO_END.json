@@ -111,7 +111,7 @@
                                                        ],
                                           "relevance_node":  "P.ELIGIBILITY"
                                       },
-                          "expected":  "BLOCKED"
+                          "expected":  "CONFLICTED"
                       }
                   ]
 }
