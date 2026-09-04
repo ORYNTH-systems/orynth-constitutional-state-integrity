@@ -1,0 +1,12 @@
+﻿registry: CONSTITUTIONAL_QUALIFICATION_AND_JURISDICTION
+
+qualification_objects: []
+jurisdiction_objects: []
+
+dimensions:
+  - actor
+  - subject
+  - territorial
+  - temporal
+  - remedial
+  - institutional

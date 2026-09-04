@@ -1,0 +1,11 @@
+﻿registry: CITIZENSHIP_CONSTITUTIONAL_AUTHORITIES
+
+status: SOURCE_MAPPING_PENDING
+
+primary_source_surfaces:
+  - CONST.ARTICLE.I
+  - CONST.AMENDMENT.14
+
+rule:
+  citizenship_predicates_require_source_lineage: true
+  derived_interpretation_must_remain_separately_typed: true

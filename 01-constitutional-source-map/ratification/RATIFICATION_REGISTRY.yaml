@@ -1,0 +1,7 @@
+﻿registry: RATIFICATION
+
+status: STRUCTURE_ESTABLISHED
+records: []
+
+rule:
+  amendment_source_identity_requires_ratification_provenance: true

@@ -1,0 +1,19 @@
+﻿registry: SOURCE_PROVENANCE
+
+canonical_sources:
+  constitution:
+    verification_status: PENDING
+    authoritative_copy: PENDING
+    hash: PENDING
+
+  amendments:
+    verification_status: PENDING
+    authoritative_copy: PENDING
+    hashes: PENDING
+
+requirements:
+  - preserve exact source identity
+  - record authoritative provenance
+  - compute local source hash
+  - prohibit silent mutation
+  - retain transformation lineage

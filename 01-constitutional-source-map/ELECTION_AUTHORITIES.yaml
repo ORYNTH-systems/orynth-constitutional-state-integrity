@@ -1,0 +1,21 @@
+﻿registry: ELECTION_CONSTITUTIONAL_AUTHORITIES
+
+status: SOURCE_MAPPING_PENDING
+
+primary_source_surfaces:
+  - CONST.ARTICLE.I
+  - CONST.AMENDMENT.12
+  - CONST.AMENDMENT.14
+  - CONST.AMENDMENT.15
+  - CONST.AMENDMENT.17
+  - CONST.AMENDMENT.19
+  - CONST.AMENDMENT.20
+  - CONST.AMENDMENT.22
+  - CONST.AMENDMENT.23
+  - CONST.AMENDMENT.24
+  - CONST.AMENDMENT.25
+  - CONST.AMENDMENT.26
+
+rule:
+  VIP_may_consume_constitutional_objects: true
+  VIP_may_redefine_constitutional_source: false

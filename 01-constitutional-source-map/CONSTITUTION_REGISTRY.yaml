@@ -1,0 +1,22 @@
+﻿schema_version: 0.1.0
+registry: US_CONSTITUTION
+
+canonical_source:
+  name: Constitution of the United States
+  source_identity_locked: true
+  source_text_ingestion_status: PENDING_VERIFIED_INGESTION
+
+components:
+  articles: 7
+  amendments: 27
+
+architecture_rule:
+  constitutional_source_may_be_referenced: true
+  constitutional_source_may_be_silently_mutated: false
+  derived_authority_requires_lineage: true
+  agentic_execution_may_create_foundational_authority: false
+
+downstream_systems:
+  - CSI
+  - UAA
+  - VIP

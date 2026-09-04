@@ -1,0 +1,9 @@
+﻿{
+  "schema_version": "0.1.0",
+  "constitution": {
+    "status": "PENDING_VERIFIED_INGESTION",
+    "sha256": null
+  },
+  "articles": {},
+  "amendments": {}
+}

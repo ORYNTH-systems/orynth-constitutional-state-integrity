@@ -1,0 +1,17 @@
+﻿registry: CONSTITUTIONAL_OBJECT_CLASSIFICATION
+
+object_classes:
+  - AUTHORITY
+  - RIGHT
+  - POWER
+  - PROHIBITION
+  - QUALIFICATION
+  - JURISDICTION
+  - PROCESS
+  - PROTECTION
+  - DUTY
+  - REMEDY
+  - PREDICATE
+
+rule:
+  source_classification_does_not_modify_source_meaning: true
