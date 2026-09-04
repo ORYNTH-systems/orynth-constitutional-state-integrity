@@ -1,0 +1,30 @@
+﻿{
+  "schema_version": "0.8.0",
+  "object": "CSI_EXECUTION_PROOF_RECORD",
+  "required": [
+    "proof_id",
+    "request",
+    "constitutional_source",
+    "predicate_resolution",
+    "jurisdiction_resolution",
+    "authority_resolution",
+    "evidence_resolution",
+    "consequence_resolution",
+    "deterministic_relevance",
+    "provenance",
+    "integrity"
+  ],
+  "integrity_requirements": [
+    "canonical_serialization",
+    "sha256",
+    "source_anchor_preserved",
+    "authority_basis_preserved",
+    "dependency_lineage_preserved"
+  ],
+  "rules": {
+    "proof_record_creates_authority": false,
+    "proof_record_may_hide_conflict": false,
+    "finality_may_remove_provenance": false,
+    "failed_execution_must_still_be_auditable": true
+  }
+}

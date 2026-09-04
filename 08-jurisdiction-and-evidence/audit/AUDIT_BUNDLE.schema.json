@@ -1,0 +1,20 @@
+﻿{
+  "schema_version": "0.8.0",
+  "object": "CSI_AUDIT_BUNDLE",
+  "required": [
+    "bundle_id",
+    "proof_record",
+    "source_hashes",
+    "dependency_snapshot",
+    "authority_snapshot",
+    "evidence_snapshot",
+    "provenance_snapshot",
+    "verification_result"
+  ],
+  "rules": {
+    "bundle_must_be_reproducible": true,
+    "bundle_must_include_failed_execution": true,
+    "bundle_may_mutate_source": false,
+    "bundle_hash_required": true
+  }
+}

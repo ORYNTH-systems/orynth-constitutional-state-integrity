@@ -1,0 +1,26 @@
+﻿{
+  "schema_version": "0.8.0",
+  "object": "CSI_DEPENDENCY_DEBT",
+  "debt_classes": [
+    "MISSING_SOURCE",
+    "MISSING_PREDICATE",
+    "UNRESOLVED_EQUIVALENCE",
+    "MISSING_AUTHORITY",
+    "MISSING_JURISDICTION",
+    "MISSING_EVIDENCE",
+    "BROKEN_TRANSFORMATION_LINEAGE",
+    "ORPHANED_STATE",
+    "UNVERIFIED_INHERITED_STATE"
+  ],
+  "severity": [
+    "INFO",
+    "WARNING",
+    "BLOCKING"
+  ],
+  "rules": {
+    "blocking_debt_permits_irreversible_execution": false,
+    "age_clears_dependency_debt": false,
+    "institutional_repetition_clears_dependency_debt": false,
+    "finality_clears_dependency_debt": false
+  }
+}

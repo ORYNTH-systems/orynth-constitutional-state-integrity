@@ -1,0 +1,78 @@
+﻿{
+    "schema_version":  "0.8.0",
+    "contradictions":  [
+                           {
+                               "id":  "CONTRA-001",
+                               "predicate_states":  [
+                                                        "TRUE",
+                                                        "FALSE"
+                                                    ],
+                               "expected":  "CONFLICTED"
+                           },
+                           {
+                               "id":  "CONTRA-002",
+                               "authority_states":  [
+                                                        "VALID",
+                                                        "INVALID"
+                                                    ],
+                               "expected":  "CONFLICTED"
+                           },
+                           {
+                               "id":  "CONTRA-003",
+                               "evidence_states":  [
+                                                       "VALID"
+                                                   ],
+                               "expected":  "NONE"
+                           }
+                       ],
+    "dependency_debt":  [
+                            {
+                                "id":  "DEBT-001",
+                                "record":  {
+                                               "constitutional_source":  {
+
+                                                                         },
+                                               "predicate_resolution":  {
+
+                                                                        },
+                                               "authority_resolution":  {
+
+                                                                        },
+                                               "jurisdiction_resolution":  {
+
+                                                                           },
+                                               "evidence_resolution":  {
+
+                                                                       },
+                                               "provenance":  {
+
+                                                              }
+                                           },
+                                "blocking":  true
+                            },
+                            {
+                                "id":  "DEBT-002",
+                                "record":  {
+                                               "constitutional_source":  {
+                                                                             "state":  "VALID"
+                                                                         },
+                                               "predicate_resolution":  {
+                                                                            "state":  "TRUE"
+                                                                        },
+                                               "authority_resolution":  {
+                                                                            "state":  "VALID"
+                                                                        },
+                                               "jurisdiction_resolution":  {
+                                                                               "state":  "VALID"
+                                                                           },
+                                               "evidence_resolution":  {
+                                                                           "state":  "SUFFICIENT"
+                                                                       },
+                                               "provenance":  {
+                                                                  "provenance_id":  "P1"
+                                                              }
+                                           },
+                                "blocking":  false
+                            }
+                        ]
+}

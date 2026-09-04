@@ -5,8 +5,8 @@ import json
 from pathlib import Path
 
 from .drp import DeterministicRelevanceResolver
-from .execution_resolver import ExecutionResolver
 from .registry import RepositoryRegistries
+from .repository_verifier import verify_repository
 from .verifier import verify_source_hashes
 
 
@@ -24,14 +24,19 @@ def find_repo_root(start: Path) -> Path:
 
 
 def main() -> int:
+
     parser = argparse.ArgumentParser(
         prog="orynth-csi",
-        description="ORYNTH Constitutional State Integrity reference verifier",
+        description="ORYNTH Constitutional State Integrity verifier",
     )
 
-    sub = parser.add_subparsers(dest="command", required=True)
+    sub = parser.add_subparsers(
+        dest="command",
+        required=True,
+    )
 
     sub.add_parser("verify-sources")
+    sub.add_parser("verify-repository")
 
     drp_parser = sub.add_parser("drp")
     drp_parser.add_argument("node_id")
@@ -42,14 +47,34 @@ def main() -> int:
     registries = RepositoryRegistries(root)
 
     if args.command == "verify-sources":
-        result = verify_source_hashes(root)
-        print(json.dumps(result, indent=2))
+        print(
+            json.dumps(
+                verify_source_hashes(root),
+                indent=2,
+            )
+        )
+        return 0
+
+    if args.command == "verify-repository":
+        print(
+            json.dumps(
+                verify_repository(root),
+                indent=2,
+            )
+        )
         return 0
 
     if args.command == "drp":
-        resolver = DeterministicRelevanceResolver(registries.graph)
-        result = resolver.resolve(args.node_id)
-        print(json.dumps(result, indent=2))
+        resolver = DeterministicRelevanceResolver(
+            registries.graph
+        )
+
+        print(
+            json.dumps(
+                resolver.resolve(args.node_id),
+                indent=2,
+            )
+        )
         return 0
 
     return 1

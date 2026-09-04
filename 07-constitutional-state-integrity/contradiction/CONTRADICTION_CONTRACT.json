@@ -1,0 +1,25 @@
+﻿{
+  "schema_version": "0.8.0",
+  "resolver": "CSI_CONTRADICTION_RESOLVER",
+  "classes": [
+    "SOURCE_CONTRADICTION",
+    "PREDICATE_CONTRADICTION",
+    "AUTHORITY_CONTRADICTION",
+    "JURISDICTION_CONTRADICTION",
+    "EVIDENCE_CONTRADICTION",
+    "TRANSFORMATION_CONTRADICTION",
+    "STATE_CONTRADICTION"
+  ],
+  "outcomes": [
+    "NONE",
+    "CONFLICTED",
+    "INVALID",
+    "UNRESOLVED"
+  ],
+  "rules": {
+    "contradiction_may_be_silently_ignored": false,
+    "hierarchy_resolves_semantic_contradiction_automatically": false,
+    "later_state_erases_prior_conflict": false,
+    "agentic_confidence_resolves_conflict": false
+  }
+}
