@@ -1,0 +1,38 @@
+﻿[
+    {
+        "id":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "url":  "https://www.archives.gov/founding-docs/constitution-transcript",
+        "path":  "01-constitutional-source-map/authoritative-source/national-archives/constitution-transcript.html",
+        "type":  "text/html",
+        "sha256":  "CDADD821EFCEC4827C570FFE8B8B5F0B6C0A50507B8CF53DC25B42D81359AD87",
+        "bytes":  70374,
+        "fetched":  "2026-09-04T11:50:47.2212436Z"
+    },
+    {
+        "id":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "url":  "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+        "path":  "01-constitutional-source-map/authoritative-source/national-archives/bill-of-rights-transcript.html",
+        "type":  "text/html",
+        "sha256":  "49CBBAF3F552186EF61872450F0BD73F57183F1DCE999596C5270D27A5EBEF8F",
+        "bytes":  47259,
+        "fetched":  "2026-09-04T11:50:47.2212436Z"
+    },
+    {
+        "id":  "NARA_AMENDMENTS_11_27",
+        "url":  "https://www.archives.gov/founding-docs/amendments-11-27",
+        "path":  "01-constitutional-source-map/authoritative-source/national-archives/amendments-11-27.html",
+        "type":  "text/html",
+        "sha256":  "77524D82D7F8438B7AED9AD9BE2AB63D4A53161613359D0EE8C62C8488C33FD8",
+        "bytes":  57662,
+        "fetched":  "2026-09-04T11:50:47.2212436Z"
+    },
+    {
+        "id":  "CONGRESS_LITERAL_PRINT",
+        "url":  "https://constitution.congress.gov/static/files/Literal_Print_of_Constitution_MCT_1.9.26.pdf",
+        "path":  "01-constitutional-source-map/authoritative-source/congress/literal-print-constitution.pdf",
+        "type":  "application/pdf",
+        "sha256":  "4D85F1CBFCB9789F10BF306E379E97FF150EA235249190A188B0C05923FD6F19",
+        "bytes":  225482,
+        "fetched":  "2026-09-04T11:50:47.2212436Z"
+    }
+]

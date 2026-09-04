@@ -1,0 +1,30 @@
+﻿id: CONST.AMENDMENT.17
+source_class: AMENDATORY_CONSTITUTIONAL
+source_locator:
+  source_id: NARA_AMENDMENTS_11_27
+  amendment: 17
+source_identity_locked: true
+ratification_status: RATIFIED
+structural_status: VERIFIED_TOPOLOGY
+section_count: 3
+sections:
+  - id: CONST.AMENDMENT.17.SECTION.1
+    section: 1
+    source_locator:
+      amendment: 17
+      section: 1
+    clause_mapping_status: PENDING
+  - id: CONST.AMENDMENT.17.SECTION.2
+    section: 2
+    source_locator:
+      amendment: 17
+      section: 2
+    clause_mapping_status: PENDING
+  - id: CONST.AMENDMENT.17.SECTION.3
+    section: 3
+    source_locator:
+      amendment: 17
+      section: 3
+    clause_mapping_status: PENDING
+derived_interpretations: []
+orynth_applications: []

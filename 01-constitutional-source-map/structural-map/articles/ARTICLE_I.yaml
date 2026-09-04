@@ -1,0 +1,71 @@
+﻿id: CONST.ARTICLE.I
+source_class: FOUNDATIONAL_CONSTITUTIONAL
+source_locator:
+  source_id: NARA_CONSTITUTION_TRANSCRIPT
+  article: I
+source_identity_locked: true
+structural_status: VERIFIED_TOPOLOGY
+section_count: 10
+sections:
+  - id: CONST.ARTICLE.I.SECTION.1
+    section: 1
+    source_locator:
+      article: I
+      section: 1
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.I.SECTION.2
+    section: 2
+    source_locator:
+      article: I
+      section: 2
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.I.SECTION.3
+    section: 3
+    source_locator:
+      article: I
+      section: 3
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.I.SECTION.4
+    section: 4
+    source_locator:
+      article: I
+      section: 4
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.I.SECTION.5
+    section: 5
+    source_locator:
+      article: I
+      section: 5
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.I.SECTION.6
+    section: 6
+    source_locator:
+      article: I
+      section: 6
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.I.SECTION.7
+    section: 7
+    source_locator:
+      article: I
+      section: 7
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.I.SECTION.8
+    section: 8
+    source_locator:
+      article: I
+      section: 8
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.I.SECTION.9
+    section: 9
+    source_locator:
+      article: I
+      section: 9
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.I.SECTION.10
+    section: 10
+    source_locator:
+      article: I
+      section: 10
+    clause_mapping_status: PENDING
+derived_interpretations: []
+orynth_applications: []

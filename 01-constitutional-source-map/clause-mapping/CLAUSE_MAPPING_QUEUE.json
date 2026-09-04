@@ -1,0 +1,452 @@
+﻿[
+    {
+        "priority":  1,
+        "id":  "CONST.PREAMBLE",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  2,
+        "id":  "CONST.ARTICLE.I.SECTION.1",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  3,
+        "id":  "CONST.ARTICLE.I.SECTION.2",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  4,
+        "id":  "CONST.ARTICLE.I.SECTION.3",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  5,
+        "id":  "CONST.ARTICLE.I.SECTION.4",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  6,
+        "id":  "CONST.ARTICLE.I.SECTION.5",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  7,
+        "id":  "CONST.ARTICLE.I.SECTION.6",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  8,
+        "id":  "CONST.ARTICLE.I.SECTION.7",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  9,
+        "id":  "CONST.ARTICLE.I.SECTION.8",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  10,
+        "id":  "CONST.ARTICLE.I.SECTION.9",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  11,
+        "id":  "CONST.ARTICLE.I.SECTION.10",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  12,
+        "id":  "CONST.ARTICLE.II.SECTION.1",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  13,
+        "id":  "CONST.ARTICLE.II.SECTION.2",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  14,
+        "id":  "CONST.ARTICLE.II.SECTION.3",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  15,
+        "id":  "CONST.ARTICLE.II.SECTION.4",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  16,
+        "id":  "CONST.ARTICLE.III.SECTION.1",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  17,
+        "id":  "CONST.ARTICLE.III.SECTION.2",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  18,
+        "id":  "CONST.ARTICLE.III.SECTION.3",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  19,
+        "id":  "CONST.ARTICLE.IV.SECTION.1",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  20,
+        "id":  "CONST.ARTICLE.IV.SECTION.2",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  21,
+        "id":  "CONST.ARTICLE.IV.SECTION.3",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  22,
+        "id":  "CONST.ARTICLE.IV.SECTION.4",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  23,
+        "id":  "CONST.ARTICLE.V",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  24,
+        "id":  "CONST.ARTICLE.VI",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  25,
+        "id":  "CONST.ARTICLE.VII",
+        "source":  "NARA_CONSTITUTION_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  26,
+        "id":  "CONST.AMENDMENT.01",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  27,
+        "id":  "CONST.AMENDMENT.02",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  28,
+        "id":  "CONST.AMENDMENT.03",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  29,
+        "id":  "CONST.AMENDMENT.04",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  30,
+        "id":  "CONST.AMENDMENT.05",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  31,
+        "id":  "CONST.AMENDMENT.06",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  32,
+        "id":  "CONST.AMENDMENT.07",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  33,
+        "id":  "CONST.AMENDMENT.08",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  34,
+        "id":  "CONST.AMENDMENT.09",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  35,
+        "id":  "CONST.AMENDMENT.10",
+        "source":  "NARA_BILL_OF_RIGHTS_TRANSCRIPT",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  36,
+        "id":  "CONST.AMENDMENT.11",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  37,
+        "id":  "CONST.AMENDMENT.12.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  38,
+        "id":  "CONST.AMENDMENT.12.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  39,
+        "id":  "CONST.AMENDMENT.13.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  40,
+        "id":  "CONST.AMENDMENT.13.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  41,
+        "id":  "CONST.AMENDMENT.13.SECTION.3",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  42,
+        "id":  "CONST.AMENDMENT.13.SECTION.4",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  43,
+        "id":  "CONST.AMENDMENT.13.SECTION.5",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  44,
+        "id":  "CONST.AMENDMENT.14.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  45,
+        "id":  "CONST.AMENDMENT.14.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  46,
+        "id":  "CONST.AMENDMENT.15",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  47,
+        "id":  "CONST.AMENDMENT.16.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  48,
+        "id":  "CONST.AMENDMENT.16.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  49,
+        "id":  "CONST.AMENDMENT.17.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  50,
+        "id":  "CONST.AMENDMENT.17.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  51,
+        "id":  "CONST.AMENDMENT.17.SECTION.3",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  52,
+        "id":  "CONST.AMENDMENT.18.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  53,
+        "id":  "CONST.AMENDMENT.18.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  54,
+        "id":  "CONST.AMENDMENT.19.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  55,
+        "id":  "CONST.AMENDMENT.19.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  56,
+        "id":  "CONST.AMENDMENT.19.SECTION.3",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  57,
+        "id":  "CONST.AMENDMENT.19.SECTION.4",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  58,
+        "id":  "CONST.AMENDMENT.19.SECTION.5",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  59,
+        "id":  "CONST.AMENDMENT.19.SECTION.6",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  60,
+        "id":  "CONST.AMENDMENT.20.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  61,
+        "id":  "CONST.AMENDMENT.20.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  62,
+        "id":  "CONST.AMENDMENT.20.SECTION.3",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  63,
+        "id":  "CONST.AMENDMENT.21.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  64,
+        "id":  "CONST.AMENDMENT.21.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  65,
+        "id":  "CONST.AMENDMENT.22.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  66,
+        "id":  "CONST.AMENDMENT.22.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  67,
+        "id":  "CONST.AMENDMENT.23.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  68,
+        "id":  "CONST.AMENDMENT.23.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  69,
+        "id":  "CONST.AMENDMENT.24.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  70,
+        "id":  "CONST.AMENDMENT.24.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  71,
+        "id":  "CONST.AMENDMENT.24.SECTION.3",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  72,
+        "id":  "CONST.AMENDMENT.24.SECTION.4",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  73,
+        "id":  "CONST.AMENDMENT.25.SECTION.1",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  74,
+        "id":  "CONST.AMENDMENT.25.SECTION.2",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    },
+    {
+        "priority":  75,
+        "id":  "CONST.AMENDMENT.26",
+        "source":  "NARA_AMENDMENTS_11_27",
+        "status":  "PENDING"
+    }
+]

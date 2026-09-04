@@ -1,0 +1,35 @@
+﻿id: CONST.ARTICLE.IV
+source_class: FOUNDATIONAL_CONSTITUTIONAL
+source_locator:
+  source_id: NARA_CONSTITUTION_TRANSCRIPT
+  article: IV
+source_identity_locked: true
+structural_status: VERIFIED_TOPOLOGY
+section_count: 4
+sections:
+  - id: CONST.ARTICLE.IV.SECTION.1
+    section: 1
+    source_locator:
+      article: IV
+      section: 1
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.IV.SECTION.2
+    section: 2
+    source_locator:
+      article: IV
+      section: 2
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.IV.SECTION.3
+    section: 3
+    source_locator:
+      article: IV
+      section: 3
+    clause_mapping_status: PENDING
+  - id: CONST.ARTICLE.IV.SECTION.4
+    section: 4
+    source_locator:
+      article: IV
+      section: 4
+    clause_mapping_status: PENDING
+derived_interpretations: []
+orynth_applications: []

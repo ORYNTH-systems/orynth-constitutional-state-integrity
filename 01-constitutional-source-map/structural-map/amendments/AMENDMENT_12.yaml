@@ -1,0 +1,24 @@
+﻿id: CONST.AMENDMENT.12
+source_class: AMENDATORY_CONSTITUTIONAL
+source_locator:
+  source_id: NARA_AMENDMENTS_11_27
+  amendment: 12
+source_identity_locked: true
+ratification_status: RATIFIED
+structural_status: VERIFIED_TOPOLOGY
+section_count: 2
+sections:
+  - id: CONST.AMENDMENT.12.SECTION.1
+    section: 1
+    source_locator:
+      amendment: 12
+      section: 1
+    clause_mapping_status: PENDING
+  - id: CONST.AMENDMENT.12.SECTION.2
+    section: 2
+    source_locator:
+      amendment: 12
+      section: 2
+    clause_mapping_status: PENDING
+derived_interpretations: []
+orynth_applications: []

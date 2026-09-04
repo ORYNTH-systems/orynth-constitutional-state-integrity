@@ -1,0 +1,35 @@
+﻿schema_version: 0.2.0
+registry: AUTHORITATIVE_CONSTITUTIONAL_SOURCES
+
+primary_documentary_authority:
+  institution: National Archives and Records Administration
+  constitution:
+    id: NARA_CONSTITUTION_TRANSCRIPT
+    url: https://www.archives.gov/founding-docs/constitution-transcript
+
+  amendments_1_10:
+    id: NARA_BILL_OF_RIGHTS_TRANSCRIPT
+    url: https://www.archives.gov/founding-docs/bill-of-rights-transcript
+
+  amendments_11_27:
+    id: NARA_AMENDMENTS_11_27
+    url: https://www.archives.gov/founding-docs/amendments-11-27
+
+independent_federal_cross_reference:
+  institution: Congress.gov Constitution Annotated
+  id: CONGRESS_LITERAL_PRINT
+  url: https://constitution.congress.gov/static/files/Literal_Print_of_Constitution_MCT_1.9.26.pdf
+
+source_policy:
+  constitutional_text_is_source: true
+  explanatory_material_is_source_text: false
+  judicial_interpretation_is_source_text: false
+  executive_interpretation_is_source_text: false
+  administrative_interpretation_is_source_text: false
+  orynth_interpretation_is_source_text: false
+
+integrity:
+  raw_source_snapshots_preserved: true
+  sha256_required: true
+  source_lineage_required: true
+  silent_replacement_prohibited: true

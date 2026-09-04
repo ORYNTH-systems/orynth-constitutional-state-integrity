@@ -1,0 +1,46 @@
+﻿schema_version: 0.2.0
+registry: CONSTITUTIONAL_OBJECT_TYPES
+
+source_preserving_object_types:
+
+  AUTHORITY:
+    description: Constitutionally sourced grant or assignment of authority.
+
+  POWER:
+    description: Constitutionally sourced governmental power.
+
+  RIGHT:
+    description: Constitutionally sourced right or protected interest.
+
+  PROHIBITION:
+    description: Constitutionally sourced prohibition or execution constraint.
+
+  QUALIFICATION:
+    description: Constitutionally sourced qualification condition.
+
+  JURISDICTION:
+    description: Constitutionally sourced jurisdictional boundary.
+
+  DUTY:
+    description: Constitutionally sourced mandatory obligation.
+
+  PROCESS:
+    description: Constitutionally required process or procedure.
+
+  PROTECTION:
+    description: Constitutionally sourced protection against consequence or interference.
+
+  REMEDY:
+    description: Constitutionally sourced remedial mechanism where expressly present.
+
+  PREDICATE:
+    description: A condition explicitly recoverable from constitutional source.
+
+rules:
+  source_text_must_not_be_rewritten_as_object_definition: true
+  object_must_reference_source_locator: true
+  inferred_meaning_requires_separate_derived_object: true
+  judicial_construction_is_not_source_object: true
+  executive_construction_is_not_source_object: true
+  political_preference_is_not_source_object: true
+  agentic_capability_is_not_source_object: true

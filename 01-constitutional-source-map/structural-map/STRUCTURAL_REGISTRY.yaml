@@ -1,0 +1,35 @@
+﻿schema_version: 0.2.0
+registry: CONSTITUTIONAL_STRUCTURAL_TOPOLOGY
+
+constitution:
+  preamble:
+    id: CONST.PREAMBLE
+    clause_mapping_status: PENDING
+
+  articles:
+    count: 7
+
+    topology:
+      I: 10
+      II: 4
+      III: 3
+      IV: 4
+      V: 0
+      VI: 0
+      VII: 0
+
+  amendments:
+    count: 27
+
+mapping_rules:
+  source_identity_precedes_interpretation: true
+  section_identity_precedes_predicate_extraction: true
+  clause_mapping_must_preserve_source_locator: true
+  derived_authority_must_not_be_embedded_in_source_object: true
+  agentic_application_must_not_modify_source: true
+
+next_resolution_layer:
+  - clause decomposition
+  - constitutional object typing
+  - predicate extraction
+  - dependency mapping
