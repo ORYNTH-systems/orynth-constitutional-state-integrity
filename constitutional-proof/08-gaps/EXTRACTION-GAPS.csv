@@ -1,0 +1,2 @@
+﻿gap_id,batch_id,gap_class,description,status,resolution
+EXT-GAP-000001,US-CONST-BATCH-02,PDF-STRUCTURE-PARSER,"Original Batch 02 parser produced zero candidate units due to heading-layout mismatch in extracted PDF text.",RESOLVED,"Recovered by tolerant Article/Section detection in Batch 02R."
