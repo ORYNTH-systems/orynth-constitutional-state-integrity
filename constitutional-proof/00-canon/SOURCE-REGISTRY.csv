@@ -1,0 +1,2 @@
+﻿source_id,title,source_class,authority_level,jurisdiction,status,mutation_policy,source_url,local_path,sha256,canonicalized_utc
+US-CONST-SRC-000001,"Constitution of the United States",PRIMARY-CONSTITUTIONAL,FEDERAL-CONSTITUTION,UNITED-STATES,CANONICAL,IMMUTABLE-SOURCE,"https://constitutioncenter.org/media/files/constitution.pdf","constitutional-proof/00-canon/CONSTITUTION-US.pdf","ADB6D272B6E3D5773CA470D0D53C5CE62396C35FD98469CCC1401DA42099D6EF","2026-09-10T20:17:48Z"
