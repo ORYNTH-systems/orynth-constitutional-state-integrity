@@ -103,68 +103,68 @@ such Meeting shall be [on the first Monday in December,]*
 unless they shall by Law appoint a different Day.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the recurring congressional assembly requirement and its permitted scheduling alternative.","YES","NO","NO","CLOSED"
 "US-ADJ-000022","US-CONST-ART01-SEC05-CL000-AT001","US-CONST-ART01-SEC05-CL000","1","5","1","","US-CONST-ART01-SEC05-CL000-AT002","Each House shall be the Judge of the Elections, Returns
 and Qualifications of its own Members, and a Majority
-of each shall constitute a Quorum to do Business;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+of each shall constitute a Quorum to do Business;","FURTHER-SPLIT","","SPLIT-BEFORE=""and a Majority of each shall constitute a Quorum to do Business""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The House's authority to judge elections, returns, and qualifications is textually distinct from the majority-quorum requirement.","YES","NO","NO","CLOSED"
 "US-ADJ-000023","US-CONST-ART01-SEC05-CL000-AT002","US-CONST-ART01-SEC05-CL000","1","5","2","US-CONST-ART01-SEC05-CL000-AT001","US-CONST-ART01-SEC05-CL000-AT003"," but a
 smaller Number may adjourn from day to day, and may be
 authorized to compel the Attendance of absent Members,
 in such Manner, and under such Penalties as each House
-may provide.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+may provide.","FURTHER-SPLIT","","SPLIT-BEFORE=""and may be authorized to compel the Attendance of absent Members""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Adjournment by a smaller number and authority to compel absent Members are independently stated powers.","YES","NO","NO","CLOSED"
 "US-ADJ-000024","US-CONST-ART01-SEC05-CL000-AT003","US-CONST-ART01-SEC05-CL000","1","5","3","US-CONST-ART01-SEC05-CL000-AT002","US-CONST-ART01-SEC05-CL000-AT004","
 Each House may determine the Rules of its Proceedings,
 punish its Members for disorderly Behaviour, and, with the
-Concurrence of two thirds, expel a Member.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Concurrence of two thirds, expel a Member.","FURTHER-SPLIT","","SPLIT-BEFORE=""punish its Members for disorderly Behaviour""; SPLIT-BEFORE=""and, with the Concurrence of two thirds, expel a Member""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Rulemaking, punishment for disorderly behavior, and expulsion subject to a two-thirds concurrence threshold are separately testable propositions.","YES","NO","NO","CLOSED"
 "US-ADJ-000025","US-CONST-ART01-SEC05-CL000-AT004","US-CONST-ART01-SEC05-CL000","1","5","4","US-CONST-ART01-SEC05-CL000-AT003","US-CONST-ART01-SEC05-CL000-AT005","
 Each House shall keep a Journal of its Proceedings, and
 from time to time publish the same, excepting such Parts
-as may in their Judgment require Secrecy;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+as may in their Judgment require Secrecy;","FURTHER-SPLIT","","SPLIT-BEFORE=""and from time to time publish the same""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The duty to keep a Journal and the duty to publish it, subject to the textual secrecy exception, are distinct requirements.","YES","NO","NO","CLOSED"
 "US-ADJ-000026","US-CONST-ART01-SEC05-CL000-AT005","US-CONST-ART01-SEC05-CL000","1","5","5","US-CONST-ART01-SEC05-CL000-AT004","US-CONST-ART01-SEC05-CL000-AT006"," and the Yeas
 and Nays of the Members of either House on any question
 shall, at the Desire of one fifth of those Present, be entered
-on the Journal.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+on the Journal.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one integrated requirement for recording Yeas and Nays upon the stated one-fifth request threshold.","YES","NO","NO","CLOSED"
 "US-ADJ-000027","US-CONST-ART01-SEC05-CL000-AT006","US-CONST-ART01-SEC05-CL000","1","5","6","US-CONST-ART01-SEC05-CL000-AT005","","
 Neither House, during the Session of Congress, shall, with-
 out the Consent of the other, adjourn for more than three
 days, nor to any other Place than that in which the two
-Houses shall be sitting.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Houses shall be sitting.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one integrated inter-House consent limitation on adjournment duration and location.","YES","NO","NO","CLOSED"
 "US-ADJ-000028","US-CONST-ART01-SEC06-CL000-AT001","US-CONST-ART01-SEC06-CL000","1","6","1","","US-CONST-ART01-SEC06-CL000-AT002","The Senators and Representatives shall receive a Compen-
 sation for their Services, to be ascertained by Law, and paid
-out of the Treasury of the United States.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+out of the Treasury of the United States.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The compensation entitlement together with legal ascertainment and Treasury payment conditions forms one integrated provision.","YES","NO","NO","CLOSED"
 "US-ADJ-000029","US-CONST-ART01-SEC06-CL000-AT002","US-CONST-ART01-SEC06-CL000","1","6","2","US-CONST-ART01-SEC06-CL000-AT001","US-CONST-ART01-SEC06-CL000-AT003"," They shall in all
 Cases, except Treason, Felony and Breach of the Peace, be
 privileged from Arrest during their Attendance at the Ses-
 sion of their respective Houses, and in going to and return-
-ing from the same;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+ing from the same;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the privilege from arrest together with its express exceptions and temporal scope.","YES","NO","NO","CLOSED"
 "US-ADJ-000030","US-CONST-ART01-SEC06-CL000-AT003","US-CONST-ART01-SEC06-CL000","1","6","3","US-CONST-ART01-SEC06-CL000-AT002","US-CONST-ART01-SEC06-CL000-AT004"," and for any Speech or Debate in either
-House, they shall not be questioned in any other Place.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+House, they shall not be questioned in any other Place.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the Speech or Debate protection as one proposition.","YES","NO","NO","CLOSED"
 "US-ADJ-000031","US-CONST-ART01-SEC06-CL000-AT004","US-CONST-ART01-SEC06-CL000","1","6","4","US-CONST-ART01-SEC06-CL000-AT003","US-CONST-ART01-SEC06-CL000-AT005","
 No Senator or Representative shall, during the Time for
 which he was elected, be appointed to any civil Office
 under the Authority of the United States, which shall have
 been created, or the Emoluments whereof shall have been
-encreased during such time;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+encreased during such time;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one integrated prohibition on appointment to specified civil offices during the elected term.","YES","NO","NO","CLOSED"
 "US-ADJ-000032","US-CONST-ART01-SEC06-CL000-AT005","US-CONST-ART01-SEC06-CL000","1","6","5","US-CONST-ART01-SEC06-CL000-AT004","US-CONST-ART01-SEC06-CL000-AT006"," and no Person holding any
 Office under the United States, shall be a Member of either
-House during his Continuance in Office.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+House during his Continuance in Office.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one incompatibility prohibition on simultaneous federal officeholding and congressional membership.","YES","NO","NO","CLOSED"
 "US-ADJ-000033","US-CONST-ART01-SEC06-CL000-AT006","US-CONST-ART01-SEC06-CL000","1","6","6","US-CONST-ART01-SEC06-CL000-AT005","","
 
 C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","NOT-APPLICABLE","","","NONSEMANTIC-PUBLICATION-ARTIFACT","NONE","Candidate contains no constitutional text after verified removal of the publication running header.","YES","NO","NO","EXCLUDED-NONSEMANTIC"
 "US-ADJ-000034","US-CONST-ART01-SEC07-CL000-AT001","US-CONST-ART01-SEC07-CL000","1","7","1","","US-CONST-ART01-SEC07-CL000-AT002","All Bills for raising Revenue shall originate in the House of
-Representatives;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Representatives;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the House-origination requirement for revenue bills.","YES","NO","NO","CLOSED"
 "US-ADJ-000035","US-CONST-ART01-SEC07-CL000-AT002","US-CONST-ART01-SEC07-CL000","1","7","2","US-CONST-ART01-SEC07-CL000-AT001","US-CONST-ART01-SEC07-CL000-AT003"," but the Senate may propose or concur with
 Amendments as on other Bills
 Every Bill which shall have passed the House of Represen-
 tatives and the Senate, shall, before it become a Law, be
-presented to the President of the United States;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+presented to the President of the United States;","FURTHER-SPLIT","","SPLIT-BEFORE=""Every Bill which shall have passed the House of Representatives and the Senate""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The Senate's authority to propose or concur in amendments to revenue bills is distinct from the general presidential-presentment requirement for bills passed by both Houses.","YES","NO","NO","CLOSED"
 "US-ADJ-000036","US-CONST-ART01-SEC07-CL000-AT003","US-CONST-ART01-SEC07-CL000","1","7","3","US-CONST-ART01-SEC07-CL000-AT002","US-CONST-ART01-SEC07-CL000-AT004"," If he ap-
 prove he shall sign it, but if not he shall return it, with his
 Objections to that House in which it shall have originated,
 who shall enter the Objections at large on their Journal,
-and proceed to reconsider it.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+and proceed to reconsider it.","FURTHER-SPLIT","","SPLIT-BEFORE=""but if not he shall return it""; SPLIT-BEFORE=""who shall enter the Objections at large on their Journal""; SPLIT-BEFORE=""and proceed to reconsider it""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Presidential approval, presidential return with objections, journal entry of objections, and reconsideration are separately stated procedural requirements.","YES","NO","NO","CLOSED"
 "US-ADJ-000037","US-CONST-ART01-SEC07-CL000-AT004","US-CONST-ART01-SEC07-CL000","1","7","4","US-CONST-ART01-SEC07-CL000-AT003","US-CONST-ART01-SEC07-CL000-AT005"," If after such Reconsideration
 two thirds of that House shall agree to pass the Bill, it shall
 be sent, together with the Objections, to the other House,
 by which it shall likewise be reconsidered, and if approved
-by two thirds of that House, it shall become a Law.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+by two thirds of that House, it shall become a Law.","FURTHER-SPLIT","","SPLIT-BEFORE=""and if approved by two thirds of that House""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The first-House reconsideration and transmission sequence is distinguishable from the second-House two-thirds approval condition producing law.","YES","NO","NO","CLOSED"
 "US-ADJ-000038","US-CONST-ART01-SEC07-CL000-AT005","US-CONST-ART01-SEC07-CL000","1","7","5","US-CONST-ART01-SEC07-CL000-AT004","US-CONST-ART01-SEC07-CL000-AT006"," But in
 all such Cases the Votes of both Houses shall be determined
 by Yeas and Nays, and the Names of the Persons voting for
@@ -178,66 +178,66 @@ not be a Law
 Every Order, Resolution, or Vote to which the Concur-
 rence of the Senate and House of Representatives may be
 necessary (except on a question of Adjournment) shall be
-presented to the President of the United States;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+presented to the President of the United States;","FURTHER-SPLIT","","SPLIT-BEFORE=""and the Names of the Persons voting for and against the Bill shall be entered""; SPLIT-BEFORE=""If any Bill shall not be returned by the President""; SPLIT-BEFORE=""Every Order, Resolution, or Vote to which the Concurrence of the Senate and House of Representatives may be necessary""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The candidate contains distinct vote-recording requirements, the ten-day return/default-law rule with its adjournment exception, and the presentment requirement for qualifying orders, resolutions, and votes.","YES","NO","NO","CLOSED"
 "US-ADJ-000039","US-CONST-ART01-SEC07-CL000-AT006","US-CONST-ART01-SEC07-CL000","1","7","6","US-CONST-ART01-SEC07-CL000-AT005",""," and before
 the Same shall take Effect, shall be approved by him, or be-
 ing disapproved by him, shall be repassed by two thirds of
 the Senate and House of Representatives, according to the
-Rules and Limitations prescribed in the Case of a Bill.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Rules and Limitations prescribed in the Case of a Bill.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","Presidential approval or two-thirds repassage are alternative effect conditions within one integrated presentment rule.","YES","NO","NO","CLOSED"
 "US-ADJ-000040","US-CONST-ART01-SEC08-CL000-AT001","US-CONST-ART01-SEC08-CL000","1","8","1","","US-CONST-ART01-SEC08-CL000-AT002","The Congress shall have Power To lay and collect Taxes,
 Duties, Imposts and Excises, to pay the Debts and provide
 for the common Defence and general Welfare of the United
-States;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+States;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The taxing power and its stated debt, common-defense, and general-welfare purposes form one integrated enumerated grant.","YES","NO","NO","CLOSED"
 "US-ADJ-000041","US-CONST-ART01-SEC08-CL000-AT002","US-CONST-ART01-SEC08-CL000","1","8","2","US-CONST-ART01-SEC08-CL000-AT001","US-CONST-ART01-SEC08-CL000-AT003"," but all Duties, Imposts and Excises shall be uniform
-throughout the United States;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+throughout the United States;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the geographic uniformity requirement for Duties, Imposts, and Excises.","YES","NO","NO","CLOSED"
 "US-ADJ-000042","US-CONST-ART01-SEC08-CL000-AT003","US-CONST-ART01-SEC08-CL000","1","8","3","US-CONST-ART01-SEC08-CL000-AT002","US-CONST-ART01-SEC08-CL000-AT004","
-To borrow Money on the credit of the United States;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+To borrow Money on the credit of the United States;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the borrowing power as one proposition.","YES","NO","NO","CLOSED"
 "US-ADJ-000043","US-CONST-ART01-SEC08-CL000-AT004","US-CONST-ART01-SEC08-CL000","1","8","4","US-CONST-ART01-SEC08-CL000-AT003","US-CONST-ART01-SEC08-CL000-AT005","
 To regulate Commerce with foreign Nations, and among
-the several States, and with the Indian Tribes;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+the several States, and with the Indian Tribes;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one commerce-regulation grant across its three expressly listed domains.","YES","NO","NO","CLOSED"
 "US-ADJ-000044","US-CONST-ART01-SEC08-CL000-AT005","US-CONST-ART01-SEC08-CL000","1","8","5","US-CONST-ART01-SEC08-CL000-AT004","US-CONST-ART01-SEC08-CL000-AT006","
 To establish an uniform Rule of Naturalization, and uni-
 form Laws on the subject of Bankruptcies throughout the
-United States;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+United States;","FURTHER-SPLIT","","SPLIT-BEFORE=""and uniform Laws on the subject of Bankruptcies""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The naturalization rule and bankruptcy-law authority are separately stated enumerated powers.","YES","NO","NO","CLOSED"
 "US-ADJ-000045","US-CONST-ART01-SEC08-CL000-AT006","US-CONST-ART01-SEC08-CL000","1","8","6","US-CONST-ART01-SEC08-CL000-AT005","US-CONST-ART01-SEC08-CL000-AT007","
 To coin Money, regulate the Value thereof, and of foreign
-Coin, and fix the Standard of Weights and Measures;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Coin, and fix the Standard of Weights and Measures;","FURTHER-SPLIT","","SPLIT-BEFORE=""regulate the Value thereof""; SPLIT-BEFORE=""and fix the Standard of Weights and Measures""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Coinage, regulation of monetary value, and establishment of weights-and-measures standards are separately testable grants.","YES","NO","NO","CLOSED"
 "US-ADJ-000046","US-CONST-ART01-SEC08-CL000-AT007","US-CONST-ART01-SEC08-CL000","1","8","7","US-CONST-ART01-SEC08-CL000-AT006","US-CONST-ART01-SEC08-CL000-AT008","
 To provide for the Punishment of counterfeiting the Securi-
-ties and current Coin of the United States;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+ties and current Coin of the United States;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one power to provide punishment for counterfeiting the listed federal securities and coin.","YES","NO","NO","CLOSED"
 "US-ADJ-000047","US-CONST-ART01-SEC08-CL000-AT008","US-CONST-ART01-SEC08-CL000","1","8","8","US-CONST-ART01-SEC08-CL000-AT007","US-CONST-ART01-SEC08-CL000-AT009","
-To establish Post Offices and post Roads;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+To establish Post Offices and post Roads;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","Post Offices and post Roads are expressed together under one establishment power.","YES","NO","NO","CLOSED"
 "US-ADJ-000048","US-CONST-ART01-SEC08-CL000-AT009","US-CONST-ART01-SEC08-CL000","1","8","9","US-CONST-ART01-SEC08-CL000-AT008","US-CONST-ART01-SEC08-CL000-AT010","
 To promote the Progress of Science and useful Arts, by
 securing for limited Times to Authors and Inventors the
-exclusive Right to their respective Writings and Discoveries;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+exclusive Right to their respective Writings and Discoveries;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The progress-of-science-and-arts objective and limited exclusive-right mechanism form one integrated grant.","YES","NO","NO","CLOSED"
 "US-ADJ-000049","US-CONST-ART01-SEC08-CL000-AT010","US-CONST-ART01-SEC08-CL000","1","8","10","US-CONST-ART01-SEC08-CL000-AT009","US-CONST-ART01-SEC08-CL000-AT011","
-To constitute Tribunals inferior to the supreme Court;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+To constitute Tribunals inferior to the supreme Court;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the power to constitute inferior tribunals.","YES","NO","NO","CLOSED"
 "US-ADJ-000050","US-CONST-ART01-SEC08-CL000-AT011","US-CONST-ART01-SEC08-CL000","1","8","11","US-CONST-ART01-SEC08-CL000-AT010","US-CONST-ART01-SEC08-CL000-AT012","
 To define and punish Piracies and Felonies committed on
-the high Seas, and Offenses against the Law of Nations;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+the high Seas, and Offenses against the Law of Nations;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The listed piracy, high-seas felony, and law-of-nations offenses appear within one define-and-punish grant.","YES","NO","NO","CLOSED"
 "US-ADJ-000051","US-CONST-ART01-SEC08-CL000-AT012","US-CONST-ART01-SEC08-CL000","1","8","12","US-CONST-ART01-SEC08-CL000-AT011","US-CONST-ART01-SEC08-CL000-AT013","
 To declare War, grant Letters of Marque and Reprisal, and
-make Rules concerning Captures on Land and Water;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+make Rules concerning Captures on Land and Water;","FURTHER-SPLIT","","SPLIT-BEFORE=""grant Letters of Marque and Reprisal""; SPLIT-BEFORE=""and make Rules concerning Captures on Land and Water""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Declaration of war, Letters of Marque and Reprisal, and rules concerning captures are separately stated powers.","YES","NO","NO","CLOSED"
 "US-ADJ-000052","US-CONST-ART01-SEC08-CL000-AT013","US-CONST-ART01-SEC08-CL000","1","8","13","US-CONST-ART01-SEC08-CL000-AT012","US-CONST-ART01-SEC08-CL000-AT014","
 To raise and support Armies, but no Appropriation of
 Money to that Use shall be for a longer Term than two
-Years;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Years;","FURTHER-SPLIT","","SPLIT-BEFORE=""but no Appropriation of Money to that Use shall be for a longer Term than two Years""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The power to raise and support Armies is textually distinct from the two-year limitation on appropriations for that use.","YES","NO","NO","CLOSED"
 "US-ADJ-000053","US-CONST-ART01-SEC08-CL000-AT014","US-CONST-ART01-SEC08-CL000","1","8","14","US-CONST-ART01-SEC08-CL000-AT013","US-CONST-ART01-SEC08-CL000-AT015","
-To provide and maintain a Navy;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+To provide and maintain a Navy;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the Navy provision as one grant.","YES","NO","NO","CLOSED"
 "US-ADJ-000054","US-CONST-ART01-SEC08-CL000-AT015","US-CONST-ART01-SEC08-CL000","1","8","15","US-CONST-ART01-SEC08-CL000-AT014","US-CONST-ART01-SEC08-CL000-AT016","
 To make Rules for the Government and Regulation of the
-land and naval Forces;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+land and naval Forces;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one rulemaking power governing the land and naval forces.","YES","NO","NO","CLOSED"
 "US-ADJ-000055","US-CONST-ART01-SEC08-CL000-AT016","US-CONST-ART01-SEC08-CL000","1","8","16","US-CONST-ART01-SEC08-CL000-AT015","US-CONST-ART01-SEC08-CL000-AT017","
 To provide for calling forth the Militia to execute the Laws
-of the Union, suppress Insurrections and repel Invasions;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+of the Union, suppress Insurrections and repel Invasions;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","Calling forth the Militia is stated as one grant with three enumerated purposes.","YES","NO","NO","CLOSED"
 "US-ADJ-000056","US-CONST-ART01-SEC08-CL000-AT017","US-CONST-ART01-SEC08-CL000","1","8","17","US-CONST-ART01-SEC08-CL000-AT016","US-CONST-ART01-SEC08-CL000-AT018","
 To provide for organizing, arming, and disciplining, the
 Militia, and for governing such Part of them as may be
 employed in the Service of the United States, reserving to
 the States respectively, the Appointment of the Officers,
 and the Authority of training the Militia according to the
-discipline prescribed by Congress;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+discipline prescribed by Congress;","FURTHER-SPLIT","","SPLIT-BEFORE=""and for governing such Part of them as may be employed in the Service of the United States""; SPLIT-BEFORE=""reserving to the States respectively, the Appointment of the Officers""; SPLIT-BEFORE=""and the Authority of training the Militia""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Militia organization and discipline, federal governance of militia in federal service, state officer-appointment authority, and state training authority are distinct textual propositions.","YES","NO","NO","CLOSED"
 "US-ADJ-000057","US-CONST-ART01-SEC08-CL000-AT018","US-CONST-ART01-SEC08-CL000","1","8","18","US-CONST-ART01-SEC08-CL000-AT017","US-CONST-ART01-SEC08-CL000-AT019","
 
 C O N S T I T U T I O N O F T H E U N I T E D S T A T E S
@@ -248,13 +248,13 @@ of Congress, become the Seat of the Government of the
 United States, and to exercise like Authority over all Places
 purchased by the Consent of the Legislature of the State in
 which the Same shall be, for the Erection of Forts, Maga-
-zines, Arsenals, dock-Yards and other needful Buildings;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+zines, Arsenals, dock-Yards and other needful Buildings;","FURTHER-SPLIT","","SPLIT-BEFORE=""and to exercise like Authority over all Places purchased by the Consent of the Legislature of the State""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Exclusive legislation over the federal district and like authority over federally acquired sites subject to state consent are separately conditioned grants.","YES","NO","NO","CLOSED"
 "US-ADJ-000058","US-CONST-ART01-SEC08-CL000-AT019","US-CONST-ART01-SEC08-CL000","1","8","19","US-CONST-ART01-SEC08-CL000-AT018","","
 -And
 To make all Laws which shall be necessary and proper for
 carrying into Execution the foregoing Powers, and all other
 Powers vested by this Constitution in the Government of
-the United States, or in any Department or Officer thereof.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+the United States, or in any Department or Officer thereof.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The Necessary and Proper provision states one integrated implementing-law power tied to constitutionally vested powers.","YES","NO","NO","CLOSED"
 "US-ADJ-000059","US-CONST-ART01-SEC09-CL000-AT001","US-CONST-ART01-SEC09-CL000","1","9","1","","US-CONST-ART01-SEC09-CL000-AT002","The Migration or Importation of such Persons as any of the
 States now existing shall think proper to admit, shall not be
 prohibited by the Congress prior to the Year one thousand
