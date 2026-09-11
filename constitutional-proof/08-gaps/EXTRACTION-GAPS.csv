@@ -1,2 +1,3 @@
 ﻿gap_id,batch_id,gap_class,description,status,resolution
-EXT-GAP-000001,US-CONST-BATCH-02,PDF-STRUCTURE-PARSER,"Original Batch 02 parser produced zero candidate units due to heading-layout mismatch in extracted PDF text.",RESOLVED,"Recovered by tolerant Article/Section detection in Batch 02R."
+EXT-GAP-000001,US-CONST-BATCH-02,PDF-STRUCTURE-PARSER,"Initial extraction produced zero candidate units.",SUPERSEDED,"Diagnosis established intact body text and headings."
+EXT-GAP-000002,US-CONST-BATCH-02R,PARSER-BOUNDARY-FAILURE,"Roman heading parser did not accept observed Article IV source form 'Article. I V.'.",RESOLVED,"Batch 02R2 parses exact observed line structure and normalizes spaced Roman numeral only for heading identification."
