@@ -1,7 +1,7 @@
 ﻿"clause_id","source_id","article","section","clause","amendment","source_page","source_locator","original_text","source_text_sha256","supersession_status","superseded_by","interpretation_status"
 "US-CONST-ART01-SEC01-CL000","US-CONST-SRC-000001","1","1","0","","","Article I, Section 1; raw lines 18-20; candidate section source unit","All legislative Powers herein granted shall be vested in a
 Congress of the United States, which shall consist of a Sen-
-ate and House of Representatives.","7AD8C29DF9BD9A57C4A35A6E3ADB79F84626A692BEF002C020068C40C74B7EE5","UNASSESSED","","CANDIDATE-EXTRACTION"
+ate and House of Representatives.","7AD8C29DF9BD9A57C4A35A6E3ADB79F84626A692BEF002C020068C40C74B7EE5","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART01-SEC02-CL000","US-CONST-SRC-000001","1","2","0","","","Article I, Section 2; raw lines 22-56; candidate section source unit","The House of Representatives shall be composed of Mem-
 bers chosen every second Year by the People of the several
 States, and the Electors in each State shall have the Qualifi-
@@ -36,7 +36,7 @@ State, the Executive Authority thereof shall issue Writs of
 Election to fill such Vacancies.
 The House of Representatives shall chuse their
 Speaker and other Officers; and shall have the sole
-Power of Impeachment.","0004222936EE1B0C51F249E9530FA367C0859877BCBD9F54B17C73C7D676C13E","UNASSESSED","","CANDIDATE-EXTRACTION"
+Power of Impeachment.","0004222936EE1B0C51F249E9530FA367C0859877BCBD9F54B17C73C7D676C13E","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART01-SEC03-CL000","US-CONST-SRC-000001","1","3","0","","","Article I, Section 3; raw lines 58-96; candidate section source unit","The Senate of the United States shall be composed of two
 Senators from each State, [chosen by the Legislature there-
 of,]* for six Years; and each Senator shall have one Vote.
@@ -75,7 +75,7 @@ further than to removal from Office, and disqualification to
 hold and enjoy any Office of honor, Trust or Profit under
 the United States: but the Party convicted shall nevertheless
 be liable and subject to Indictment, Trial, Judgment and
-Punishment, according to Law.","CF362C606B1A50613C97DA09AAFB449B07A1F96721D8FC12D2D6145812C12DC0","UNASSESSED","","CANDIDATE-EXTRACTION"
+Punishment, according to Law.","CF362C606B1A50613C97DA09AAFB449B07A1F96721D8FC12D2D6145812C12DC0","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART01-SEC04-CL000","US-CONST-SRC-000001","1","4","0","","","Article I, Section 4; raw lines 98-105; candidate section source unit","The Times, Places and Manner of holding Elections for
 Senators and Representatives, shall be prescribed in each
 State by the Legislature thereof; but the Congress may at
@@ -83,7 +83,7 @@ any time by Law make or alter such Regulations, except as
 to the Places of chusing Senators.
 The Congress shall assemble at least once in every Year, and
 such Meeting shall be [on the first Monday in December,]*
-unless they shall by Law appoint a different Day.","5334356558295673FC8A955598E81180CAE7FB73B765105BEA4B09EA9661C6B8","UNASSESSED","","CANDIDATE-EXTRACTION"
+unless they shall by Law appoint a different Day.","5334356558295673FC8A955598E81180CAE7FB73B765105BEA4B09EA9661C6B8","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART01-SEC05-CL000","US-CONST-SRC-000001","1","5","0","","","Article I, Section 5; raw lines 107-126; candidate section source unit","Each House shall be the Judge of the Elections, Returns
 and Qualifications of its own Members, and a Majority
 of each shall constitute a Quorum to do Business; but a
@@ -103,7 +103,7 @@ on the Journal.
 Neither House, during the Session of Congress, shall, with-
 out the Consent of the other, adjourn for more than three
 days, nor to any other Place than that in which the two
-Houses shall be sitting.","3CB64A0D197B10A9BCAA46D07C5276F1922EFB4D07FA793558039C2054D57C15","UNASSESSED","","CANDIDATE-EXTRACTION"
+Houses shall be sitting.","3CB64A0D197B10A9BCAA46D07C5276F1922EFB4D07FA793558039C2054D57C15","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART01-SEC06-CL000","US-CONST-SRC-000001","1","6","0","","","Article I, Section 6; raw lines 128-144; candidate section source unit","The Senators and Representatives shall receive a Compen-
 sation for their Services, to be ascertained by Law, and paid
 out of the Treasury of the United States. They shall in all
@@ -120,7 +120,7 @@ encreased during such time; and no Person holding any
 Office under the United States, shall be a Member of either
 House during his Continuance in Office.
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","DBD5433E3AB5F0F8E0D8383787E611E858AB795FD8F03F293019DE272C025E54","UNASSESSED","","CANDIDATE-EXTRACTION"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","DBD5433E3AB5F0F8E0D8383787E611E858AB795FD8F03F293019DE272C025E54","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART01-SEC07-CL000","US-CONST-SRC-000001","1","7","0","","","Article I, Section 7; raw lines 146-176; candidate section source unit","All Bills for raising Revenue shall originate in the House of
 Representatives; but the Senate may propose or concur with
 Amendments as on other Bills
@@ -151,7 +151,7 @@ presented to the President of the United States; and before
 the Same shall take Effect, shall be approved by him, or be-
 ing disapproved by him, shall be repassed by two thirds of
 the Senate and House of Representatives, according to the
-Rules and Limitations prescribed in the Case of a Bill.","6196B0D3EF638778485D58F4FF489BBF7EFA4E46DAD3F03E8A8803BD0929FD48","UNASSESSED","","CANDIDATE-EXTRACTION"
+Rules and Limitations prescribed in the Case of a Bill.","6196B0D3EF638778485D58F4FF489BBF7EFA4E46DAD3F03E8A8803BD0929FD48","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART01-SEC08-CL000","US-CONST-SRC-000001","1","8","0","","","Article I, Section 8; raw lines 178-230; candidate section source unit","The Congress shall have Power To lay and collect Taxes,
 Duties, Imposts and Excises, to pay the Debts and provide
 for the common Defence and general Welfare of the United
@@ -204,7 +204,7 @@ zines, Arsenals, dock-Yards and other needful Buildings;
 To make all Laws which shall be necessary and proper for
 carrying into Execution the foregoing Powers, and all other
 Powers vested by this Constitution in the Government of
-the United States, or in any Department or Officer thereof.","0A81506AE63B6FC5F78BD13956E49315D280F1D9387CC26F7D52EFF186C7E842","UNASSESSED","","CANDIDATE-EXTRACTION"
+the United States, or in any Department or Officer thereof.","0A81506AE63B6FC5F78BD13956E49315D280F1D9387CC26F7D52EFF186C7E842","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART01-SEC09-CL000","US-CONST-SRC-000001","1","9","0","","","Article I, Section 9; raw lines 232-259; candidate section source unit","The Migration or Importation of such Persons as any of the
 States now existing shall think proper to admit, shall not be
 prohibited by the Congress prior to the Year one thousand
@@ -232,7 +232,7 @@ No Title of Nobility shall be granted by the United States:
 And no Person holding any Office of Profit or Trust under
 them, shall, without the Consent of the Congress, accept
 of any present, Emolument, Office, or Title, of any kind
-whatever, from any King, Prince, or foreign State.","4568622A3AF7D0247685D6C82C0A3EA918CC4C9B494438017D6984A7BDC2F414","UNASSESSED","","CANDIDATE-EXTRACTION"
+whatever, from any King, Prince, or foreign State.","4568622A3AF7D0247685D6C82C0A3EA918CC4C9B494438017D6984A7BDC2F414","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART01-SEC10-CL000","US-CONST-SRC-000001","1","10","0","","","Article I, Section 10; raw lines 261-281; candidate section source unit","No State shall enter into any Treaty, Alliance, or Confedera-
 tion; grant Letters of Marque and Reprisal; coin Money;
 emit Bills of Credit; make any Thing but gold and silver
@@ -253,7 +253,7 @@ State, or with a foreign Power, or engage in War, unless
 actually invaded, or in such imminent Danger as will not
 admit of delay.
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","694EA2BBCEAF9BABD9A09E038F6E63CD4722051F8BF6F4D8AB24BEE19E259867","UNASSESSED","","CANDIDATE-EXTRACTION"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","694EA2BBCEAF9BABD9A09E038F6E63CD4722051F8BF6F4D8AB24BEE19E259867","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART02-SEC01-CL000","US-CONST-SRC-000001","2","1","0","","","Article II, Section 1; raw lines 284-353; candidate section source unit","The executive Power shall be vested in a President of the
 United States of America. He shall hold his Office during
 the Term of four Years, and, together with the Vice Presi-
@@ -323,7 +323,7 @@ President of the United States, and will to the best of my
 Ability, preserve, protect and defend the Constitution of
 the United States.â€
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","C44DA12197F844A37D7000DA1719E6075BE186EE7EE5F76D48B20068CD990F77","UNASSESSED","","CANDIDATE-EXTRACTION"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","C44DA12197F844A37D7000DA1719E6075BE186EE7EE5F76D48B20068CD990F77","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART02-SEC02-CL000","US-CONST-SRC-000001","2","2","0","","","Article II, Section 2; raw lines 355-378; candidate section source unit","The President shall be Commander in Chief of the Army
 and Navy of the United States, and of the Militia of the
 several States, when called into the actual Service of the
@@ -347,7 +347,7 @@ in the Courts of Law, or in the Heads of Departments.
 The President shall have Power to fill up all Vacancies
 that may happen during the Recess of the Senate, by
 granting Commissions which shall expire at the End of
-their next Session","AA92DCB9E83858F778CCA9EECAAB2F1169E9F3517F96B9730035C4ED68AE55D7","UNASSESSED","","CANDIDATE-EXTRACTION"
+their next Session","AA92DCB9E83858F778CCA9EECAAB2F1169E9F3517F96B9730035C4ED68AE55D7","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART02-SEC03-CL000","US-CONST-SRC-000001","2","3","0","","","Article II, Section 3; raw lines 380-390; candidate section source unit","He shall from time to time give to the Congress Informa-
 tion of the State of the Union, and recommend to their
 Consideration such Measures as he shall judge neces-
@@ -358,20 +358,20 @@ Adjournment, he may adjourn them to such Time as he
 shall think proper; he shall receive Ambassadors and other
 public Ministers; he shall take Care that the Laws be faith-
 fully executed, and shall Commission all the Officers of the
-United States","3B768E3CDDDF10ADCBD1B340A3A9C1C706B91A3AA4C3DF52F44329DC52A3769C","UNASSESSED","","CANDIDATE-EXTRACTION"
+United States","3B768E3CDDDF10ADCBD1B340A3A9C1C706B91A3AA4C3DF52F44329DC52A3769C","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART02-SEC04-CL000","US-CONST-SRC-000001","2","4","0","","","Article II, Section 4; raw lines 392-397; candidate section source unit","The President, Vice President and all civil Officers of the
 United States, shall be removed from Office on Impeach-
 ment for, and Conviction of, Treason, Bribery, or other
 high Crimes and Misdemeanors.
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","829E4AE5CCBB9AB369A2CB52F2F83F9756D685F2469C29BAA5E59CD4A018258C","UNASSESSED","","CANDIDATE-EXTRACTION"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","829E4AE5CCBB9AB369A2CB52F2F83F9756D685F2469C29BAA5E59CD4A018258C","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART03-SEC01-CL000","US-CONST-SRC-000001","3","1","0","","","Article III, Section 1; raw lines 400-407; candidate section source unit","The judicial Power of the United States, shall be vested
 in one supreme Court, and in such inferior Courts as the
 Congress may from time to time ordain and establish. The
 Judges, both of the supreme and inferior Courts, shall hold
 their Offices during good Behaviour, and shall at stated
 Times, receive for their Services, a Compensation, which
-shall not be diminished during their Continuance in Office.","17570DBF3BAAA0F8E1A1BA894B26B041A7F917889A59698DA1B6DF47543B40A0","UNASSESSED","","CANDIDATE-EXTRACTION"
+shall not be diminished during their Continuance in Office.","17570DBF3BAAA0F8E1A1BA894B26B041A7F917889A59698DA1B6DF47543B40A0","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART03-SEC02-CL000","US-CONST-SRC-000001","3","2","0","","","Article III, Section 2; raw lines 409-433; candidate section source unit","The judicial Power shall extend to all Cases, in Law and
 Equity, arising under this Constitution, the Laws of the
 United States, and Treaties made, or which shall be made,
@@ -395,7 +395,7 @@ The Trial of all Crimes, except in Cases of Impeachment;
 shall be by Jury; and such Trial shall be held in the State
 where the said Crimes shall have been committed; but when
 not committed within any State, the Trial shall be at such
-Place or Places as the Congress may by Law have directed.","36DA9C61B98EC4F3D30B0A28E32751BB37BD9E64450E2F02EE925A725D50ACD2","UNASSESSED","","CANDIDATE-EXTRACTION"
+Place or Places as the Congress may by Law have directed.","36DA9C61B98EC4F3D30B0A28E32751BB37BD9E64450E2F02EE925A725D50ACD2","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART03-SEC03-CL000","US-CONST-SRC-000001","3","3","0","","","Article III, Section 3; raw lines 435-445; candidate section source unit","Treason against the United States, shall consist only in levy-
 ing War against them, or in adhering to their Enemies, giv-
 ing them Aid and Comfort. No Person shall be convicted
@@ -406,12 +406,12 @@ of Treason, but no Attainder of Treason shall work Corrup-
 tion of Blood, or Forfeiture except during the Life of the
 Person attainted
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","1B31CB0B075E81EFF1FDAE06104E2DFC5D8495227E6D95957F597055C985EDDC","UNASSESSED","","CANDIDATE-EXTRACTION"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","1B31CB0B075E81EFF1FDAE06104E2DFC5D8495227E6D95957F597055C985EDDC","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART04-SEC01-CL000","US-CONST-SRC-000001","4","1","0","","","Article IV, Section 1; raw lines 448-452; candidate section source unit","Full Faith and Credit shall be given in each State to the
 public Acts, Records, and judicial Proceedings of every oth-
 er State. And the Congress may by general Laws prescribe
 the Manner in which such Acts, Records and Proceedings
-shall be proved, and the Effect thereof.","3479295FDD50C9E146BA95420BA1626A93FD8D2D889C7C3ACD99F24807E9A592","UNASSESSED","","CANDIDATE-EXTRACTION"
+shall be proved, and the Effect thereof.","3479295FDD50C9E146BA95420BA1626A93FD8D2D889C7C3ACD99F24807E9A592","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART04-SEC02-CL000","US-CONST-SRC-000001","4","2","0","","","Article IV, Section 2; raw lines 454-466; candidate section source unit","The Citizens of each State shall be entitled to all Privileges
 and Immunities of Citizens in the several States
 A Person charged in any State with Treason, Felony, or
@@ -424,7 +424,7 @@ the Laws thereof, escaping into another, shall, in Conse-
 quence of any Law or Regulation therein, be discharged
 from such Service or Labour, but shall be delivered up on
 Claim of the Party to whom such Service or Labour may be
-due.]*","EEB371E9D84C74FCBCF51F123CCEA74CE71B8953F279FA4B1E131BCB239B6E72","UNASSESSED","","CANDIDATE-EXTRACTION"
+due.]*","EEB371E9D84C74FCBCF51F123CCEA74CE71B8953F279FA4B1E131BCB239B6E72","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART04-SEC03-CL000","US-CONST-SRC-000001","4","3","0","","","Article IV, Section 3; raw lines 468-478; candidate section source unit","New States may be admitted by the Congress into this
 Union; but no new State shall be formed or erected within
 the Jurisdiction of any other State; nor any State be formed
@@ -435,12 +435,12 @@ The Congress shall have Power to dispose of and make all
 needful Rules and Regulations respecting the Territory or
 other Property belonging to the United States; and nothing
 in this Constitution shall be so construed as to Prejudice
-any Claims of the United States, or of any particular State.","DBA98374C8A445F1AA7F83B4A964ABA301C3917F20E262B524AC2B4AD0A53967","UNASSESSED","","CANDIDATE-EXTRACTION"
+any Claims of the United States, or of any particular State.","DBA98374C8A445F1AA7F83B4A964ABA301C3917F20E262B524AC2B4AD0A53967","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART04-SEC04-CL000","US-CONST-SRC-000001","4","4","0","","","Article IV, Section 4; raw lines 480-484; candidate section source unit","The United States shall guarantee to every State in this
 Union a Republican Form of Government, and shall
 protect each of them against Invasion; and on Application
 of the Legislature, or of the Executive (when the Legislature
-cannot be convened) against domestic Violence.","9512B5F5AE4FC9BB88FE343FFEEBE370675A91124E08D0E7310C5CF6BAACF3A5","UNASSESSED","","CANDIDATE-EXTRACTION"
+cannot be convened) against domestic Violence.","9512B5F5AE4FC9BB88FE343FFEEBE370675A91124E08D0E7310C5CF6BAACF3A5","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART05-SEC00-CL000","US-CONST-SRC-000001","5","0","0","","","Article V; raw lines 486-502; candidate article source unit","The Congress, whenever two thirds of both Houses shall
 deem it necessary, shall propose Amendments to this Con-
 stitution, or, on the Application of the Legislatures of two
@@ -457,7 +457,7 @@ in the Ninth Section of the first Article; and that no State,
 without its Consent, shall be deprived of its equal Suffrage
 in the Senate
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","F1F33EF723363DE05C607777BC37EF7EC4572C4F4971A7EB7F0BEF93C9B6848E","UNASSESSED","","CANDIDATE-EXTRACTION"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","F1F33EF723363DE05C607777BC37EF7EC4572C4F4971A7EB7F0BEF93C9B6848E","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART06-SEC00-CL000","US-CONST-SRC-000001","6","0","0","","","Article VI; raw lines 504-521; candidate article source unit","All Debts contracted and Engagements entered into, before
 the Adoption of this Constitution, shall be as valid against
 the United States under this Constitution, as under the
@@ -475,7 +475,7 @@ tive and judicial Officers, both of the United States and of
 the several States, shall be bound by Oath or Affirmation,
 to support this Constitution; but no religious Test shall ever
 be required as a Qualification to any Office or public Trust
-under the United States","2282D8AE5E12AD34770C4BBD4BE6BDF41824A6A235B3547CC0B58B3C172057F9","UNASSESSED","","CANDIDATE-EXTRACTION"
+under the United States","2282D8AE5E12AD34770C4BBD4BE6BDF41824A6A235B3547CC0B58B3C172057F9","UNASSESSED","","VERIFIED-SOURCE-UNIT"
 "US-CONST-ART07-SEC00-CL000","US-CONST-SRC-000001","7","0","0","","","Article VII; raw lines 523-525; candidate article source unit","The Ratification of the Conventions of nine States, shall
 be sufficient for the Establishment of this Constitution
-between the States so ratifying the Same.","769B90CB26A1EF1F7FD92501CF16E9434B352F5B8ABC086B2D029870CC577CC6","UNASSESSED","","CANDIDATE-EXTRACTION"
+between the States so ratifying the Same.","769B90CB26A1EF1F7FD92501CF16E9434B352F5B8ABC086B2D029870CC577CC6","UNASSESSED","","VERIFIED-SOURCE-UNIT"
