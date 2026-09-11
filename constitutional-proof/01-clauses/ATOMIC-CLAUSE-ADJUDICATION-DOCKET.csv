@@ -1,18 +1,18 @@
 ﻿"adjudication_id","candidate_clause_id","parent_source_unit_id","article","section","candidate_ordinal","previous_candidate_id","next_candidate_id","candidate_text","candidate_text_sha256","parent_source_locator","decision","merge_target","split_specification","atomicity_finding","constitutional_role","decision_basis","exact_text_preserved","doctrine_used","orynth_concepts_used","adjudication_status"
 "US-ADJ-000001","US-CONST-ART01-SEC01-CL000-AT001","US-CONST-ART01-SEC01-CL000","1","1","1","","","All legislative Powers herein granted shall be vested in a
 Congress of the United States, which shall consist of a Sen-
-ate and House of Representatives.","7AD8C29DF9BD9A57C4A35A6E3ADB79F84626A692BEF002C020068C40C74B7EE5","Article I, Section 1; raw lines 18-20; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+ate and House of Representatives.","7AD8C29DF9BD9A57C4A35A6E3ADB79F84626A692BEF002C020068C40C74B7EE5","Article I, Section 1; raw lines 18-20; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""which shall consist of""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The text contains a legislative-power vesting proposition and a distinct proposition specifying the composition of Congress.","YES","NO","NO","CLOSED"
 "US-ADJ-000002","US-CONST-ART01-SEC02-CL000-AT001","US-CONST-ART01-SEC02-CL000","1","2","1","","US-CONST-ART01-SEC02-CL000-AT002","The House of Representatives shall be composed of Mem-
 bers chosen every second Year by the People of the several
 States, and the Electors in each State shall have the Qualifi-
 cations requisite for Electors of the most numerous Branch
-of the State Legislature.","EAB1B3017ABCE85EB824C41DD68B7CEE9D2FF1A63D27C2C21CF5C976956E77A0","Article I, Section 2; raw lines 22-56; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+of the State Legislature.","EAB1B3017ABCE85EB824C41DD68B7CEE9D2FF1A63D27C2C21CF5C976956E77A0","Article I, Section 2; raw lines 22-56; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""and the Electors in each State""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","House-member selection and elector qualification are independently stated constitutional propositions.","YES","NO","NO","CLOSED"
 "US-ADJ-000003","US-CONST-ART01-SEC02-CL000-AT002","US-CONST-ART01-SEC02-CL000","1","2","2","US-CONST-ART01-SEC02-CL000-AT001","US-CONST-ART01-SEC02-CL000-AT003","
 No Person shall be a Representative who shall not have
 attained to the Age of twenty five Years, and been seven
 Years a Citizen of the United States, and who shall not,
 when elected, be an Inhabitant of that State in which he
-shall be chosen.","7076C30D55C866E40FA774ACC215522F806FB548D1E7293EB4F0476B8000BE13","Article I, Section 2; raw lines 22-56; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+shall be chosen.","7076C30D55C866E40FA774ACC215522F806FB548D1E7293EB4F0476B8000BE13","Article I, Section 2; raw lines 22-56; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one integrated set of qualifications for service as a Representative.","YES","NO","NO","CLOSED"
 "US-ADJ-000004","US-CONST-ART01-SEC02-CL000-AT003","US-CONST-ART01-SEC02-CL000","1","2","3","US-CONST-ART01-SEC02-CL000-AT002","US-CONST-ART01-SEC02-CL000-AT004","
 [Representatives and direct Taxes shall be apportioned
 among the several States which may be included within
@@ -23,40 +23,40 @@ of Years, and excluding Indians not taxed, three fifths of
 all other Persons.]* The actual Enumeration shall be made
 within three Years after the first Meeting of the Congress
 of the United States, and within every subsequent Term of
-ten Years, in such Manner as they shall by Law direct.","33A42869569A83F02626464A0ADB9DEE34048CD953D057F062343D86EDBB63BD","Article I, Section 2; raw lines 22-56; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+ten Years, in such Manner as they shall by Law direct.","33A42869569A83F02626464A0ADB9DEE34048CD953D057F062343D86EDBB63BD","Article I, Section 2; raw lines 22-56; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""The actual Enumeration shall be made""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The candidate contains an apportionment rule followed by a separately stated enumeration requirement.","YES","NO","NO","CLOSED"
 "US-ADJ-000005","US-CONST-ART01-SEC02-CL000-AT004","US-CONST-ART01-SEC02-CL000","1","2","4","US-CONST-ART01-SEC02-CL000-AT003","US-CONST-ART01-SEC02-CL000-AT005"," The
 Number of Representatives shall not exceed one for every
 thirty Thousand, but each State shall have at Least one
-Representative;","FF763B9B619B17036DDD65CE77C3F4CD52BEABF81A10D01CCA46F0F9942A7856","Article I, Section 2; raw lines 22-56; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Representative;","FF763B9B619B17036DDD65CE77C3F4CD52BEABF81A10D01CCA46F0F9942A7856","Article I, Section 2; raw lines 22-56; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""but each State shall have at Least one Representative""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The representation ratio ceiling and minimum state representation guarantee are separately testable propositions.","YES","NO","NO","CLOSED"
 "US-ADJ-000006","US-CONST-ART01-SEC02-CL000-AT005","US-CONST-ART01-SEC02-CL000","1","2","5","US-CONST-ART01-SEC02-CL000-AT004","US-CONST-ART01-SEC02-CL000-AT006"," and until such enumeration shall be made,
 the State of New Hampshire shall be entitled to chuse
 three, Massachusetts eight, Rhode-Island and Providence
 Plantations one, Connecticut five, New-York six, New
 Jersey four, Pennsylvania eight, Delaware one, Maryland
 six, Virginia ten, North Carolina five, South Carolina five,
-and Georgia three.","258A05D77F8B8BBC22BB94961704F51902162DACAF7CBF1307AC18C1A11A5AB1","Article I, Section 2; raw lines 22-56; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+and Georgia three.","258A05D77F8B8BBC22BB94961704F51902162DACAF7CBF1307AC18C1A11A5AB1","Article I, Section 2; raw lines 22-56; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the temporary pre-enumeration allocation as one integrated transitional provision.","YES","NO","NO","CLOSED"
 "US-ADJ-000007","US-CONST-ART01-SEC02-CL000-AT006","US-CONST-ART01-SEC02-CL000","1","2","6","US-CONST-ART01-SEC02-CL000-AT005","US-CONST-ART01-SEC02-CL000-AT007","
 When vacancies happen in the Representation from any
 State, the Executive Authority thereof shall issue Writs of
-Election to fill such Vacancies.","FB0E83DAA5F9397EAFFCE2EAEE9857EDE86147EF88EAA39A6E2E3DC591AFFFFB","Article I, Section 2; raw lines 22-56; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Election to fill such Vacancies.","FB0E83DAA5F9397EAFFCE2EAEE9857EDE86147EF88EAA39A6E2E3DC591AFFFFB","Article I, Section 2; raw lines 22-56; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one vacancy-triggered duty to issue election writs.","YES","NO","NO","CLOSED"
 "US-ADJ-000008","US-CONST-ART01-SEC02-CL000-AT007","US-CONST-ART01-SEC02-CL000","1","2","7","US-CONST-ART01-SEC02-CL000-AT006","US-CONST-ART01-SEC02-CL000-AT008","
 The House of Representatives shall chuse their
-Speaker and other Officers;","B16BEEAE8E4CCCE15C139927C1B575D2A22A8F91260FC20252D35C8BA2ED0318","Article I, Section 2; raw lines 22-56; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Speaker and other Officers;","B16BEEAE8E4CCCE15C139927C1B575D2A22A8F91260FC20252D35C8BA2ED0318","Article I, Section 2; raw lines 22-56; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the House power to choose its Speaker and other officers.","YES","NO","NO","CLOSED"
 "US-ADJ-000009","US-CONST-ART01-SEC02-CL000-AT008","US-CONST-ART01-SEC02-CL000","1","2","8","US-CONST-ART01-SEC02-CL000-AT007",""," and shall have the sole
-Power of Impeachment.","5A8D1B94924A3B9690CC0EA0AD2F4038699BA534304B785938755C90B483C686","Article I, Section 2; raw lines 22-56; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Power of Impeachment.","5A8D1B94924A3B9690CC0EA0AD2F4038699BA534304B785938755C90B483C686","Article I, Section 2; raw lines 22-56; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the House's sole impeachment power as one proposition.","YES","NO","NO","CLOSED"
 "US-ADJ-000010","US-CONST-ART01-SEC03-CL000-AT001","US-CONST-ART01-SEC03-CL000","1","3","1","","US-CONST-ART01-SEC03-CL000-AT002","The Senate of the United States shall be composed of two
 Senators from each State, [chosen by the Legislature there-
-of,]* for six Years;","5BA06FAE09654B5AE2818CB5EED0E5DD50125862294B707A26E62F1E48790BBF","Article I, Section 3; raw lines 58-96; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
-"US-ADJ-000011","US-CONST-ART01-SEC03-CL000-AT002","US-CONST-ART01-SEC03-CL000","1","3","2","US-CONST-ART01-SEC03-CL000-AT001","US-CONST-ART01-SEC03-CL000-AT003"," and each Senator shall have one Vote.","D0C2C24B36FDBDACBF879C4A15C4B224168C4D69E9F4424CE7A2B5DFC545F421","Article I, Section 3; raw lines 58-96; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+of,]* for six Years;","5BA06FAE09654B5AE2818CB5EED0E5DD50125862294B707A26E62F1E48790BBF","Article I, Section 3; raw lines 58-96; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states Senate composition, selection source, and term as one integrated source proposition.","YES","NO","NO","CLOSED"
+"US-ADJ-000011","US-CONST-ART01-SEC03-CL000-AT002","US-CONST-ART01-SEC03-CL000","1","3","2","US-CONST-ART01-SEC03-CL000-AT001","US-CONST-ART01-SEC03-CL000-AT003"," and each Senator shall have one Vote.","D0C2C24B36FDBDACBF879C4A15C4B224168C4D69E9F4424CE7A2B5DFC545F421","Article I, Section 3; raw lines 58-96; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate independently states the one-vote entitlement of each Senator.","YES","NO","NO","CLOSED"
 "US-ADJ-000012","US-CONST-ART01-SEC03-CL000-AT003","US-CONST-ART01-SEC03-CL000","1","3","3","US-CONST-ART01-SEC03-CL000-AT002","US-CONST-ART01-SEC03-CL000-AT004","
 Immediately after they shall be assembled in Consequence
 of the first Election, they shall be divided as equally as may
-be into three Classes.","5D3E2739E1CA3642B12CE1B622C8DFD0132E992EC39256661DF090C2E20556CB","Article I, Section 3; raw lines 58-96; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+be into three Classes.","5D3E2739E1CA3642B12CE1B622C8DFD0132E992EC39256661DF090C2E20556CB","Article I, Section 3; raw lines 58-96; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the initial division of Senators into three classes.","YES","NO","NO","CLOSED"
 "US-ADJ-000013","US-CONST-ART01-SEC03-CL000-AT004","US-CONST-ART01-SEC03-CL000","1","3","4","US-CONST-ART01-SEC03-CL000-AT003","US-CONST-ART01-SEC03-CL000-AT005"," The Seats of the Senators of the first
 Class shall be vacated at the Expiration of the second Year,
 of the second Class at the Expiration of the fourth Year, and
 of the third Class at the Expiration of the sixth Year, so that
-one third may be chosen every second Year;","D3E230D21A4E79621031D9A06A27147B15E53CDE8AA3D3E76C2E17713DF4373B","Article I, Section 3; raw lines 58-96; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+one third may be chosen every second Year;","D3E230D21A4E79621031D9A06A27147B15E53CDE8AA3D3E76C2E17713DF4373B","Article I, Section 3; raw lines 58-96; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The staggered expiration schedule and recurring one-third selection cycle form one integrated provision.","YES","NO","NO","CLOSED"
 "US-ADJ-000014","US-CONST-ART01-SEC03-CL000-AT005","US-CONST-ART01-SEC03-CL000","1","3","5","US-CONST-ART01-SEC03-CL000-AT004","US-CONST-ART01-SEC03-CL000-AT006"," [and if Vacan-
 cies happen by Resignation, or otherwise, during the Recess
 of the Legislature of any State, the Executive thereof may
@@ -70,37 +70,37 @@ the United States, and who shall not, when elected, be an
 Inhabitant of that State for which he shall be chosen
 The Vice President of the United States shall be
 President of the Senate, but shall have no Vote, unless
-they be equally divided.","6BABB32A909FCB229E082563E8A4E019B4FBE37C1747803ADFCAAD17C0EC8B22","Article I, Section 3; raw lines 58-96; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+they be equally divided.","6BABB32A909FCB229E082563E8A4E019B4FBE37C1747803ADFCAAD17C0EC8B22","Article I, Section 3; raw lines 58-96; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""No Person shall be a Senator""; SPLIT-BEFORE=""The Vice President of the United States shall be""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","After publication-header removal, the candidate contains three distinct provisions: temporary Senate vacancy appointment, Senator qualifications, and Vice-President presidency of the Senate.","YES","NO","NO","CLOSED"
 "US-ADJ-000015","US-CONST-ART01-SEC03-CL000-AT006","US-CONST-ART01-SEC03-CL000","1","3","6","US-CONST-ART01-SEC03-CL000-AT005","US-CONST-ART01-SEC03-CL000-AT007","
 The Senate shall chuse their other Officers, and also a
 President pro tempore, in the Absence of the Vice
 President, or when he shall exercise the Office of
 President of the United States
 The Senate shall have the sole Power to try all Impeach-
-ments.","11B39775ED8DAC3DBAC89261B7E4D21F95E82C49EDFAAB88A140A6CE31174E6E","Article I, Section 3; raw lines 58-96; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+ments.","11B39775ED8DAC3DBAC89261B7E4D21F95E82C49EDFAAB88A140A6CE31174E6E","Article I, Section 3; raw lines 58-96; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""The Senate shall have the sole Power to try all Impeachments""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The choice of Senate officers and President pro tempore is distinct from the Senate's sole power to try impeachments.","YES","NO","NO","CLOSED"
 "US-ADJ-000016","US-CONST-ART01-SEC03-CL000-AT007","US-CONST-ART01-SEC03-CL000","1","3","7","US-CONST-ART01-SEC03-CL000-AT006","US-CONST-ART01-SEC03-CL000-AT008"," When sitting for that Purpose, they shall be on
-Oath or Affirmation.","9A820F6046FD1A3203CD91D6198FB33A45639CA9B06C320B43EE9595FF4B61A4","Article I, Section 3; raw lines 58-96; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Oath or Affirmation.","9A820F6046FD1A3203CD91D6198FB33A45639CA9B06C320B43EE9595FF4B61A4","Article I, Section 3; raw lines 58-96; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the oath-or-affirmation requirement for Senate impeachment trials.","YES","NO","NO","CLOSED"
 "US-ADJ-000017","US-CONST-ART01-SEC03-CL000-AT008","US-CONST-ART01-SEC03-CL000","1","3","8","US-CONST-ART01-SEC03-CL000-AT007","US-CONST-ART01-SEC03-CL000-AT009"," When the President of the United
 States is tried, the Chief Justice shall preside: And no
 Person shall be convicted without the Concurrence of two
-thirds of the Members present.","7AE5683E48008C4C33056E654DD7A2ABC9CEECD714F54F204257D79EA4E5964E","Article I, Section 3; raw lines 58-96; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+thirds of the Members present.","7AE5683E48008C4C33056E654DD7A2ABC9CEECD714F54F204257D79EA4E5964E","Article I, Section 3; raw lines 58-96; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""And no Person shall be convicted without the Concurrence""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Chief Justice presidency when the President is tried and the two-thirds conviction threshold are independently testable requirements.","YES","NO","NO","CLOSED"
 "US-ADJ-000018","US-CONST-ART01-SEC03-CL000-AT009","US-CONST-ART01-SEC03-CL000","1","3","9","US-CONST-ART01-SEC03-CL000-AT008","","
 Judgment in Cases of Imp eachment shall not extend
 further than to removal from Office, and disqualification to
 hold and enjoy any Office of honor, Trust or Profit under
 the United States: but the Party convicted shall nevertheless
 be liable and subject to Indictment, Trial, Judgment and
-Punishment, according to Law.","24336D6F1B199A8AA7256775D9F4A48602DE739299AA9F50DEC279A7EBBF469F","Article I, Section 3; raw lines 58-96; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Punishment, according to Law.","24336D6F1B199A8AA7256775D9F4A48602DE739299AA9F50DEC279A7EBBF469F","Article I, Section 3; raw lines 58-96; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""but the Party convicted shall nevertheless""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The limitation on impeachment judgment and preserved exposure to ordinary criminal process are separate propositions.","YES","NO","NO","CLOSED"
 "US-ADJ-000019","US-CONST-ART01-SEC04-CL000-AT001","US-CONST-ART01-SEC04-CL000","1","4","1","","US-CONST-ART01-SEC04-CL000-AT002","The Times, Places and Manner of holding Elections for
 Senators and Representatives, shall be prescribed in each
-State by the Legislature thereof;","EACA99E3705B21115C51043374C308829671EF675866E2939465F6349F887E10","Article I, Section 4; raw lines 98-105; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+State by the Legislature thereof;","EACA99E3705B21115C51043374C308829671EF675866E2939465F6349F887E10","Article I, Section 4; raw lines 98-105; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states state-legislative prescription of congressional election times, places, and manner.","YES","NO","NO","CLOSED"
 "US-ADJ-000020","US-CONST-ART01-SEC04-CL000-AT002","US-CONST-ART01-SEC04-CL000","1","4","2","US-CONST-ART01-SEC04-CL000-AT001","US-CONST-ART01-SEC04-CL000-AT003"," but the Congress may at
 any time by Law make or alter such Regulations, except as
-to the Places of chusing Senators.","280AF3B590BF622037B71F62E508AB6BC4DE39D1433AD17483CE149BCFFB82B5","Article I, Section 4; raw lines 98-105; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+to the Places of chusing Senators.","280AF3B590BF622037B71F62E508AB6BC4DE39D1433AD17483CE149BCFFB82B5","Article I, Section 4; raw lines 98-105; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states Congress's alteration authority together with its textual exception.","YES","NO","NO","CLOSED"
 "US-ADJ-000021","US-CONST-ART01-SEC04-CL000-AT003","US-CONST-ART01-SEC04-CL000","1","4","3","US-CONST-ART01-SEC04-CL000-AT002","","
 The Congress shall assemble at least once in every Year, and
 such Meeting shall be [on the first Monday in December,]*
-unless they shall by Law appoint a different Day.","E2B345016702D78FC1555FE95E07F2A841E15ADB4A8BAF4A14023DA8BEB9468C","Article I, Section 4; raw lines 98-105; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+unless they shall by Law appoint a different Day.","E2B345016702D78FC1555FE95E07F2A841E15ADB4A8BAF4A14023DA8BEB9468C","Article I, Section 4; raw lines 98-105; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the recurring congressional assembly requirement and its permitted scheduling alternative.","YES","NO","NO","CLOSED"
 "US-ADJ-000022","US-CONST-ART01-SEC05-CL000-AT001","US-CONST-ART01-SEC05-CL000","1","5","1","","US-CONST-ART01-SEC05-CL000-AT002","Each House shall be the Judge of the Elections, Returns
 and Qualifications of its own Members, and a Majority
 of each shall constitute a Quorum to do Business;","C4B3E1826F82F84755F88973E5B223A1F38CCF737D2942022B2416B9C7EA6661","Article I, Section 5; raw lines 107-126; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
@@ -147,7 +147,7 @@ Office under the United States, shall be a Member of either
 House during his Continuance in Office.","B48149423F10BDECFD79624E4302484B01EA0921BA16F037F1636BF1E023802F","Article I, Section 6; raw lines 128-144; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
 "US-ADJ-000033","US-CONST-ART01-SEC06-CL000-AT006","US-CONST-ART01-SEC06-CL000","1","6","6","US-CONST-ART01-SEC06-CL000-AT005","","
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","43331A03E3368478B0C98BC8B0B21ABD8EB98F55E103B790CF6A04A4F9792F92","Article I, Section 6; raw lines 128-144; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","43331A03E3368478B0C98BC8B0B21ABD8EB98F55E103B790CF6A04A4F9792F92","Article I, Section 6; raw lines 128-144; candidate section source unit","NOT-APPLICABLE","","","NONSEMANTIC-PUBLICATION-ARTIFACT","NONE","Candidate contains no constitutional text after verified removal of the publication running header.","YES","NO","NO","EXCLUDED-NONSEMANTIC"
 "US-ADJ-000034","US-CONST-ART01-SEC07-CL000-AT001","US-CONST-ART01-SEC07-CL000","1","7","1","","US-CONST-ART01-SEC07-CL000-AT002","All Bills for raising Revenue shall originate in the House of
 Representatives;","E0BD760172F27646FB3B2C4AC579A518A7476BF6B82FE4C39F3D1EA43331B345","Article I, Section 7; raw lines 146-176; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
 "US-ADJ-000035","US-CONST-ART01-SEC07-CL000-AT002","US-CONST-ART01-SEC07-CL000","1","7","2","US-CONST-ART01-SEC07-CL000-AT001","US-CONST-ART01-SEC07-CL000-AT003"," but the Senate may propose or concur with
@@ -317,7 +317,7 @@ actually invaded, or in such imminent Danger as will not
 admit of delay.","7A1286016F8F6E9105540728DF571F657164BEC2680D62321D19643A33676D83","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
 "US-ADJ-000074","US-CONST-ART01-SEC10-CL000-AT010","US-CONST-ART01-SEC10-CL000","1","10","10","US-CONST-ART01-SEC10-CL000-AT009","","
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","43331A03E3368478B0C98BC8B0B21ABD8EB98F55E103B790CF6A04A4F9792F92","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","43331A03E3368478B0C98BC8B0B21ABD8EB98F55E103B790CF6A04A4F9792F92","Article I, Section 10; raw lines 261-281; candidate section source unit","NOT-APPLICABLE","","","NONSEMANTIC-PUBLICATION-ARTIFACT","NONE","Candidate contains no constitutional text after verified removal of the publication running header.","YES","NO","NO","EXCLUDED-NONSEMANTIC"
 "US-ADJ-000075","US-CONST-ART02-SEC01-CL000-AT001","US-CONST-ART02-SEC01-CL000","2","1","1","","US-CONST-ART02-SEC01-CL000-AT002","The executive Power shall be vested in a President of the
 United States of America.","C0E2EF362F3330294F06B48B3EFBCE988BD911B120405989FE590AD77337B840","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
 "US-ADJ-000076","US-CONST-ART02-SEC01-CL000-AT002","US-CONST-ART02-SEC01-CL000","2","1","2","US-CONST-ART02-SEC01-CL000-AT001","US-CONST-ART02-SEC01-CL000-AT003"," He shall hold his Office during
@@ -452,7 +452,7 @@ ment for, and Conviction of, Treason, Bribery, or other
 high Crimes and Misdemeanors.","67484423C885E6AF789EF82552F00270A69403737692C6B732365B55E82C3E34","Article II, Section 4; raw lines 392-397; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
 "US-ADJ-000102","US-CONST-ART02-SEC04-CL000-AT002","US-CONST-ART02-SEC04-CL000","2","4","2","US-CONST-ART02-SEC04-CL000-AT001","","
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","43331A03E3368478B0C98BC8B0B21ABD8EB98F55E103B790CF6A04A4F9792F92","Article II, Section 4; raw lines 392-397; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","43331A03E3368478B0C98BC8B0B21ABD8EB98F55E103B790CF6A04A4F9792F92","Article II, Section 4; raw lines 392-397; candidate section source unit","NOT-APPLICABLE","","","NONSEMANTIC-PUBLICATION-ARTIFACT","NONE","Candidate contains no constitutional text after verified removal of the publication running header.","YES","NO","NO","EXCLUDED-NONSEMANTIC"
 "US-ADJ-000103","US-CONST-ART03-SEC01-CL000-AT001","US-CONST-ART03-SEC01-CL000","3","1","1","","US-CONST-ART03-SEC01-CL000-AT002","The judicial Power of the United States, shall be vested
 in one supreme Court, and in such inferior Courts as the
 Congress may from time to time ordain and establish.","833C9329200290E34B362F0056247712500B9160685F7A14C33ADDDDCFAB933F","Article III, Section 1; raw lines 400-407; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
