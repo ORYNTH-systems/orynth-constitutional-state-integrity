@@ -1,3 +1,4 @@
-﻿gap_id,batch_id,gap_class,description,status,resolution
-EXT-GAP-000001,US-CONST-BATCH-02,PDF-STRUCTURE-PARSER,"Initial extraction produced zero candidate units.",SUPERSEDED,"Diagnosis established intact body text and headings."
-EXT-GAP-000002,US-CONST-BATCH-02R,PARSER-BOUNDARY-FAILURE,"Roman heading parser did not accept observed Article IV source form 'Article. I V.'.",RESOLVED,"Batch 02R2 parses exact observed line structure and normalizes spaced Roman numeral only for heading identification."
+﻿"gap_id","batch_id","gap_class","description","status","resolution"
+"EXT-GAP-000001","US-CONST-BATCH-02","PDF-STRUCTURE-PARSER","Initial extraction produced zero candidate units.","SUPERSEDED","Diagnostic established intact constitutional text and headings."
+"EXT-GAP-000002","US-CONST-BATCH-02R","PARSER-BOUNDARY-FAILURE","Article IV extracted as Article. I V. and was not accepted by the prior parser.","RESOLVED","Observed-layout parsing normalizes heading whitespace only."
+"EXT-GAP-000003","US-CONST-BATCH-02R2","PARTIAL-RECOVERY-COMMIT","Commit 43e9acc recorded recovery metadata but did not materialize the 24-unit clause/source registry.","RESOLVED","Batch 02R3 materialized and hard-validated the actual 24 source units."
