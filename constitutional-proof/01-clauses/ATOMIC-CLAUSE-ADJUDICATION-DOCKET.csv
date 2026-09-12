@@ -263,9 +263,9 @@ on such Importation, not exceeding ten dollars for each
 Person
 The Privilege of the Writ of Habeas Corpus shall not be
 suspended, unless when in Cases of Rebellion or Invasion
-the public Safety may require it.","559C1B72A6631DD016515F793CAC372DB50ADD16B38FCDBD4165BBD34D80D5F2","Article I, Section 9; raw lines 232-259; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+the public Safety may require it.","559C1B72A6631DD016515F793CAC372DB50ADD16B38FCDBD4165BBD34D80D5F2","Article I, Section 9; raw lines 232-259; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""but a Tax or duty may be imposed""; SPLIT-BEFORE=""The Privilege of the Writ of Habeas Corpus shall not be suspended""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The candidate contains the pre-1808 congressional prohibition, the distinct capped importation tax authorization, and the separate Habeas Corpus suspension rule.","YES","NO","NO","CLOSED"
 "US-ADJ-000060","US-CONST-ART01-SEC09-CL000-AT002","US-CONST-ART01-SEC09-CL000","1","9","2","US-CONST-ART01-SEC09-CL000-AT001","US-CONST-ART01-SEC09-CL000-AT003","
-No Bill of Attainder or ex post facto Law shall be passed.","E2A5F251279272691CF9AEAECEE1C74A60E50EDB899E88DEFBF187DB3B26BD56","Article I, Section 9; raw lines 232-259; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+No Bill of Attainder or ex post facto Law shall be passed.","E2A5F251279272691CF9AEAECEE1C74A60E50EDB899E88DEFBF187DB3B26BD56","Article I, Section 9; raw lines 232-259; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","Bill of Attainder and ex post facto Law appear within one shared textual prohibition.","YES","NO","NO","CLOSED"
 "US-ADJ-000061","US-CONST-ART01-SEC09-CL000-AT003","US-CONST-ART01-SEC09-CL000","1","9","3","US-CONST-ART01-SEC09-CL000-AT002","US-CONST-ART01-SEC09-CL000-AT004","
 [No Capitation, or other direct, Tax shall be laid, unless in
 Proportion to the Census or Enumeration herein before
@@ -275,51 +275,51 @@ State
 No Preference shall be given by any Regulation of Com-
 merce or Revenue to the Ports of one State over those of
 another: nor shall Vessels bound to, or from, one State, be
-obliged to enter, clear, or pay Duties in another.","8CDAEB245718C1E436B2AAF7D441B33B4FEF7EE255532CC9CAC097324F61910E","Article I, Section 9; raw lines 232-259; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+obliged to enter, clear, or pay Duties in another.","8CDAEB245718C1E436B2AAF7D441B33B4FEF7EE255532CC9CAC097324F61910E","Article I, Section 9; raw lines 232-259; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""No Tax or Duty shall be laid on Articles exported from any State""; SPLIT-BEFORE=""No Preference shall be given by any Regulation of Commerce or Revenue""; SPLIT-BEFORE=""nor shall Vessels bound to, or from, one State""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The candidate contains distinct direct-tax, export-tax, port-preference, and interstate vessel-duty prohibitions.","YES","NO","NO","CLOSED"
 "US-ADJ-000062","US-CONST-ART01-SEC09-CL000-AT004","US-CONST-ART01-SEC09-CL000","1","9","4","US-CONST-ART01-SEC09-CL000-AT003","US-CONST-ART01-SEC09-CL000-AT005","
 No Money shall be drawn from the Treasury, but in Con-
-sequence of Appropriations made by Law;","9468A9D4D65E8DD0969C2CEBC56257C73D9332F63BAE7194FC2A0EE7115F1652","Article I, Section 9; raw lines 232-259; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+sequence of Appropriations made by Law;","9468A9D4D65E8DD0969C2CEBC56257C73D9332F63BAE7194FC2A0EE7115F1652","Article I, Section 9; raw lines 232-259; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the appropriations prerequisite for Treasury withdrawals as one proposition.","YES","NO","NO","CLOSED"
 "US-ADJ-000063","US-CONST-ART01-SEC09-CL000-AT005","US-CONST-ART01-SEC09-CL000","1","9","5","US-CONST-ART01-SEC09-CL000-AT004","US-CONST-ART01-SEC09-CL000-AT006"," and a regular
 Statement and Account of the Receipts and Expenditures of
-all public Money shall be published from time to time.","44574AA1B0F82192FC63E3343BF3AB222784B7ABE80BCAC6C438C9B9433F6800","Article I, Section 9; raw lines 232-259; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+all public Money shall be published from time to time.","44574AA1B0F82192FC63E3343BF3AB222784B7ABE80BCAC6C438C9B9433F6800","Article I, Section 9; raw lines 232-259; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the recurring public-account publication requirement.","YES","NO","NO","CLOSED"
 "US-ADJ-000064","US-CONST-ART01-SEC09-CL000-AT006","US-CONST-ART01-SEC09-CL000","1","9","6","US-CONST-ART01-SEC09-CL000-AT005","","
 No Title of Nobility shall be granted by the United States:
 And no Person holding any Office of Profit or Trust under
 them, shall, without the Consent of the Congress, accept
 of any present, Emolument, Office, or Title, of any kind
-whatever, from any King, Prince, or foreign State.","C82E40293FFBAA6FDFCB18BDD889900DCFD74950870BDCD7C63CEA6F0C115691","Article I, Section 9; raw lines 232-259; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+whatever, from any King, Prince, or foreign State.","C82E40293FFBAA6FDFCB18BDD889900DCFD74950870BDCD7C63CEA6F0C115691","Article I, Section 9; raw lines 232-259; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""And no Person holding any Office of Profit or Trust under them""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The federal Title of Nobility prohibition is distinct from the foreign present, emolument, office, or title restriction on federal officeholders.","YES","NO","NO","CLOSED"
 "US-ADJ-000065","US-CONST-ART01-SEC10-CL000-AT001","US-CONST-ART01-SEC10-CL000","1","10","1","","US-CONST-ART01-SEC10-CL000-AT002","No State shall enter into any Treaty, Alliance, or Confedera-
-tion;","E3DB51060B3CF436CDAE5DFF830FFA33B5C5004BB715E43C6BAD9A0DDF73074E","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
-"US-ADJ-000066","US-CONST-ART01-SEC10-CL000-AT002","US-CONST-ART01-SEC10-CL000","1","10","2","US-CONST-ART01-SEC10-CL000-AT001","US-CONST-ART01-SEC10-CL000-AT003"," grant Letters of Marque and Reprisal;","4075F6A56841C63220DD6A2C9F50731FAF8D4D219EC58CBE71395AF0EE1C5E88","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
-"US-ADJ-000067","US-CONST-ART01-SEC10-CL000-AT003","US-CONST-ART01-SEC10-CL000","1","10","3","US-CONST-ART01-SEC10-CL000-AT002","US-CONST-ART01-SEC10-CL000-AT004"," coin Money;","8AC033CD6DBFAEB6506A717827370FB54589859BE5BB5D28510D2343EC41FF6C","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+tion;","E3DB51060B3CF436CDAE5DFF830FFA33B5C5004BB715E43C6BAD9A0DDF73074E","Article I, Section 10; raw lines 261-281; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the state prohibition on treaties, alliances, and confederations.","YES","NO","NO","CLOSED"
+"US-ADJ-000066","US-CONST-ART01-SEC10-CL000-AT002","US-CONST-ART01-SEC10-CL000","1","10","2","US-CONST-ART01-SEC10-CL000-AT001","US-CONST-ART01-SEC10-CL000-AT003"," grant Letters of Marque and Reprisal;","4075F6A56841C63220DD6A2C9F50731FAF8D4D219EC58CBE71395AF0EE1C5E88","Article I, Section 10; raw lines 261-281; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the state prohibition on Letters of Marque and Reprisal.","YES","NO","NO","CLOSED"
+"US-ADJ-000067","US-CONST-ART01-SEC10-CL000-AT003","US-CONST-ART01-SEC10-CL000","1","10","3","US-CONST-ART01-SEC10-CL000-AT002","US-CONST-ART01-SEC10-CL000-AT004"," coin Money;","8AC033CD6DBFAEB6506A717827370FB54589859BE5BB5D28510D2343EC41FF6C","Article I, Section 10; raw lines 261-281; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the state prohibition on coining money.","YES","NO","NO","CLOSED"
 "US-ADJ-000068","US-CONST-ART01-SEC10-CL000-AT004","US-CONST-ART01-SEC10-CL000","1","10","4","US-CONST-ART01-SEC10-CL000-AT003","US-CONST-ART01-SEC10-CL000-AT005","
-emit Bills of Credit;","52AA94CC919E14568F3B7DCBF2DF849DDC4FE0139C63B3021F3EF079AF565EF4","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+emit Bills of Credit;","52AA94CC919E14568F3B7DCBF2DF849DDC4FE0139C63B3021F3EF079AF565EF4","Article I, Section 10; raw lines 261-281; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the state prohibition on Bills of Credit.","YES","NO","NO","CLOSED"
 "US-ADJ-000069","US-CONST-ART01-SEC10-CL000-AT005","US-CONST-ART01-SEC10-CL000","1","10","5","US-CONST-ART01-SEC10-CL000-AT004","US-CONST-ART01-SEC10-CL000-AT006"," make any Thing but gold and silver
-Coin a Tender in Payment of Debts;","DAADA9A27F15A344212314FDAB0CBEDF144151B2DDED1F5C02B1F2E31F8AF0E3","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Coin a Tender in Payment of Debts;","DAADA9A27F15A344212314FDAB0CBEDF144151B2DDED1F5C02B1F2E31F8AF0E3","Article I, Section 10; raw lines 261-281; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the constitutional tender restriction as one proposition.","YES","NO","NO","CLOSED"
 "US-ADJ-000070","US-CONST-ART01-SEC10-CL000-AT006","US-CONST-ART01-SEC10-CL000","1","10","6","US-CONST-ART01-SEC10-CL000-AT005","US-CONST-ART01-SEC10-CL000-AT007"," pass any Bill of At-
 tainder, ex post facto Law, or Law impairing the Obligation
-of Contracts, or grant any Title of Nobility.","D7CDDCFBA3A8ED9372D472D9BF750B1B081BABC22FAA0717E092A41D0A7BF81D","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+of Contracts, or grant any Title of Nobility.","D7CDDCFBA3A8ED9372D472D9BF750B1B081BABC22FAA0717E092A41D0A7BF81D","Article I, Section 10; raw lines 261-281; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""ex post facto Law""; SPLIT-BEFORE=""or Law impairing the Obligation of Contracts""; SPLIT-BEFORE=""or grant any Title of Nobility""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The candidate enumerates separately testable state prohibitions concerning attainder, ex post facto laws, impairment of contracts, and titles of nobility.","YES","NO","NO","CLOSED"
 "US-ADJ-000071","US-CONST-ART01-SEC10-CL000-AT007","US-CONST-ART01-SEC10-CL000","1","10","7","US-CONST-ART01-SEC10-CL000-AT006","US-CONST-ART01-SEC10-CL000-AT008","
 No State shall, without the Consent of the Congress, lay
 any Imposts or Duties on Imports or Exports, except what
 may be absolutely necessary for executing itâ€™s inspection
 Laws: and the net Produce of all Duties and Imposts, laid
 by any State on Imports or Exports, shall be for the Use of
-the Treasury of the United States;","4C6DD3263CAB63DE04B22A30B608FF9E10B8D8A604C040B3C8088039D99F6AD8","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+the Treasury of the United States;","4C6DD3263CAB63DE04B22A30B608FF9E10B8D8A604C040B3C8088039D99F6AD8","Article I, Section 10; raw lines 261-281; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""and the net Produce of all Duties and Imposts""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The consent-limited import/export duty rule with its inspection-law exception is distinct from the required destination of the resulting net proceeds.","YES","NO","NO","CLOSED"
 "US-ADJ-000072","US-CONST-ART01-SEC10-CL000-AT008","US-CONST-ART01-SEC10-CL000","1","10","8","US-CONST-ART01-SEC10-CL000-AT007","US-CONST-ART01-SEC10-CL000-AT009"," and all such Laws shall be
-subject to the Revision and Controul of the Congress.","98E0830FF0A21F924B7E70C0BED7DFC01706783C7B84371527C03EDD49189D03","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+subject to the Revision and Controul of the Congress.","98E0830FF0A21F924B7E70C0BED7DFC01706783C7B84371527C03EDD49189D03","Article I, Section 10; raw lines 261-281; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states congressional revision and control over the referenced state laws.","YES","NO","NO","CLOSED"
 "US-ADJ-000073","US-CONST-ART01-SEC10-CL000-AT009","US-CONST-ART01-SEC10-CL000","1","10","9","US-CONST-ART01-SEC10-CL000-AT008","US-CONST-ART01-SEC10-CL000-AT010","
 No State shall, without the Consent of Congress, lay any
 Duty of Tonnage, keep Troops, or Ships of War in time of
 Peace, enter into any Agreement or Compact with another
 State, or with a foreign Power, or engage in War, unless
 actually invaded, or in such imminent Danger as will not
-admit of delay.","7A1286016F8F6E9105540728DF571F657164BEC2680D62321D19643A33676D83","Article I, Section 10; raw lines 261-281; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+admit of delay.","7A1286016F8F6E9105540728DF571F657164BEC2680D62321D19643A33676D83","Article I, Section 10; raw lines 261-281; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""keep Troops, or Ships of War in time of Peace""; SPLIT-BEFORE=""enter into any Agreement or Compact with another State""; SPLIT-BEFORE=""or engage in War""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Tonnage duties, peacetime troops or warships, interstate or foreign compacts, and war engagement are separately stated restrictions, with the invasion or imminent-danger exception attached to the war restriction.","YES","NO","NO","CLOSED"
 "US-ADJ-000074","US-CONST-ART01-SEC10-CL000-AT010","US-CONST-ART01-SEC10-CL000","1","10","10","US-CONST-ART01-SEC10-CL000-AT009","","
 
 C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","43331A03E3368478B0C98BC8B0B21ABD8EB98F55E103B790CF6A04A4F9792F92","Article I, Section 10; raw lines 261-281; candidate section source unit","NOT-APPLICABLE","","","NONSEMANTIC-PUBLICATION-ARTIFACT","NONE","Candidate contains no constitutional text after verified removal of the publication running header.","YES","NO","NO","EXCLUDED-NONSEMANTIC"
 "US-ADJ-000075","US-CONST-ART02-SEC01-CL000-AT001","US-CONST-ART02-SEC01-CL000","2","1","1","","US-CONST-ART02-SEC01-CL000-AT002","The executive Power shall be vested in a President of the
-United States of America.","C0E2EF362F3330294F06B48B3EFBCE988BD911B120405989FE590AD77337B840","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+United States of America.","C0E2EF362F3330294F06B48B3EFBCE988BD911B120405989FE590AD77337B840","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the vesting of executive power in the President.","YES","NO","NO","CLOSED"
 "US-ADJ-000076","US-CONST-ART02-SEC01-CL000-AT002","US-CONST-ART02-SEC01-CL000","2","1","2","US-CONST-ART02-SEC01-CL000-AT001","US-CONST-ART02-SEC01-CL000-AT003"," He shall hold his Office during
 the Term of four Years, and, together with the Vice Presi-
 dent, chosen for the same Term, be elected, as follows:
@@ -328,55 +328,55 @@ thereof may direct, a Number of Electors, equal to the
 whole Number of Senators and Representatives to which
 the State may be entitled in the Congress: but no Senator or
 Representative, or Person holding an Office of Trust or Prof-
-it under the United States, shall be appointed an Elector.","C6DB18EC1A900B80CE36A682B2BAC43EF4D4134527BBD6802A1EBB9B03723DD3","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+it under the United States, shall be appointed an Elector.","C6DB18EC1A900B80CE36A682B2BAC43EF4D4134527BBD6802A1EBB9B03723DD3","Article II, Section 1; raw lines 284-353; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""Each State shall appoint""; SPLIT-BEFORE=""but no Senator or Representative""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The presidential and vice-presidential term/election provision is distinct from state elector appointment and from the separate elector-ineligibility restriction.","YES","NO","NO","CLOSED"
 "US-ADJ-000077","US-CONST-ART02-SEC01-CL000-AT003","US-CONST-ART02-SEC01-CL000","2","1","3","US-CONST-ART02-SEC01-CL000-AT002","US-CONST-ART02-SEC01-CL000-AT004","
 [The Electors shall meet in their respective States, and vote
 by Ballot for two Persons, of whom one at least shall not
-be an Inhabitant of the same State with themselves.","FBD9F8173BC237F25D70ABB10AE394DE33D58F54347CD6740C0D4EF85005E76A","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+be an Inhabitant of the same State with themselves.","FBD9F8173BC237F25D70ABB10AE394DE33D58F54347CD6740C0D4EF85005E76A","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the elector meeting and ballot rule together with its interstate-residence condition.","YES","NO","NO","CLOSED"
 "US-ADJ-000078","US-CONST-ART02-SEC01-CL000-AT004","US-CONST-ART02-SEC01-CL000","2","1","4","US-CONST-ART02-SEC01-CL000-AT003","US-CONST-ART02-SEC01-CL000-AT005"," And
 they shall make a List of all the Persons voted for, and of
-the Number of Votes for each;","E87E99AF81F8ABC1B2077A92B21A91F2665F0C9A2B8481F9B9025A57529D8F7B","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+the Number of Votes for each;","E87E99AF81F8ABC1B2077A92B21A91F2665F0C9A2B8481F9B9025A57529D8F7B","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the elector duty to make the vote list.","YES","NO","NO","CLOSED"
 "US-ADJ-000079","US-CONST-ART02-SEC01-CL000-AT005","US-CONST-ART02-SEC01-CL000","2","1","5","US-CONST-ART02-SEC01-CL000-AT004","US-CONST-ART02-SEC01-CL000-AT006"," which List they shall sign
 and certify, and transmit sealed to the Seat of the Govern-
 ment of the United States, directed to the President of the
-Senate.","7A80BEAB85D8B793C6BDDFAC37A044B89BEF8531CCC6685E235E05E051DE65F6","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Senate.","7A80BEAB85D8B793C6BDDFAC37A044B89BEF8531CCC6685E235E05E051DE65F6","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","Signing, certification, sealing, transmission, and destination form one integrated handling requirement for the electoral list.","YES","NO","NO","CLOSED"
 "US-ADJ-000080","US-CONST-ART02-SEC01-CL000-AT006","US-CONST-ART02-SEC01-CL000","2","1","6","US-CONST-ART02-SEC01-CL000-AT005","US-CONST-ART02-SEC01-CL000-AT007"," The President of the Senate shall, in the Presence
 of the Senate and House of Representatives, open all the
-Certificates, and the Votes shall then be counted.","B35253C4ADED039FFA3EF7C5BD1287886E7CC8DAEB96E0E77CA4163818BDC38D","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Certificates, and the Votes shall then be counted.","B35253C4ADED039FFA3EF7C5BD1287886E7CC8DAEB96E0E77CA4163818BDC38D","Article II, Section 1; raw lines 284-353; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""and the Votes shall then be counted""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Opening the certificates in the presence of both Houses and counting the votes are separately stated procedural acts.","YES","NO","NO","CLOSED"
 "US-ADJ-000081","US-CONST-ART02-SEC01-CL000-AT007","US-CONST-ART02-SEC01-CL000","2","1","7","US-CONST-ART02-SEC01-CL000-AT006","US-CONST-ART02-SEC01-CL000-AT008"," The
 Person having the greatest Number of Votes shall be the
 President, if such Number be a Majority of the whole
-Number of Electors appointed;","3C184442A433DE297C917C6FC5F41CB9ACED3167ECB2BC3720C15F0B9D3A03F6","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Number of Electors appointed;","3C184442A433DE297C917C6FC5F41CB9ACED3167ECB2BC3720C15F0B9D3A03F6","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the electoral-vote plurality plus majority condition for presidential selection.","YES","NO","NO","CLOSED"
 "US-ADJ-000082","US-CONST-ART02-SEC01-CL000-AT008","US-CONST-ART02-SEC01-CL000","2","1","8","US-CONST-ART02-SEC01-CL000-AT007","US-CONST-ART02-SEC01-CL000-AT009"," and if there be more than
 one who have such Majority, and have an equal Number of
 Votes, then the House of Representatives shall immediately
-chuse by Ballot one of them for President;","D934DA2EB7E2777DB92E6C89D516B30AD91641CBF6C969435320AE8AE4A17013","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+chuse by Ballot one of them for President;","D934DA2EB7E2777DB92E6C89D516B30AD91641CBF6C969435320AE8AE4A17013","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the House selection rule when multiple persons hold an equal electoral majority.","YES","NO","NO","CLOSED"
 "US-ADJ-000083","US-CONST-ART02-SEC01-CL000-AT009","US-CONST-ART02-SEC01-CL000","2","1","9","US-CONST-ART02-SEC01-CL000-AT008","US-CONST-ART02-SEC01-CL000-AT010"," and if no Person
 have a Majority, then from the five highest on the List
-the said House shall in like Manner chuse the President.","7AB0AC8A608B1910A466D790FF71227230E1EDC68E56F262A732FF5B6A30B8B7","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+the said House shall in like Manner chuse the President.","7AB0AC8A608B1910A466D790FF71227230E1EDC68E56F262A732FF5B6A30B8B7","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the House selection procedure when no person has an electoral majority.","YES","NO","NO","CLOSED"
 "US-ADJ-000084","US-CONST-ART02-SEC01-CL000-AT010","US-CONST-ART02-SEC01-CL000","2","1","10","US-CONST-ART02-SEC01-CL000-AT009","US-CONST-ART02-SEC01-CL000-AT011","
 But in chusing the President, the Votes shall be taken by
-States, the Representation from each State having one Vote;","3A52D3063A83E7B2D19DF09F1777AFE044EEFEAA8C1E076D9FB1153FDA8B6A07","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+States, the Representation from each State having one Vote;","3A52D3063A83E7B2D19DF09F1777AFE044EEFEAA8C1E076D9FB1153FDA8B6A07","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the state-by-state voting rule and one-vote allocation in a House presidential choice.","YES","NO","NO","CLOSED"
 "US-ADJ-000085","US-CONST-ART02-SEC01-CL000-AT011","US-CONST-ART02-SEC01-CL000","2","1","11","US-CONST-ART02-SEC01-CL000-AT010","US-CONST-ART02-SEC01-CL000-AT012","
 A quorum for this Purpose shall consist of a Member or
 Members from two thirds of the States, and a Majority of
-all the States shall be necessary to a Choice.","E52A3C1414500336C81E8D6939CDB99EFA419A6205092248CD58CDF452270E31","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+all the States shall be necessary to a Choice.","E52A3C1414500336C81E8D6939CDB99EFA419A6205092248CD58CDF452270E31","Article II, Section 1; raw lines 284-353; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""and a Majority of all the States shall be necessary to a Choice""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The two-thirds-of-states quorum and majority-of-all-states choice threshold are distinct requirements.","YES","NO","NO","CLOSED"
 "US-ADJ-000086","US-CONST-ART02-SEC01-CL000-AT012","US-CONST-ART02-SEC01-CL000","2","1","12","US-CONST-ART02-SEC01-CL000-AT011","US-CONST-ART02-SEC01-CL000-AT013"," In every Case,
 after the Choice of the President, the Person having the
 greatest Number of Votes of the Electors shall be the Vice
-President.","A85F866A419BC56B5A718F79CDE66513E9B4E170747CB707708C991313DA02DC","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+President.","A85F866A419BC56B5A718F79CDE66513E9B4E170747CB707708C991313DA02DC","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the electoral-vote rule for selection of the Vice President after the President is chosen.","YES","NO","NO","CLOSED"
 "US-ADJ-000087","US-CONST-ART02-SEC01-CL000-AT013","US-CONST-ART02-SEC01-CL000","2","1","13","US-CONST-ART02-SEC01-CL000-AT012","US-CONST-ART02-SEC01-CL000-AT014"," But if there should remain two or more who
 have equal Votes, the Senate shall chuse from them by Bal-
 lot the Vice President.]*
 
 The Congress may determine the Time of chusing the
-Electors, and the Day on which they shall give their Votes;","994EEE4B63FBCCC01BA2953AC9E1AED4A3C4C4AEE55256AC4C65DF089C4D9648","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Electors, and the Day on which they shall give their Votes;","994EEE4B63FBCCC01BA2953AC9E1AED4A3C4C4AEE55256AC4C65DF089C4D9648","Article II, Section 1; raw lines 284-353; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""The Congress may determine the Time of chusing the Electors""; SPLIT-BEFORE=""and the Day on which they shall give their Votes""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Senate selection of a tied Vice President is distinct from Congress's power over elector-selection timing and the separate voting-day specification.","YES","NO","NO","CLOSED"
 "US-ADJ-000088","US-CONST-ART02-SEC01-CL000-AT014","US-CONST-ART02-SEC01-CL000","2","1","14","US-CONST-ART02-SEC01-CL000-AT013","US-CONST-ART02-SEC01-CL000-AT015","
-which Day shall be the same throughout the United States.","6EF1BEC7F394CF4927C7E39A64E5BD99813D12AC92A4D0B036860C06C5543B16","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+which Day shall be the same throughout the United States.","6EF1BEC7F394CF4927C7E39A64E5BD99813D12AC92A4D0B036860C06C5543B16","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the nationwide uniform-day requirement for electoral voting.","YES","NO","NO","CLOSED"
 "US-ADJ-000089","US-CONST-ART02-SEC01-CL000-AT015","US-CONST-ART02-SEC01-CL000","2","1","15","US-CONST-ART02-SEC01-CL000-AT014","US-CONST-ART02-SEC01-CL000-AT016","
 No Person except a natural born Citizen, or a Citizen
 of the United States, at the time of the Adoption of this
-Constitution, shall be eligible to the Office of President;","23199B9AAE257FB927EF79B2F280ACA3D30158DE5644378490F0EB1DAA3339F0","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Constitution, shall be eligible to the Office of President;","23199B9AAE257FB927EF79B2F280ACA3D30158DE5644378490F0EB1DAA3339F0","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the citizenship qualification for presidential eligibility, including its textual adoption-era alternative.","YES","NO","NO","CLOSED"
 "US-ADJ-000090","US-CONST-ART02-SEC01-CL000-AT016","US-CONST-ART02-SEC01-CL000","2","1","16","US-CONST-ART02-SEC01-CL000-AT015","US-CONST-ART02-SEC01-CL000-AT017","
 neither shall any person be eligible to that Office who shall
 not have attained to the Age of thirty five Years, and been
@@ -394,7 +394,7 @@ The President shall, at stated Times, receive for his Services,
 a Compensation, which shall neither be increased nor
 diminished during the Period for which he shall have been
 elected, and he shall not receive within that Period any
-other Emolument from the United States, or any of them.","13A5D88A3AEF0C7A8AA10A928C9FD26260CB7743464ADD5A63BBD464484D299E","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+other Emolument from the United States, or any of them.","13A5D88A3AEF0C7A8AA10A928C9FD26260CB7743464ADD5A63BBD464484D299E","Article II, Section 1; raw lines 284-353; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""In Case of the Removal of the President from Office""; SPLIT-BEFORE=""and the Congress may by Law provide for the Case of Removal""; SPLIT-BEFORE=""The President shall, at stated Times, receive for his Services""; SPLIT-BEFORE=""which shall neither be increased nor diminished""; SPLIT-BEFORE=""and he shall not receive within that Period any other Emolument""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The candidate contains presidential age/residency qualifications, vice-presidential succession, congressional double-vacancy succession authority, compensation entitlement, compensation non-variation, and the prohibition on additional emoluments.","YES","NO","NO","CLOSED"
 "US-ADJ-000091","US-CONST-ART02-SEC01-CL000-AT017","US-CONST-ART02-SEC01-CL000","2","1","17","US-CONST-ART02-SEC01-CL000-AT016","","
 Before he enter on the Execution of his Office, he shall
 take the following Oath or Affirmation:- â€œI do solemnly
@@ -403,21 +403,21 @@ President of the United States, and will to the best of my
 Ability, preserve, protect and defend the Constitution of
 the United States.â€
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","B4B0A0A699EB100CD19304C96B6E45F662347966656759440AAD85ECB274373D","Article II, Section 1; raw lines 284-353; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","B4B0A0A699EB100CD19304C96B6E45F662347966656759440AAD85ECB274373D","Article II, Section 1; raw lines 284-353; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the pre-execution oath-or-affirmation requirement together with the prescribed oath text.","YES","NO","NO","CLOSED"
 "US-ADJ-000092","US-CONST-ART02-SEC02-CL000-AT001","US-CONST-ART02-SEC02-CL000","2","2","1","","US-CONST-ART02-SEC02-CL000-AT002","The President shall be Commander in Chief of the Army
 and Navy of the United States, and of the Militia of the
 several States, when called into the actual Service of the
-United States;","747DCAFE3E79695A0DAC0751EFAFBF78A145CB83C88A9224E6C37E2A480B2D08","Article II, Section 2; raw lines 355-378; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+United States;","747DCAFE3E79695A0DAC0751EFAFBF78A145CB83C88A9224E6C37E2A480B2D08","Article II, Section 2; raw lines 355-378; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The Commander in Chief provision forms one integrated authority statement over the listed forces and militia condition.","YES","NO","NO","CLOSED"
 "US-ADJ-000093","US-CONST-ART02-SEC02-CL000-AT002","US-CONST-ART02-SEC02-CL000","2","2","2","US-CONST-ART02-SEC02-CL000-AT001","US-CONST-ART02-SEC02-CL000-AT003"," he may require the Opinion, in writing, of
 the principal Officer in each of the executive Departments,
 upon any Subject relating to the Duties of their respective
 Offices, and he shall have Power to grant Reprieves and
 Pardons for Offenses against the United States, except in
-Cases of Impeachment.","B6FF644D5323214F3039E1B8574C22374BB962719D1C1B85DAEA06C4BF22A156","Article II, Section 2; raw lines 355-378; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Cases of Impeachment.","B6FF644D5323214F3039E1B8574C22374BB962719D1C1B85DAEA06C4BF22A156","Article II, Section 2; raw lines 355-378; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""and he shall have Power to grant Reprieves and Pardons""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The written-opinion authority over executive department officers is distinct from the reprieve and pardon power.","YES","NO","NO","CLOSED"
 "US-ADJ-000094","US-CONST-ART02-SEC02-CL000-AT003","US-CONST-ART02-SEC02-CL000","2","2","3","US-CONST-ART02-SEC02-CL000-AT002","US-CONST-ART02-SEC02-CL000-AT004","
 He shall have Power, by and with the Advice and Consent
 of the Senate, to make Treaties, provided two thirds of the
-Senators present concur;","BB2B2758A836880ED2B237A95F466E8347FD20400715D8729C3C111DD769F8A5","Article II, Section 2; raw lines 355-378; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Senators present concur;","BB2B2758A836880ED2B237A95F466E8347FD20400715D8729C3C111DD769F8A5","Article II, Section 2; raw lines 355-378; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","Treaty-making power and the two-thirds Senate concurrence condition form one integrated authority rule.","YES","NO","NO","CLOSED"
 "US-ADJ-000095","US-CONST-ART02-SEC02-CL000-AT004","US-CONST-ART02-SEC02-CL000","2","2","4","US-CONST-ART02-SEC02-CL000-AT003","US-CONST-ART02-SEC02-CL000-AT005"," and he shall nominate, and by and
 with the Advice and Consent of the Senate, shall appoint
 Ambassadors, other public Ministers and Consuls, Judges
@@ -426,12 +426,12 @@ States, whose Appointments are not herein otherwise
 provided for, and which shall be established by Law: but
 the Congress may by Law vest the Appointment of such in-
 ferior Officers, as they think proper, in the President alone,
-in the Courts of Law, or in the Heads of Departments.","1CF7F9D426C86ACF8EC8F9A50F3E47D91A1559ED53FEA244E3FF57AD9A9B4035","Article II, Section 2; raw lines 355-378; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+in the Courts of Law, or in the Heads of Departments.","1CF7F9D426C86ACF8EC8F9A50F3E47D91A1559ED53FEA244E3FF57AD9A9B4035","Article II, Section 2; raw lines 355-378; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""and by and with the Advice and Consent of the Senate, shall appoint""; SPLIT-BEFORE=""but the Congress may by Law vest the Appointment of such inferior Officers""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Presidential nomination, Senate-consent appointment, and congressional authority to vest inferior-officer appointments elsewhere are separately stated constitutional propositions.","YES","NO","NO","CLOSED"
 "US-ADJ-000096","US-CONST-ART02-SEC02-CL000-AT005","US-CONST-ART02-SEC02-CL000","2","2","5","US-CONST-ART02-SEC02-CL000-AT004","","
 The President shall have Power to fill up all Vacancies
 that may happen during the Recess of the Senate, by
 granting Commissions which shall expire at the End of
-their next Session","EF7B94853E49B2A6833D12B106DAC6EF539D4449392BBE6F4965597F5596EC99","Article II, Section 2; raw lines 355-378; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+their next Session","EF7B94853E49B2A6833D12B106DAC6EF539D4449392BBE6F4965597F5596EC99","Article II, Section 2; raw lines 355-378; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""which shall expire at the End of their next Session""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The recess-vacancy appointment power is distinct from the constitutional expiration condition on the resulting commissions.","YES","NO","NO","CLOSED"
 "US-ADJ-000097","US-CONST-ART02-SEC03-CL000-AT001","US-CONST-ART02-SEC03-CL000","2","3","1","","US-CONST-ART02-SEC03-CL000-AT002","He shall from time to time give to the Congress Informa-
 tion of the State of the Union, and recommend to their
 Consideration such Measures as he shall judge neces-
