@@ -435,44 +435,44 @@ their next Session","FURTHER-SPLIT","","SPLIT-BEFORE=""which shall expire at the
 "US-ADJ-000097","US-CONST-ART02-SEC03-CL000-AT001","US-CONST-ART02-SEC03-CL000","2","3","1","","US-CONST-ART02-SEC03-CL000-AT002","He shall from time to time give to the Congress Informa-
 tion of the State of the Union, and recommend to their
 Consideration such Measures as he shall judge neces-
-sary and expedient;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+sary and expedient;","FURTHER-SPLIT","","SPLIT-BEFORE=""and recommend to their Consideration such Measures""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The State of the Union information duty and the recommendation duty are separately stated presidential obligations.","YES","NO","NO","CLOSED"
 "US-ADJ-000098","US-CONST-ART02-SEC03-CL000-AT002","US-CONST-ART02-SEC03-CL000","2","3","2","US-CONST-ART02-SEC03-CL000-AT001","US-CONST-ART02-SEC03-CL000-AT003"," he may, on extraordinary Occasions,
 convene both Houses, or either of them, and in Case of
 Disagreement between them, with Respect to the Time of
 Adjournment, he may adjourn them to such Time as he
-shall think proper;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+shall think proper;","FURTHER-SPLIT","","SPLIT-BEFORE=""and in Case of Disagreement between them""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The extraordinary-occasion power to convene either or both Houses is distinct from the conditional power to set an adjournment time when the Houses disagree.","YES","NO","NO","CLOSED"
 "US-ADJ-000099","US-CONST-ART02-SEC03-CL000-AT003","US-CONST-ART02-SEC03-CL000","2","3","3","US-CONST-ART02-SEC03-CL000-AT002","US-CONST-ART02-SEC03-CL000-AT004"," he shall receive Ambassadors and other
-public Ministers;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+public Ministers;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the presidential duty to receive Ambassadors and other public Ministers.","YES","NO","NO","CLOSED"
 "US-ADJ-000100","US-CONST-ART02-SEC03-CL000-AT004","US-CONST-ART02-SEC03-CL000","2","3","4","US-CONST-ART02-SEC03-CL000-AT003",""," he shall take Care that the Laws be faith-
 fully executed, and shall Commission all the Officers of the
-United States","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+United States","FURTHER-SPLIT","","SPLIT-BEFORE=""and shall Commission all the Officers of the United States""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The Take Care duty and the duty to commission United States officers are independently stated obligations.","YES","NO","NO","CLOSED"
 "US-ADJ-000101","US-CONST-ART02-SEC04-CL000-AT001","US-CONST-ART02-SEC04-CL000","2","4","1","","US-CONST-ART02-SEC04-CL000-AT002","The President, Vice President and all civil Officers of the
 United States, shall be removed from Office on Impeach-
 ment for, and Conviction of, Treason, Bribery, or other
-high Crimes and Misdemeanors.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+high Crimes and Misdemeanors.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one integrated impeachment-and-conviction removal rule for the listed federal officers and offenses.","YES","NO","NO","CLOSED"
 "US-ADJ-000102","US-CONST-ART02-SEC04-CL000-AT002","US-CONST-ART02-SEC04-CL000","2","4","2","US-CONST-ART02-SEC04-CL000-AT001","","
 
 C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","NOT-APPLICABLE","","","NONSEMANTIC-PUBLICATION-ARTIFACT","NONE","Candidate contains no constitutional text after verified removal of the publication running header.","YES","NO","NO","EXCLUDED-NONSEMANTIC"
 "US-ADJ-000103","US-CONST-ART03-SEC01-CL000-AT001","US-CONST-ART03-SEC01-CL000","3","1","1","","US-CONST-ART03-SEC01-CL000-AT002","The judicial Power of the United States, shall be vested
 in one supreme Court, and in such inferior Courts as the
-Congress may from time to time ordain and establish.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Congress may from time to time ordain and establish.","FURTHER-SPLIT","","SPLIT-BEFORE=""and in such inferior Courts as the Congress may from time to time ordain and establish""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Vesting judicial power in one supreme Court is textually distinguishable from vesting judicial power in inferior Courts created by Congress.","YES","NO","NO","CLOSED"
 "US-ADJ-000104","US-CONST-ART03-SEC01-CL000-AT002","US-CONST-ART03-SEC01-CL000","3","1","2","US-CONST-ART03-SEC01-CL000-AT001",""," The
 Judges, both of the supreme and inferior Courts, shall hold
 their Offices during good Behaviour, and shall at stated
 Times, receive for their Services, a Compensation, which
-shall not be diminished during their Continuance in Office.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+shall not be diminished during their Continuance in Office.","FURTHER-SPLIT","","SPLIT-BEFORE=""and shall at stated Times, receive for their Services, a Compensation""; SPLIT-BEFORE=""which shall not be diminished during their Continuance in Office""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Good-behavior tenure, compensation entitlement, and the compensation non-diminution rule are separately testable judicial protections.","YES","NO","NO","CLOSED"
 "US-ADJ-000105","US-CONST-ART03-SEC02-CL000-AT001","US-CONST-ART03-SEC02-CL000","3","2","1","","US-CONST-ART03-SEC02-CL000-AT002","The judicial Power shall extend to all Cases, in Law and
 Equity, arising under this Constitution, the Laws of the
 United States, and Treaties made, or which shall be made,
-under their Authority;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+under their Authority;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the federal-question jurisdiction category arising under the Constitution, federal laws, and treaties.","YES","NO","NO","CLOSED"
 "US-ADJ-000106","US-CONST-ART03-SEC02-CL000-AT002","US-CONST-ART03-SEC02-CL000","3","2","2","US-CONST-ART03-SEC02-CL000-AT001","US-CONST-ART03-SEC02-CL000-AT003"," - to all Cases affecting Ambassa-
-dors, other public Ministers and Consuls;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+dors, other public Ministers and Consuls;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states judicial power over cases affecting Ambassadors, other public Ministers, and Consuls.","YES","NO","NO","CLOSED"
 "US-ADJ-000107","US-CONST-ART03-SEC02-CL000-AT003","US-CONST-ART03-SEC02-CL000","3","2","3","US-CONST-ART03-SEC02-CL000-AT002","US-CONST-ART03-SEC02-CL000-AT004"," - to all Cases of
-admiralty and maritime Jurisdiction;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+admiralty and maritime Jurisdiction;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states judicial power over admiralty and maritime cases.","YES","NO","NO","CLOSED"
 "US-ADJ-000108","US-CONST-ART03-SEC02-CL000-AT004","US-CONST-ART03-SEC02-CL000","3","2","4","US-CONST-ART03-SEC02-CL000-AT003","US-CONST-ART03-SEC02-CL000-AT005"," - to Controversies to
-which the United States shall be a Party;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+which the United States shall be a Party;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states judicial power over controversies to which the United States is a party.","YES","NO","NO","CLOSED"
 "US-ADJ-000109","US-CONST-ART03-SEC02-CL000-AT005","US-CONST-ART03-SEC02-CL000","3","2","5","US-CONST-ART03-SEC02-CL000-AT004","US-CONST-ART03-SEC02-CL000-AT006"," - to Controversies
-between two or more States;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+between two or more States;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states judicial power over controversies between two or more States.","YES","NO","NO","CLOSED"
 "US-ADJ-000110","US-CONST-ART03-SEC02-CL000-AT006","US-CONST-ART03-SEC02-CL000","3","2","6","US-CONST-ART03-SEC02-CL000-AT005","US-CONST-ART03-SEC02-CL000-AT007"," - [between a State and Citizens
 of another State;-]* between Citizens of different States,
 - between Citizens of the same State claiming Lands under
@@ -480,21 +480,21 @@ Grants of different States, [and between a State, or the Citi-
 zens thereof;- and foreign States, Citizens or Subjects.]*
 In all Cases affecting Ambassadors, other public Ministers
 and Consuls, and those in which a State shall be Party, the
-supreme Court shall have original Jurisdiction.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+supreme Court shall have original Jurisdiction.","FURTHER-SPLIT","","SPLIT-BEFORE=""between Citizens of different States""; SPLIT-BEFORE=""between Citizens of the same State claiming Lands under Grants of different States""; SPLIT-BEFORE=""[and between a State, or the Citizens thereof;""; SPLIT-BEFORE=""In all Cases affecting Ambassadors""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The candidate contains multiple separately enumerated controversy categories followed by the distinct supreme-Court original-jurisdiction rule.","YES","NO","NO","CLOSED"
 "US-ADJ-000111","US-CONST-ART03-SEC02-CL000-AT007","US-CONST-ART03-SEC02-CL000","3","2","7","US-CONST-ART03-SEC02-CL000-AT006","US-CONST-ART03-SEC02-CL000-AT008"," In all the
 other Cases before mentioned, the supreme Court shall
 have appellate Jurisdiction, both as to Law and Fact, with
 such Exceptions, and under such Regulations as the Con-
-gress shall make.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+gress shall make.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the supreme Court's appellate jurisdiction together with the textual congressional exceptions-and-regulations qualification.","YES","NO","NO","CLOSED"
 "US-ADJ-000112","US-CONST-ART03-SEC02-CL000-AT008","US-CONST-ART03-SEC02-CL000","3","2","8","US-CONST-ART03-SEC02-CL000-AT007","US-CONST-ART03-SEC02-CL000-AT009","
-The Trial of all Crimes, except in Cases of Impeachment;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+The Trial of all Crimes, except in Cases of Impeachment;","MERGE-WITH-NEXT","US-CONST-ART03-SEC02-CL000-AT009","","NONATOMIC-MERGE-REQUIRED","UNASSESSED","The phrase identifying the Trials subject to the rule is grammatically incomplete without the following candidate stating that such trials shall be by Jury.","YES","NO","NO","CLOSED"
 "US-ADJ-000113","US-CONST-ART03-SEC02-CL000-AT009","US-CONST-ART03-SEC02-CL000","3","2","9","US-CONST-ART03-SEC02-CL000-AT008","US-CONST-ART03-SEC02-CL000-AT010","
-shall be by Jury;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+shall be by Jury;","MERGE-WITH-PREVIOUS","US-CONST-ART03-SEC02-CL000-AT008","","NONATOMIC-MERGE-REQUIRED","UNASSESSED","The phrase 'shall be by Jury' completes the immediately preceding constitutional proposition concerning Trials of all Crimes except Impeachment.","YES","NO","NO","CLOSED"
 "US-ADJ-000114","US-CONST-ART03-SEC02-CL000-AT010","US-CONST-ART03-SEC02-CL000","3","2","10","US-CONST-ART03-SEC02-CL000-AT009","US-CONST-ART03-SEC02-CL000-AT011"," and such Trial shall be held in the State
-where the said Crimes shall have been committed;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+where the said Crimes shall have been committed;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the in-State criminal-trial venue rule tied to the place where the crime was committed.","YES","NO","NO","CLOSED"
 "US-ADJ-000115","US-CONST-ART03-SEC02-CL000-AT011","US-CONST-ART03-SEC02-CL000","3","2","11","US-CONST-ART03-SEC02-CL000-AT010",""," but when
 not committed within any State, the Trial shall be at such
-Place or Places as the Congress may by Law have directed.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Place or Places as the Congress may by Law have directed.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the alternative venue rule for crimes not committed within any State.","YES","NO","NO","CLOSED"
 "US-ADJ-000116","US-CONST-ART03-SEC03-CL000-AT001","US-CONST-ART03-SEC03-CL000","3","3","1","","US-CONST-ART03-SEC03-CL000-AT002","Treason against the United States, shall consist only in levy-
 ing War against them, or in adhering to their Enemies, giv-
 ing them Aid and Comfort.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
