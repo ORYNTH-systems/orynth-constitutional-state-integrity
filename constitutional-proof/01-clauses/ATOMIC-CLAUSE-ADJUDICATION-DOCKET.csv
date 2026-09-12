@@ -545,10 +545,10 @@ in this Constitution shall be so construed as to Prejudice
 any Claims of the United States, or of any particular State.","C8B4ED361FA829DB3A5EB0F691A631427A7CF5008111ACE80FEE47D24DEAB2DF","Article IV, Section 3; raw lines 468-478; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one constitutional non-prejudice rule protecting claims of the United States or any particular State.","YES","NO","NO","CLOSED"
 "US-ADJ-000128","US-CONST-ART04-SEC04-CL000-AT001","US-CONST-ART04-SEC04-CL000","4","4","1","","US-CONST-ART04-SEC04-CL000-AT002","The United States shall guarantee to every State in this
 Union a Republican Form of Government, and shall
-protect each of them against Invasion;","2532C61024EA8570994C831BEB137E051B010BB0CBC395CA1E41E795FDDD567E","Article IV, Section 4; raw lines 480-484; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+protect each of them against Invasion;","2532C61024EA8570994C831BEB137E051B010BB0CBC395CA1E41E795FDDD567E","Article IV, Section 4; raw lines 480-484; candidate section source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""and shall protect each of them against Invasion""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The guarantee of a Republican Form of Government and the protection of each State against Invasion are separately stated federal obligations.","YES","NO","NO","CLOSED"
 "US-ADJ-000129","US-CONST-ART04-SEC04-CL000-AT002","US-CONST-ART04-SEC04-CL000","4","4","2","US-CONST-ART04-SEC04-CL000-AT001",""," and on Application
 of the Legislature, or of the Executive (when the Legislature
-cannot be convened) against domestic Violence.","568F9F6399D6F599E9475F3B441A1F29B4605758383936E960635CDEDE9A35AD","Article IV, Section 4; raw lines 480-484; candidate section source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+cannot be convened) against domestic Violence.","568F9F6399D6F599E9475F3B441A1F29B4605758383936E960635CDEDE9A35AD","Article IV, Section 4; raw lines 480-484; candidate section source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one application-conditioned federal protection rule against domestic Violence, including the alternative executive application condition when the legislature cannot be convened.","YES","NO","NO","CLOSED"
 "US-ADJ-000130","US-CONST-ART05-SEC00-CL000-AT001","US-CONST-ART05-SEC00-CL000","5","0","1","","US-CONST-ART05-SEC00-CL000-AT002","The Congress, whenever two thirds of both Houses shall
 deem it necessary, shall propose Amendments to this Con-
 stitution, or, on the Application of the Legislatures of two
@@ -558,38 +558,38 @@ all Intents and Purposes, as Part of this Constitution, when
 ratified by the Legislatures of three-fourths of the several
 States, or by Conventions in three fourths thereof, as the
 one or the other Mode of Ratification may be proposed by
-the Congress;","581FA9965C998E4A7ABC82567F39AE0F3AB0F95FF242CB61B59429386CEA1CEC","Article V; raw lines 486-502; candidate article source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+the Congress;","581FA9965C998E4A7ABC82567F39AE0F3AB0F95FF242CB61B59429386CEA1CEC","Article V; raw lines 486-502; candidate article source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""or, on the Application of the Legislatures of two thirds of the several States""; SPLIT-BEFORE=""which in either Case, shall be valid to all Intents and Purposes, as Part of this Constitution""; SPLIT-BEFORE=""as the one or the other Mode of Ratification may be proposed by the Congress""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The two-thirds congressional proposal route, the two-thirds state-legislature convention-call route, the three-fourths ratification requirement, and Congress's selection of ratification mode are separately stated amendment-process propositions.","YES","NO","NO","CLOSED"
 "US-ADJ-000131","US-CONST-ART05-SEC00-CL000-AT002","US-CONST-ART05-SEC00-CL000","5","0","2","US-CONST-ART05-SEC00-CL000-AT001","US-CONST-ART05-SEC00-CL000-AT003"," Provided that no Amendment which may be
 made prior to the Year One thousand eight hundred and
 eight shall in any Manner affect the first and fourth Clauses
-in the Ninth Section of the first Article;","8BA11C64F105F0B7D22A6A7ECB38F968026866D56951D5B76D8CD456C30BD0FB","Article V; raw lines 486-502; candidate article source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+in the Ninth Section of the first Article;","8BA11C64F105F0B7D22A6A7ECB38F968026866D56951D5B76D8CD456C30BD0FB","Article V; raw lines 486-502; candidate article source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the temporary pre-1808 limitation on amendments affecting the specified Article I Section 9 clauses.","YES","NO","NO","CLOSED"
 "US-ADJ-000132","US-CONST-ART05-SEC00-CL000-AT003","US-CONST-ART05-SEC00-CL000","5","0","3","US-CONST-ART05-SEC00-CL000-AT002",""," and that no State,
 without its Consent, shall be deprived of its equal Suffrage
 in the Senate
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","7542C0BC38519FAC958D65154E551EADC86E0F99C9968FDE75C3F9F1BFC1EFBD","Article V; raw lines 486-502; candidate article source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","7542C0BC38519FAC958D65154E551EADC86E0F99C9968FDE75C3F9F1BFC1EFBD","Article V; raw lines 486-502; candidate article source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the continuing protection against deprivation of a State's equal suffrage in the Senate without that State's consent.","YES","NO","NO","CLOSED"
 "US-ADJ-000133","US-CONST-ART06-SEC00-CL000-AT001","US-CONST-ART06-SEC00-CL000","6","0","1","","US-CONST-ART06-SEC00-CL000-AT002","All Debts contracted and Engagements entered into, before
 the Adoption of this Constitution, shall be as valid against
 the United States under this Constitution, as under the
 Confederation
 This Constitution, and the Laws of the United States
-which shall be made in Pursuance thereof;","FADE939F1D654C6920910C2CA1FD020D0FE364C1D2B9BE6E60D340875225D862","Article VI; raw lines 504-521; candidate article source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+which shall be made in Pursuance thereof;","FADE939F1D654C6920910C2CA1FD020D0FE364C1D2B9BE6E60D340875225D862","Article VI; raw lines 504-521; candidate article source unit","FURTHER-SPLIT","","SPLIT-BEFORE=""This Constitution, and the Laws of the United States which shall be made in Pursuance thereof""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The continuity and validity of pre-Constitution debts and engagements is distinct from the supremacy status of the Constitution and federal laws made in pursuance thereof.","YES","NO","NO","CLOSED"
 "US-ADJ-000134","US-CONST-ART06-SEC00-CL000-AT002","US-CONST-ART06-SEC00-CL000","6","0","2","US-CONST-ART06-SEC00-CL000-AT001","US-CONST-ART06-SEC00-CL000-AT003"," and all Treaties
 made, or which shall be made, under the Authority of the
-United States, shall be the supreme Law of the Land;","4456479130DB3AD2F81A9143EAFBC27BF2B48BE59F6297BEA915A5EB43B0C437","Article VI; raw lines 504-521; candidate article source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+United States, shall be the supreme Law of the Land;","4456479130DB3AD2F81A9143EAFBC27BF2B48BE59F6297BEA915A5EB43B0C437","Article VI; raw lines 504-521; candidate article source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the supremacy status of treaties made under the authority of the United States.","YES","NO","NO","CLOSED"
 "US-ADJ-000135","US-CONST-ART06-SEC00-CL000-AT003","US-CONST-ART06-SEC00-CL000","6","0","3","US-CONST-ART06-SEC00-CL000-AT002","US-CONST-ART06-SEC00-CL000-AT004"," and
 the Judges in every State shall be bound thereby, any Thing
 in the Constitution or Laws of any State to the Contrary
-notwithstanding.","96C03E5102823BEDE44DBD3484255D5C52C82618FF12E58A2A8C3CD83960BD94","Article VI; raw lines 504-521; candidate article source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+notwithstanding.","96C03E5102823BEDE44DBD3484255D5C52C82618FF12E58A2A8C3CD83960BD94","Article VI; raw lines 504-521; candidate article source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one integrated state-judge binding rule, including priority over contrary state constitutional or statutory law.","YES","NO","NO","CLOSED"
 "US-ADJ-000136","US-CONST-ART06-SEC00-CL000-AT004","US-CONST-ART06-SEC00-CL000","6","0","4","US-CONST-ART06-SEC00-CL000-AT003","US-CONST-ART06-SEC00-CL000-AT005","
 The Senators and Representatives before mentioned, and
 the Members of the several State Legislatures, and all execu-
 tive and judicial Officers, both of the United States and of
 the several States, shall be bound by Oath or Affirmation,
-to support this Constitution;","DFE832EFC2EAB23B67C1AD18F644A22A416D6B865E7CE190307CAEB443C7FD11","Article VI; raw lines 504-521; candidate article source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+to support this Constitution;","DFE832EFC2EAB23B67C1AD18F644A22A416D6B865E7CE190307CAEB443C7FD11","Article VI; raw lines 504-521; candidate article source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the oath-or-affirmation obligation binding the identified federal and state officers to support the Constitution.","YES","NO","NO","CLOSED"
 "US-ADJ-000137","US-CONST-ART06-SEC00-CL000-AT005","US-CONST-ART06-SEC00-CL000","6","0","5","US-CONST-ART06-SEC00-CL000-AT004",""," but no religious Test shall ever
 be required as a Qualification to any Office or public Trust
-under the United States","5A098E67498A50A8416802FEA5DD47097391ED03C9001156C496009C0C8531E8","Article VI; raw lines 504-521; candidate article source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+under the United States","5A098E67498A50A8416802FEA5DD47097391ED03C9001156C496009C0C8531E8","Article VI; raw lines 504-521; candidate article source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the prohibition on a religious Test as a qualification for federal office or public trust.","YES","NO","NO","CLOSED"
 "US-ADJ-000138","US-CONST-ART07-SEC00-CL000-AT001","US-CONST-ART07-SEC00-CL000","7","0","1","","","The Ratification of the Conventions of nine States, shall
 be sufficient for the Establishment of this Constitution
-between the States so ratifying the Same.","769B90CB26A1EF1F7FD92501CF16E9434B352F5B8ABC086B2D029870CC577CC6","Article VII; raw lines 523-525; candidate article source unit","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+between the States so ratifying the Same.","769B90CB26A1EF1F7FD92501CF16E9434B352F5B8ABC086B2D029870CC577CC6","Article VII; raw lines 523-525; candidate article source unit","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the nine-State convention-ratification threshold and its resulting establishment of the Constitution among the ratifying States.","YES","NO","NO","CLOSED"
