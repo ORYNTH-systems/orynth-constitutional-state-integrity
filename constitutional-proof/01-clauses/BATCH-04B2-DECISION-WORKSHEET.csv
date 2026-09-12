@@ -497,52 +497,52 @@ not committed within any State, the Trial shall be at such
 Place or Places as the Congress may by Law have directed.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the alternative venue rule for crimes not committed within any State.","YES","NO","NO","CLOSED"
 "US-ADJ-000116","US-CONST-ART03-SEC03-CL000-AT001","US-CONST-ART03-SEC03-CL000","3","3","1","","US-CONST-ART03-SEC03-CL000-AT002","Treason against the United States, shall consist only in levy-
 ing War against them, or in adhering to their Enemies, giv-
-ing them Aid and Comfort.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+ing them Aid and Comfort.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the constitutional definition of Treason through its expressly listed alternative forms of conduct.","YES","NO","NO","CLOSED"
 "US-ADJ-000117","US-CONST-ART03-SEC03-CL000-AT002","US-CONST-ART03-SEC03-CL000","3","3","2","US-CONST-ART03-SEC03-CL000-AT001","US-CONST-ART03-SEC03-CL000-AT003"," No Person shall be convicted
 of Treason unless on the Testimony of two Witnesses to the
-same overt Act, or on Confession in open Court.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+same overt Act, or on Confession in open Court.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one integrated conviction threshold with alternative evidentiary paths: two witnesses to the same overt act or confession in open court.","YES","NO","NO","CLOSED"
 "US-ADJ-000118","US-CONST-ART03-SEC03-CL000-AT003","US-CONST-ART03-SEC03-CL000","3","3","3","US-CONST-ART03-SEC03-CL000-AT002","","
 The Congress shall have Power to declare the Punishment
 of Treason, but no Attainder of Treason shall work Corrup-
 tion of Blood, or Forfeiture except during the Life of the
 Person attainted
 
-C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+C O N S T I T U T I O N O F T H E U N I T E D S T A T E S","FURTHER-SPLIT","","SPLIT-BEFORE=""but no Attainder of Treason shall work Corruption of Blood""; SPLIT-BEFORE=""or Forfeiture except during the Life of the Person attainted""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Congress's power to declare punishment, the prohibition on corruption of blood, and the temporal limitation on forfeiture are separately testable constitutional propositions.","YES","NO","NO","CLOSED"
 "US-ADJ-000119","US-CONST-ART04-SEC01-CL000-AT001","US-CONST-ART04-SEC01-CL000","4","1","1","","US-CONST-ART04-SEC01-CL000-AT002","Full Faith and Credit shall be given in each State to the
 public Acts, Records, and judicial Proceedings of every oth-
-er State.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+er State.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the Full Faith and Credit obligation as one interstate recognition requirement.","YES","NO","NO","CLOSED"
 "US-ADJ-000120","US-CONST-ART04-SEC01-CL000-AT002","US-CONST-ART04-SEC01-CL000","4","1","2","US-CONST-ART04-SEC01-CL000-AT001",""," And the Congress may by general Laws prescribe
 the Manner in which such Acts, Records and Proceedings
-shall be proved, and the Effect thereof.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+shall be proved, and the Effect thereof.","FURTHER-SPLIT","","SPLIT-BEFORE=""and the Effect thereof""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Congress's authority to prescribe the manner of proving state acts, records, and proceedings is distinguishable from its authority to prescribe their effect.","YES","NO","NO","CLOSED"
 "US-ADJ-000121","US-CONST-ART04-SEC02-CL000-AT001","US-CONST-ART04-SEC02-CL000","4","2","1","","US-CONST-ART04-SEC02-CL000-AT002","The Citizens of each State shall be entitled to all Privileges
 and Immunities of Citizens in the several States
 A Person charged in any State with Treason, Felony, or
 other Crime, who shall flee from Justice, and be found in
 another State, shall on Demand of the executive Author-
 ity of the State from which he fled, be delivered up, to be
-removed to the State having Jurisdiction of the Crime.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+removed to the State having Jurisdiction of the Crime.","FURTHER-SPLIT","","SPLIT-BEFORE=""A Person charged in any State with Treason, Felony, or other Crime""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The interstate Privileges and Immunities entitlement is distinct from the extradition rule governing persons charged with crime who flee into another State.","YES","NO","NO","CLOSED"
 "US-ADJ-000122","US-CONST-ART04-SEC02-CL000-AT002","US-CONST-ART04-SEC02-CL000","4","2","2","US-CONST-ART04-SEC02-CL000-AT001","","
 No Person held to Service or Labour in one State, under
 the Laws thereof, escaping into another, shall, in Conse-
 quence of any Law or Regulation therein, be discharged
 from such Service or Labour, but shall be delivered up on
 Claim of the Party to whom such Service or Labour may be
-due.]*","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+due.]*","FURTHER-SPLIT","","SPLIT-BEFORE=""but shall be delivered up on Claim of the Party""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","The prohibition on discharge from service or labour and the separate delivery-up requirement are independently stated propositions within the preserved source text.","YES","NO","NO","CLOSED"
 "US-ADJ-000123","US-CONST-ART04-SEC03-CL000-AT001","US-CONST-ART04-SEC03-CL000","4","3","1","","US-CONST-ART04-SEC03-CL000-AT002","New States may be admitted by the Congress into this
-Union;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+Union;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states Congress's authority to admit new States into the Union.","YES","NO","NO","CLOSED"
 "US-ADJ-000124","US-CONST-ART04-SEC03-CL000-AT002","US-CONST-ART04-SEC03-CL000","4","3","2","US-CONST-ART04-SEC03-CL000-AT001","US-CONST-ART04-SEC03-CL000-AT003"," but no new State shall be formed or erected within
-the Jurisdiction of any other State;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+the Jurisdiction of any other State;","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the prohibition on forming or erecting a new State within the jurisdiction of another State.","YES","NO","NO","CLOSED"
 "US-ADJ-000125","US-CONST-ART04-SEC03-CL000-AT003","US-CONST-ART04-SEC03-CL000","4","3","3","US-CONST-ART04-SEC03-CL000-AT002","US-CONST-ART04-SEC03-CL000-AT004"," nor any State be formed
 by the Junction of two or more States, or Parts of States,
 without the Consent of the Legislatures of the States con-
-cerned as well as of the Congress.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+cerned as well as of the Congress.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states the consent-conditioned rule governing formation of a State by junction of States or parts of States.","YES","NO","NO","CLOSED"
 "US-ADJ-000126","US-CONST-ART04-SEC03-CL000-AT004","US-CONST-ART04-SEC03-CL000","4","3","4","US-CONST-ART04-SEC03-CL000-AT003","US-CONST-ART04-SEC03-CL000-AT005","
 The Congress shall have Power to dispose of and make all
 needful Rules and Regulations respecting the Territory or
-other Property belonging to the United States;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+other Property belonging to the United States;","FURTHER-SPLIT","","SPLIT-BEFORE=""and make all needful Rules and Regulations respecting the Territory or other Property belonging to the United States""","NONATOMIC-FURTHER-SPLIT-REQUIRED","UNASSESSED","Congress's power to dispose of federal territory or property is distinguishable from its power to make needful rules and regulations respecting that territory or property.","YES","NO","NO","CLOSED"
 "US-ADJ-000127","US-CONST-ART04-SEC03-CL000-AT005","US-CONST-ART04-SEC03-CL000","4","3","5","US-CONST-ART04-SEC03-CL000-AT004",""," and nothing
 in this Constitution shall be so construed as to Prejudice
-any Claims of the United States, or of any particular State.","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
+any Claims of the United States, or of any particular State.","RETAIN","","","ADJUDICATED-ATOMIC","UNASSESSED","The candidate states one constitutional non-prejudice rule protecting claims of the United States or any particular State.","YES","NO","NO","CLOSED"
 "US-ADJ-000128","US-CONST-ART04-SEC04-CL000-AT001","US-CONST-ART04-SEC04-CL000","4","4","1","","US-CONST-ART04-SEC04-CL000-AT002","The United States shall guarantee to every State in this
 Union a Republican Form of Government, and shall
 protect each of them against Invasion;","PENDING","","","UNASSESSED","UNASSESSED","","YES","NO","NO","OPEN"
