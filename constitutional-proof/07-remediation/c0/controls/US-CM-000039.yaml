@@ -1,0 +1,25 @@
+schema: ORYNTH-C0-REMEDIATION-V1
+mechanism_id: US-CM-000039
+crosswalk_id: US-CW-000039
+source_clause_id: US-CONST-ATOM-000039
+mechanism_family: F3
+jurisdiction_scope: UNITED-STATES/CONGRESS/EACH-HOUSE/JOURNAL-PUBLICATION
+preexisting_correspondence: NO-DEMONSTRATED
+preexisting_grade: C0
+post_crosswalk_remediation_mode: DECLARATIVE-CONTROL
+post_crosswalk_disposition: POST-CROSSWALK-STRUCTURAL-IMPLEMENTATION
+post_crosswalk_status: RESOLVED-POST-CROSSWALK
+created_after_constitutional_crosswalk: true
+proof_binding_status: PENDING-09B
+authority_rule: SOURCE-BOUNDED
+mapping_rule: CORRESPONDENCE-DOES-NOT-RETROACTIVELY-CHANGE-PREEXISTING
+predicate_ids:
+  - US-CP-000062
+  - US-CP-000063
+normalized_mechanism: |
+  Each House must publish its Journal from time to time, subject to an exception for portions it judges to require secrecy.
+negative_condition: |
+  Nonpublication outside the source's secrecy exception is not established by this clause.
+execution_disposition: EVALUATE-FROZEN-PREDICATES
+failure_disposition: BLOCK-SOURCE-ATTRIBUTED-EFFECT
+implementation_kind: POST-CROSSWALK-CONSTITUTIONAL-CONTROL

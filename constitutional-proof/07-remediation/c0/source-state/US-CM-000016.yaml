@@ -1,0 +1,25 @@
+schema: ORYNTH-C0-REMEDIATION-V1
+mechanism_id: US-CM-000016
+crosswalk_id: US-CW-000016
+source_clause_id: US-CONST-ATOM-000016
+mechanism_family: F3
+jurisdiction_scope: UNITED-STATES/SENATE/INITIAL-CLASSIFICATION
+preexisting_correspondence: NO-DEMONSTRATED
+preexisting_grade: C0
+post_crosswalk_remediation_mode: SOURCE-STATE-ONLY
+post_crosswalk_disposition: SOURCE-STATE-HISTORICAL-INITIALIZATION
+post_crosswalk_status: RESOLVED-SOURCE-STATE
+created_after_constitutional_crosswalk: true
+proof_binding_status: PENDING-09B
+authority_rule: SOURCE-BOUNDED
+mapping_rule: CORRESPONDENCE-DOES-NOT-RETROACTIVELY-CHANGE-PREEXISTING
+predicate_ids:
+  - US-CP-000026
+  - US-CP-000027
+normalized_mechanism: |
+  Following the first election, Senators are procedurally divided as equally as possible into three classes.
+negative_condition: |
+  The initial classification process is not authorized outside the stated three-class structure.
+execution_disposition: SOURCE-STATE-NO-LIVE-AUTHORITY-CLAIM
+failure_disposition: DO-NOT-PROMOTE-HISTORICAL-SOURCE-STATE-TO-CURRENT-AUTHORITY
+implementation_kind: POST-CROSSWALK-SOURCE-STATE-DISPOSITION

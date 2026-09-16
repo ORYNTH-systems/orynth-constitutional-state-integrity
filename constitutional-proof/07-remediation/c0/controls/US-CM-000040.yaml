@@ -1,0 +1,25 @@
+schema: ORYNTH-C0-REMEDIATION-V1
+mechanism_id: US-CM-000040
+crosswalk_id: US-CW-000040
+source_clause_id: US-CONST-ATOM-000040
+mechanism_family: F4
+jurisdiction_scope: UNITED-STATES/CONGRESS/EACH-HOUSE/RECORDED-VOTE
+preexisting_correspondence: NO-DEMONSTRATED
+preexisting_grade: C0
+post_crosswalk_remediation_mode: DECLARATIVE-CONTROL
+post_crosswalk_disposition: POST-CROSSWALK-STRUCTURAL-IMPLEMENTATION
+post_crosswalk_status: RESOLVED-POST-CROSSWALK
+created_after_constitutional_crosswalk: true
+proof_binding_status: PENDING-09B
+authority_rule: SOURCE-BOUNDED
+mapping_rule: CORRESPONDENCE-DOES-NOT-RETROACTIVELY-CHANGE-PREEXISTING
+predicate_ids:
+  - US-CP-000064
+  - US-CP-000065
+normalized_mechanism: |
+  At the request of one fifth of members present, the yeas and nays on a question must be entered on the Journal.
+negative_condition: |
+  The mandatory journal-entry effect is not triggered below the stated one-fifth request threshold.
+execution_disposition: EVALUATE-FROZEN-PREDICATES
+failure_disposition: BLOCK-SOURCE-ATTRIBUTED-EFFECT
+implementation_kind: POST-CROSSWALK-CONSTITUTIONAL-CONTROL

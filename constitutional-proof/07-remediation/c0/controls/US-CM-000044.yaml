@@ -1,0 +1,24 @@
+schema: ORYNTH-C0-REMEDIATION-V1
+mechanism_id: US-CM-000044
+crosswalk_id: US-CW-000044
+source_clause_id: US-CONST-ATOM-000044
+mechanism_family: F5
+jurisdiction_scope: UNITED-STATES/CONGRESS/SPEECH-DEBATE
+preexisting_correspondence: NO-DEMONSTRATED
+preexisting_grade: C0
+post_crosswalk_remediation_mode: DECLARATIVE-CONTROL
+post_crosswalk_disposition: POST-CROSSWALK-STRUCTURAL-IMPLEMENTATION
+post_crosswalk_status: RESOLVED-POST-CROSSWALK
+created_after_constitutional_crosswalk: true
+proof_binding_status: PENDING-09B
+authority_rule: SOURCE-BOUNDED
+mapping_rule: CORRESPONDENCE-DOES-NOT-RETROACTIVELY-CHANGE-PREEXISTING
+predicate_ids:
+  - US-CP-000073
+normalized_mechanism: |
+  Members may not be questioned in another place for Speech or Debate in either House.
+negative_condition: |
+  External questioning based on covered legislative Speech or Debate is prohibited by this source clause.
+execution_disposition: EVALUATE-FROZEN-PREDICATES
+failure_disposition: BLOCK-SOURCE-ATTRIBUTED-EFFECT
+implementation_kind: POST-CROSSWALK-CONSTITUTIONAL-CONTROL

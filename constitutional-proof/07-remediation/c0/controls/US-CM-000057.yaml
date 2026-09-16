@@ -1,0 +1,24 @@
+schema: ORYNTH-C0-REMEDIATION-V1
+mechanism_id: US-CM-000057
+crosswalk_id: US-CW-000057
+source_clause_id: US-CONST-ATOM-000057
+mechanism_family: F3
+jurisdiction_scope: UNITED-STATES/CONGRESS/VETO-OVERRIDE/JOURNAL
+preexisting_correspondence: NO-DEMONSTRATED
+preexisting_grade: C0
+post_crosswalk_remediation_mode: DECLARATIVE-CONTROL
+post_crosswalk_disposition: POST-CROSSWALK-STRUCTURAL-IMPLEMENTATION
+post_crosswalk_status: RESOLVED-POST-CROSSWALK
+created_after_constitutional_crosswalk: true
+proof_binding_status: PENDING-09B
+authority_rule: SOURCE-BOUNDED
+mapping_rule: CORRESPONDENCE-DOES-NOT-RETROACTIVELY-CHANGE-PREEXISTING
+predicate_ids:
+  - US-CP-000098
+normalized_mechanism: |
+  The names of persons voting for and against a reconsidered bill must be entered on the Journal of each House.
+negative_condition: |
+  The identified override voting record is incomplete under this clause if voter names are omitted.
+execution_disposition: EVALUATE-FROZEN-PREDICATES
+failure_disposition: BLOCK-SOURCE-ATTRIBUTED-EFFECT
+implementation_kind: POST-CROSSWALK-CONSTITUTIONAL-CONTROL

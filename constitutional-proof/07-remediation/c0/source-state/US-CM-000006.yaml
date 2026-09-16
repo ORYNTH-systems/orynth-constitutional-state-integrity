@@ -1,0 +1,25 @@
+schema: ORYNTH-C0-REMEDIATION-V1
+mechanism_id: US-CM-000006
+crosswalk_id: US-CW-000006
+source_clause_id: US-CONST-ATOM-000006
+mechanism_family: F6
+jurisdiction_scope: UNITED-STATES/STATES/APPORTIONMENT
+preexisting_correspondence: NO-DEMONSTRATED
+preexisting_grade: C0
+post_crosswalk_remediation_mode: SOURCE-STATE-ONLY
+post_crosswalk_disposition: SOURCE-STATE-SUPERSESSION-UNASSESSED
+post_crosswalk_status: RESOLVED-SOURCE-STATE
+created_after_constitutional_crosswalk: true
+proof_binding_status: PENDING-09B
+authority_rule: SOURCE-BOUNDED
+mapping_rule: CORRESPONDENCE-DOES-NOT-RETROACTIVELY-CHANGE-PREEXISTING
+predicate_ids:
+  - US-CP-000010
+  - US-CP-000011
+normalized_mechanism: |
+  Representation and direct-tax apportionment operate among the States according to the population rule stated in the source text.
+negative_condition: |
+  Apportionment under this clause is not established outside the identified interstate allocation domain and stated counting rule.
+execution_disposition: SOURCE-STATE-NO-LIVE-AUTHORITY-CLAIM
+failure_disposition: DO-NOT-PROMOTE-HISTORICAL-SOURCE-STATE-TO-CURRENT-AUTHORITY
+implementation_kind: POST-CROSSWALK-SOURCE-STATE-DISPOSITION

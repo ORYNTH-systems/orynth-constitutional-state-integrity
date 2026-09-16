@@ -1,0 +1,24 @@
+schema: ORYNTH-C0-REMEDIATION-V1
+mechanism_id: US-CM-000056
+crosswalk_id: US-CW-000056
+source_clause_id: US-CONST-ATOM-000056
+mechanism_family: F3
+jurisdiction_scope: UNITED-STATES/CONGRESS/VETO-OVERRIDE/VOTE-METHOD
+preexisting_correspondence: NO-DEMONSTRATED
+preexisting_grade: C0
+post_crosswalk_remediation_mode: DECLARATIVE-CONTROL
+post_crosswalk_disposition: POST-CROSSWALK-STRUCTURAL-IMPLEMENTATION
+post_crosswalk_status: RESOLVED-POST-CROSSWALK
+created_after_constitutional_crosswalk: true
+proof_binding_status: PENDING-09B
+authority_rule: SOURCE-BOUNDED
+mapping_rule: CORRESPONDENCE-DOES-NOT-RETROACTIVELY-CHANGE-PREEXISTING
+predicate_ids:
+  - US-CP-000097
+normalized_mechanism: |
+  Votes of both Houses in the veto-reconsideration process must be determined by yeas and nays.
+negative_condition: |
+  The source procedure does not authorize an unrecorded vote form for the identified reconsideration votes.
+execution_disposition: EVALUATE-FROZEN-PREDICATES
+failure_disposition: BLOCK-SOURCE-ATTRIBUTED-EFFECT
+implementation_kind: POST-CROSSWALK-CONSTITUTIONAL-CONTROL

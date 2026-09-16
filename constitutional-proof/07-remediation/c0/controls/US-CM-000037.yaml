@@ -1,0 +1,24 @@
+schema: ORYNTH-C0-REMEDIATION-V1
+mechanism_id: US-CM-000037
+crosswalk_id: US-CW-000037
+source_clause_id: US-CONST-ATOM-000037
+mechanism_family: F4
+jurisdiction_scope: UNITED-STATES/CONGRESS/EACH-HOUSE/MEMBER-EXPULSION
+preexisting_correspondence: NO-DEMONSTRATED
+preexisting_grade: C0
+post_crosswalk_remediation_mode: DECLARATIVE-CONTROL
+post_crosswalk_disposition: POST-CROSSWALK-STRUCTURAL-IMPLEMENTATION
+post_crosswalk_status: RESOLVED-POST-CROSSWALK
+created_after_constitutional_crosswalk: true
+proof_binding_status: PENDING-09B
+authority_rule: SOURCE-BOUNDED
+mapping_rule: CORRESPONDENCE-DOES-NOT-RETROACTIVELY-CHANGE-PREEXISTING
+predicate_ids:
+  - US-CP-000060
+normalized_mechanism: |
+  Expulsion of a member by either House requires concurrence of two thirds.
+negative_condition: |
+  A member is not constitutionally expelled under this clause without the stated two-thirds concurrence.
+execution_disposition: EVALUATE-FROZEN-PREDICATES
+failure_disposition: BLOCK-SOURCE-ATTRIBUTED-EFFECT
+implementation_kind: POST-CROSSWALK-CONSTITUTIONAL-CONTROL
