@@ -1,0 +1,7 @@
+constitutional-proof/03-predicates/CONSTITUTIONAL-PREDICATE-REGISTRY.csv
+constitutional-proof/03-predicates/amendments/superseded/CONSTITUTIONAL-PREDICATE-REGISTRY-ARTICLE-420-PRE-08E04.csv
+constitutional-proof/10-freeze/BATCH-08E04-ARTICLE-PREDICATE-REGISTRY-SNAPSHOT-SHA256SUMS.txt
+constitutional-proof/03-predicates/amendments/AMENDMENT-PREDICATE-SEMANTIC-ADJUDICATED.csv
+constitutional-proof/03-predicates/amendments/BATCH-08E04-CANONICAL-AMENDMENT-PREDICATE-MATERIALIZATION.md
+constitutional-proof/10-freeze/BATCH-08E04-CANONICAL-PREDICATE-REGISTRY-SHA256SUMS.txt
+constitutional-proof/03-predicates/amendments/BATCH-08E05-POST-MATERIALIZATION-AUDIT.md
